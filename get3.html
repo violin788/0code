@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+
+<p id="output">Volume*Price</p>
+<script type="text/javascript">
+
+	// Instantiating new XMLHttpRequest() method
+	let xhr = new XMLHttpRequest();
+	 
+	// open() method to pass request
+	// type, url and async true/false 
+	xhr.open('GET',
+	    'https://jsonplaceholder.typicode.com/users/2', true);
+	 
+	// onload function to get data 
+	xhr.onload = function () {
+	    if (this.status === 200) {
+	        console.log(JSON.parse(this.responseText));
+	        back = JSON.parse(this.responseText)
+	        //back2 = back.toString()
+	        document.getElementById("output").innerHTML =back;
+	    }
+	}
+	 
+	// Send function to send data
+	xhr.send()
+	
+</script>
+</html>
