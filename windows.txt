@@ -1,0 +1,13 @@
+https://www.reddit.com/r/windows8/comments/22oh1p/problems_installing_kb2919355_windows_81_update_1/
+
+Here is a possible fix posted by one of the users in the thread, he got it from customer support rep:-
+
+Run CMD as administator (Go to start screen, all apps, search CMD, right-click and select run as administrator)
+
+Enter: 
+dism /online /remove-package /packagename:Package_for_KB2919355~31bf3856ad364e35~amd64~~6.3.1.14
+
+When step 2 has completed, enter: 
+dism /online /cleanup-image /startcomponentcleanup
+
+Retry the update!
