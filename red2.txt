@@ -1,0 +1,7 @@
+['hosting', '13 hours ']
+['learnpython', '5 minutes ']
+['legaladviceofftopic', '6 hours ']
+['mysql', '13 hours ']
+['politicalscience', '8 hours ']
+['povertyfinance', '5 hours ']
+['socialsecurity', '5 hours ']
