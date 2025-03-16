@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Movable Image</title>
+<style>
+  /* Style for the container */
+  .container {
+    border: 2px dashed #ccc;
+    width: 700px;
+    height: 700px;
+    position: relative; /* Change position to relative */
+    overflow: hidden; /* Add overflow */
+  }
+
+  /* Style for the image */
+  .image {
+    position: absolute; /* Position the image absolutely */
+    top: 0;
+    left: 0;
+    cursor: move; /* Set cursor to move when hovering over the image */
+  }
+</style>
+</head>
+<body>
+
+<!-- Container with image -->
+<div class="container" id="container">
+  <img class="image" src="logo.png" alt="Movable Image">
+</div>
+
+<script>
+// Get the image element
+var image = document.querySelector('.image');
+
+// Variables to store previous mouse position when dragging
+var prevX, prevY;
+
+// Function to handle dragging
+function dragImage(event) {
+  var diffX = event.clientX - prevX;
+  var diffY = event.clientY - prevY;
+  image.style.left = image.offsetLeft + diffX + 'px';
+  image.style.top = image.offsetTop + diffY + 'px';
+  prevX = event.clientX;
+  prevY = event.clientY;
+}
+
+// Event listener for mouse down on image to start dragging
+image.addEventListener('mousedown', function(event) {
+  prevX = event.clientX;
+  prevY = event.clientY;
+  document.addEventListener('mousemove', dragImage);
+  document.addEventListener('mouseup', function() {
+    document.removeEventListener('mousemove', dragImage);
+  });
+});
+</script>
+
+</body>
+</html>
