@@ -1,0 +1,2 @@
+https://fredericksburg.craigslist.org/search/sss?query=outback&sort=priceasc&min_price=1
+https://washingtondc.craigslist.org/search/sss?query=outback&sort=priceasc&min_price=1
