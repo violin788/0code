@@ -1,0 +1,10 @@
+class HelloWorld {
+    public static void main(String[] args) {
+		Object[] arr = new Object[6];
+		arr[0]="yee";
+		System.out.println("meow!");
+		for (int a=0;i<5;i++){
+			System.out.println(i);
+		}
+    }
+}
