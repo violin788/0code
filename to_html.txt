@@ -1,0 +1,87 @@
+https://stackoverflow.com/questions/19622407/2d-numpy-array-to-html-table
+
+import numpy as np
+import pandas as pd
+
+num = np.array([[ 0.17899619,  0.33093259,  0.2076353,   0.06130814,],
+                [ 0.20392888,  0.42653105,  0.33325891,  0.10473969,],
+                [ 0.17038247,  0.19081956,  0.10119709,  0.09032416,],
+                [-0.10606583, -0.13680513, -0.13129103, -0.03684349,],
+                [ 0.20319428,  0.28340985,  0.20994867,  0.11728491,],
+                [ 0.04396872,  0.23703525,  0.09359683,  0.11486036,],
+                [ 0.27801304, -0.05769304, -0.06202813,  0.04722761,],])
+
+days = ['5 days', '10 days', '20 days', '60 days']
+
+prices = ['AAPL', 'ADBE', 'AMD', 'AMZN', 'CRM', 'EXPE', 'FB']
+
+df = pd.DataFrame(num, index=prices, columns=days)
+
+html = df.to_html()
+
+print(html)
+
+Output:
+
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>5 days</th>
+      <th>10 days</th>
+      <th>20 days</th>
+      <th>60 days</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>AAPL</th>
+      <td>0.178996</td>
+      <td>0.330933</td>
+      <td>0.207635</td>
+      <td>0.061308</td>
+    </tr>
+    <tr>
+      <th>ADBE</th>
+      <td>0.203929</td>
+      <td>0.426531</td>
+      <td>0.333259</td>
+      <td>0.104740</td>
+    </tr>
+    <tr>
+      <th>AMD</th>
+      <td>0.170382</td>
+      <td>0.190820</td>
+      <td>0.101197</td>
+      <td>0.090324</td>
+    </tr>
+    <tr>
+      <th>AMZN</th>
+      <td>-0.106066</td>
+      <td>-0.136805</td>
+      <td>-0.131291</td>
+      <td>-0.036843</td>
+    </tr>
+    <tr>
+      <th>CRM</th>
+      <td>0.203194</td>
+      <td>0.283410</td>
+      <td>0.209949</td>
+      <td>0.117285</td>
+    </tr>
+    <tr>
+      <th>EXPE</th>
+      <td>0.043969</td>
+      <td>0.237035</td>
+      <td>0.093597</td>
+      <td>0.114860</td>
+    </tr>
+    <tr>
+      <th>FB</th>
+      <td>0.278013</td>
+      <td>-0.057693</td>
+      <td>-0.062028</td>
+      <td>0.047228</td>
+    </tr>
+  </tbody>
+</table>
