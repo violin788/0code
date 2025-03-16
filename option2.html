@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Options Data</title>
+  <style>
+    input, select, button {
+      font-size: 18px;
+      padding: 2px;
+      width: 30%; /* Make inputs smaller to fit horizontally */
+    }
+    #symbol {
+      text-transform: uppercase;
+    }
+    .container {
+      display: flex;
+      justify-content: space-between;
+    }
+    .form-container {
+      margin-right: 20px;
+      display: flex;
+      flex-wrap: wrap; /* Allow items to wrap in case of space issues */
+    }
+    .form-container input, .form-container select, .form-container button {
+      margin-right: 10px;
+    }
+    .result-container {
+      margin-top: 20px;
+      display: flex;
+      flex-wrap: wrap; /* To arrange the results horizontally */
+      gap: 15px; /* Space between result items */
+    }
+    #iframe, #iframe2 {
+      width: 100%;
+      height: 330px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="form-container">
+      <form id="optionForm">
+        <input type="text" id="symbol" placeholder="Stock Symbol" required>
+        <input type="number" id="price" placeholder="Options Price" required>
+        <select id="type" required>
+          <option value="call">Call</option>
+          <option value="put">Put</option>
+        </select>
+        <input type="date" id="start" required>
+        <input type="date" id="end" required>
+        <button type="button" onclick="submitForm()">Submit</button>
+      </form>
+    </div>
+    <div class="result-container" id="result"></div>
+  </div>
+  <div id="url"></div>
+  Option's Price
+  <iframe id="iframe"></iframe> <!-- For original URL -->
+  Stock Price
+  <iframe id="iframe2"></iframe> <!-- For new URL -->
+
+  <script>
+    function adjustDate(dateStr, isStartDate) {
+      const date = new Date(dateStr);
+      const day = date.getDay(); // Get the day of the week (0: Sunday, 1: Monday, ..., 6: Saturday)
+
+      if (isStartDate && (day === 0 || day === 6)) {
+        // If start date is Saturday or Sunday, move to next Monday
+        date.setDate(date.getDate() + (1 - day + 7) % 7); // Set to next Monday
+      } else if (!isStartDate && (day === 0 || day === 6)) {
+        // If end date is Saturday or Sunday, move to previous Friday
+        date.setDate(date.getDate() - (day === 0 ? 2 : 1)); // Set to previous Friday
+      }
+
+      return date.toISOString().split('T')[0].replace(/-/g, ''); // Return in YYYYMMDD format (no hyphens)
+    }
+
+    function submitForm() {
+      const symbol = document.getElementById('symbol').value.toUpperCase();
+      const price = Math.floor(document.getElementById('price').value);  // Ensure the price is an integer
+      const type = document.getElementById('type').value === 'call' ? 'C' : 'P';
+      let start = document.getElementById('start').value;
+      let end = document.getElementById('end').value;
+
+      // Adjust dates if start or end falls on a weekend and remove hyphens
+      start = adjustDate(start, true);
+      end = adjustDate(end, false);
+
+      const result = `
+        <div><strong>Stock Symbol:</strong> ${symbol}</div>
+        <div><strong>Options Price:</strong> ${price}</div>
+        <div><strong>Option Type:</strong> ${type}</div>
+        <div><strong>Start Date:</strong> ${start}</div>
+        <div><strong>End Date:</strong> ${end}</div>
+      `;
+      document.getElementById('result').innerHTML = result;
+
+      // Original URL format: "https://www.optionistics.com/f/getchart.pl?img=cdopt_{symbol}___250221{type}000{price}000.i.{start}.{end}.png"
+      const originalUrl = `https://www.optionistics.com/f/getchart.pl?img=cdopt_${symbol}___250221${type}000${price}000.i.${start}.${end}.png`;
+      document.getElementById('url').innerHTML = ` 
+        <p><strong>Original Generated URL:</strong> <a href="${originalUrl}" target="_blank">${originalUrl}</a></p>
+      `;
+
+      // New URL format: "https://www.optionistics.com/f/getchart.pl?img=cdstk_{symbol}.i.{start}.{end}.png"
+      const newUrl = `https://www.optionistics.com/f/getchart.pl?img=cdstk_${symbol}.i.${start}.${end}.png`;
+      document.getElementById('url').innerHTML += `
+        <p><strong>New Generated URL:</strong> <a href="${newUrl}" target="_blank">${newUrl}</a></p>
+      `;
+
+      // Set both iframes with the respective URLs
+      document.getElementById('iframe').src = "https://www.tradingview.com/chart/LJyi8wes/?symbol=OPRA%3AUSO250221P85.0";
+      document.getElementById('iframe2').src = "https://www.tradingview.com/chart/LJyi8wes/?symbol=OPRA%3AUSO250221P85.0"; // Set the second iframe's source to the new URL
+    }
+  </script>
+</body>
+</html>
