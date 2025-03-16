@@ -1,0 +1,6 @@
+https://www.harborfreight.com/search?q=conduit&order=price-low&current=1
+https://www.lowes.com/search?searchTerm=conduit&sortMethod=sortBy_priceLowToHigh&inStock=1&rollUpVariants=0
+https://www.homedepot.com/b/Pick-Up-Today/N-5yc1vZ1z175a5/Ntk-google/Ntt-conduit?NCNI-5&sortorder=asc&sortby=price&storeSelection=4620
+https://www.harborfreight.com/search?q=conduit body&order=price-low&current=1
+https://www.lowes.com/search?searchTerm=conduit body&sortMethod=sortBy_priceLowToHigh&inStock=1&rollUpVariants=0
+https://www.homedepot.com/b/Pick-Up-Today/N-5yc1vZ1z175a5/Ntk-google/Ntt-conduit body?NCNI-5&sortorder=asc&sortby=price&storeSelection=4620
