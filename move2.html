@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Movable Iframe</title>
+<style>
+  /* Style for the container */
+  .container {
+    border: 2px dashed #ccc;
+    width: 400px;
+    height: 300px;
+    position: relative; /* Change position to relative */
+    overflow: hidden; /* Add overflow */
+  }
+
+  /* Style for the iframe */
+  .iframe {
+    position: absolute; /* Position the iframe absolutely */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+</style>
+</head>
+<body>
+
+<!-- Container with iframe -->
+<div class="container" id="container">
+  <iframe class="iframe" src="https://rumble.com/embed/v4spnbx/?pub=3i4h9q" frameborder="0"></iframe>
+</div>
+
+<script>
+// Get the iframe element
+var iframe = document.querySelector('.iframe');
+
+// Variables to store previous mouse position when dragging
+var prevX, prevY;
+
+// Function to handle dragging
+function dragIframe(event) {
+  var diffX = event.clientX - prevX;
+  var diffY = event.clientY - prevY;
+  iframe.style.left = iframe.offsetLeft + diffX + 'px';
+  iframe.style.top = iframe.offsetTop + diffY + 'px';
+  prevX = event.clientX;
+  prevY = event.clientY;
+}
+
+// Event listener for mouse down on iframe to start dragging
+iframe.addEventListener('mousedown', function(event) {
+  prevX = event.clientX;
+  prevY = event.clientY;
+  document.addEventListener('mousemove', dragIframe);
+  document.addEventListener('mouseup', function() {
+    document.removeEventListener('mousemove', dragIframe);
+  });
+});
+</script>
+
+</body>
+</html>
