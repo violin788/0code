@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Adjustable and Movable Container with iframe</title>
+<style>
+  /* Style for the container */
+  .container {
+    border: 2px dashed #ccc;
+    width: 400px;
+    height: 300px;
+    position: relative;
+  }
+
+  /* Style for the iframe */
+  .iframe {
+    width: 100%;
+    height: 100%;
+  }
+
+  /* Style for the resize handle */
+  .resize-handle {
+    width: 10px;
+    height: 10px;
+    background-color: #000;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    cursor: nwse-resize; /* Cursor for resizing */
+  }
+</style>
+</head>
+<body>
+
+<!-- Container with iframe and resize handle -->
+<div class="container" id="container">
+  <iframe class="iframe" src="https://rumble.com/embed/v4spnbx/?pub=3i4h9q"></iframe>
+  <div class="resize-handle" id="resizeHandle"></div>
+</div>
+
+<script>
+// Get the container and resize handle elements
+var container = document.getElementById('container');
+var resizeHandle = document.getElementById('resizeHandle');
+
+// Function to handle resizing
+function resizeContainer(event) {
+  // Update container width and height based on mouse position
+  container.style.width = event.clientX - container.offsetLeft + 'px';
+  container.style.height = event.clientY - container.offsetTop + 'px';
+}
+
+// Event listener for mouse down on resize handle
+resizeHandle.addEventListener('mousedown', function(event) {
+  // Add event listeners for mousemove and mouseup events
+  document.addEventListener('mousemove', resizeContainer);
+  document.addEventListener('mouseup', function() {
+    // Remove event listeners once resizing is complete
+    document.removeEventListener('mousemove', resizeContainer);
+  });
+});
+
+
+</script>
+
+</body>
+</html>
