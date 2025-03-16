@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GrapesJS Example</title>
+  
+  <!-- Include GrapesJS CSS -->
+  <link href="https://unpkg.com/grapesjs/dist/css/grapes.min.css" rel="stylesheet">
+
+  <!-- Include GrapesJS JavaScript -->
+  <script src="https://unpkg.com/grapesjs"></script>
+</head>
+<body>
+
+  <!-- Container element for GrapesJS -->
+  <div id="gjs"></div>
+
+  <!-- Initialize GrapesJS -->
+  <script>
+    var editor = grapesjs.init({
+      container: '#gjs',
+      // Re-enable the grid system temporarily for testing
+      canvas: {
+        grid: 1
+      }
+    });
+  </script>
+
+</body>
+</html>
