@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lazy Loading Twitter Video</title>
+<style>
+  .video-container {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    overflow: hidden;
+  }
+  .video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+</style>
+</head>
+<body>
+  <div class="video-container" data-src="https://t.co/d6A8wbplZG">
+    <!-- Placeholder content, can be an image or a loading spinner -->
+    <img src="placeholder.jpg" alt="Video Placeholder">
+  </div>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      var videoContainers = document.querySelectorAll(".video-container");
+
+      var observer = new IntersectionObserver(function(entries, observer) {
+        entries.forEach(function(entry) {
+          if (entry.isIntersecting) {
+            var videoSrc = entry.target.getAttribute("data-src");
+            entry.target.innerHTML = '<iframe src="' + videoSrc + '" frameborder="0" allowfullscreen></iframe>';
+            observer.unobserve(entry.target);
+          }
+        });
+      }, { rootMargin: "0px 0px 50px 0px" }); // Adjust rootMargin as needed
+
+      videoContainers.forEach(function(container) {
+        observer.observe(container);
+      });
+    });
+  </script>
+</body>
+</html>
