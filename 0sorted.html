@@ -1,0 +1,3007 @@
+
+	<!DOCTYPE html>
+	<html>
+	<head>
+	    <title>Sortable Table</title>
+	    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.min.css">
+	    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	    <script src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js"></script>
+	    <script>
+	        $(document).ready(function() {
+	            $('.sortable').DataTable();
+	        });
+	    </script>
+	</head>
+	<body>
+	    <h1>Sortable Table</h1>
+	    <table border="0" class="dataframe sortable">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Volume Traded</th>
+      <th>Symbol</th>
+      <th>Continue/Reverse</th>
+      <th>Company Name</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>30395.87</td>
+      <td>NVDA</td>
+      <td>CCRRCC</td>
+      <td>NVIDIA CORP</td>
+    </tr>
+    <tr>
+      <td>11537.04</td>
+      <td>TSLA</td>
+      <td>CRCRCCRCC</td>
+      <td>Tesla, Inc.</td>
+    </tr>
+    <tr>
+      <td>9490.5</td>
+      <td>AAPL</td>
+      <td>RRRCCRCCCC</td>
+      <td>APPLE INC</td>
+    </tr>
+    <tr>
+      <td>7683.77</td>
+      <td>MSFT</td>
+      <td>CRCRRRRC</td>
+      <td>MICROSOFT CORP</td>
+    </tr>
+    <tr>
+      <td>7266.0</td>
+      <td>AMZN</td>
+      <td>RCCRRCCC</td>
+      <td>AMAZON COM INC</td>
+    </tr>
+    <tr>
+      <td>6940.21</td>
+      <td>META</td>
+      <td>RCCRRCCC</td>
+      <td>Meta Platforms, Inc.</td>
+    </tr>
+    <tr>
+      <td>6417.69</td>
+      <td>AMD</td>
+      <td>RCRCRRRRC</td>
+      <td>ADVANCED MICRO DEVICES INC</td>
+    </tr>
+    <tr>
+      <td>5570.72</td>
+      <td>LLY</td>
+      <td>CCCRRR</td>
+      <td>LILLY ELI &amp; CO</td>
+    </tr>
+    <tr>
+      <td>3887.08</td>
+      <td>AVGO</td>
+      <td>RCRCCCCCR</td>
+      <td>Broadcom Inc.</td>
+    </tr>
+    <tr>
+      <td>3016.96</td>
+      <td>SMCI</td>
+      <td>CCRRRR</td>
+      <td>Super Micro Computer, Inc.</td>
+    </tr>
+    <tr>
+      <td>1979.16</td>
+      <td>MU</td>
+      <td>CRCRRCCCRR</td>
+      <td>MICRON TECHNOLOGY INC</td>
+    </tr>
+    <tr>
+      <td>1873.2</td>
+      <td>V</td>
+      <td>CRRRRC</td>
+      <td>VISA INC.</td>
+    </tr>
+    <tr>
+      <td>1759.41</td>
+      <td>GOOGL</td>
+      <td>CRCCRRCCC</td>
+      <td>Alphabet Inc.</td>
+    </tr>
+    <tr>
+      <td>1680.43</td>
+      <td>UNH</td>
+      <td>CRRRRCRC</td>
+      <td>UNITEDHEALTH GROUP INC</td>
+    </tr>
+    <tr>
+      <td>1584.46</td>
+      <td>AMAT</td>
+      <td>RCRRCRRRR</td>
+      <td>APPLIED MATERIALS INC /DE</td>
+    </tr>
+    <tr>
+      <td>1431.73</td>
+      <td>XOM</td>
+      <td>CRRCCC</td>
+      <td>EXXON MOBIL CORP</td>
+    </tr>
+    <tr>
+      <td>1295.56</td>
+      <td>BAC</td>
+      <td>CRRCCCCRCC</td>
+      <td>BANK OF AMERICA CORP /DE/</td>
+    </tr>
+    <tr>
+      <td>1251.15</td>
+      <td>BKNG</td>
+      <td>RCRRRCRRRR</td>
+      <td>Booking Holdings Inc.</td>
+    </tr>
+    <tr>
+      <td>1232.5</td>
+      <td>NFLX</td>
+      <td>RRRC</td>
+      <td>NETFLIX INC</td>
+    </tr>
+    <tr>
+      <td>1101.26</td>
+      <td>ADBE</td>
+      <td>CRRRRCRRR</td>
+      <td>ADOBE SYSTEMS INC</td>
+    </tr>
+    <tr>
+      <td>1073.51</td>
+      <td>ABBV</td>
+      <td>CRRRRCR</td>
+      <td>AbbVie Inc.</td>
+    </tr>
+    <tr>
+      <td>991.49</td>
+      <td>LRCX</td>
+      <td>CCRRCCCCC</td>
+      <td>LAM RESEARCH CORP</td>
+    </tr>
+    <tr>
+      <td>989.73</td>
+      <td>BA</td>
+      <td>CRCRCRRRRC</td>
+      <td>BOEING CO</td>
+    </tr>
+    <tr>
+      <td>955.55</td>
+      <td>MCK</td>
+      <td>CRCCCRRC</td>
+      <td>MCKESSON CORP</td>
+    </tr>
+    <tr>
+      <td>936.21</td>
+      <td>WMT</td>
+      <td>RRCRRRRC</td>
+      <td>WAL MART STORES INC</td>
+    </tr>
+    <tr>
+      <td>919.08</td>
+      <td>JPM</td>
+      <td>CCRCCCCRR</td>
+      <td>J P MORGAN CHASE &amp; CO</td>
+    </tr>
+    <tr>
+      <td>904.58</td>
+      <td>ABNB</td>
+      <td>RRCRRCC</td>
+      <td>Airbnb, Inc.</td>
+    </tr>
+    <tr>
+      <td>889.18</td>
+      <td>ADI</td>
+      <td>CRCRRCCRR</td>
+      <td>ANALOG DEVICES INC</td>
+    </tr>
+    <tr>
+      <td>882.23</td>
+      <td>UBER</td>
+      <td>CRRR</td>
+      <td>Uber Technologies, Inc</td>
+    </tr>
+    <tr>
+      <td>854.64</td>
+      <td>PANW</td>
+      <td>RCCCRCRR</td>
+      <td>Palo Alto Networks Inc</td>
+    </tr>
+    <tr>
+      <td>849.09</td>
+      <td>AMGN</td>
+      <td>RCCCRRRRR</td>
+      <td>AMGEN INC</td>
+    </tr>
+    <tr>
+      <td>801.87</td>
+      <td>MA</td>
+      <td>CCRCRRRC</td>
+      <td>MASTERCARD INC</td>
+    </tr>
+    <tr>
+      <td>789.92</td>
+      <td>TJX</td>
+      <td>RRRRCCRCC</td>
+      <td>TJX COMPANIES INC /DE/</td>
+    </tr>
+    <tr>
+      <td>788.66</td>
+      <td>GOOG</td>
+      <td>CRCCRCCCR</td>
+      <td>Alphabet Inc.</td>
+    </tr>
+    <tr>
+      <td>788.47</td>
+      <td>QCOM</td>
+      <td>CCRRRRRCCC</td>
+      <td>QUALCOMM INC/DE</td>
+    </tr>
+    <tr>
+      <td>680.96</td>
+      <td>PG</td>
+      <td>RCRCCRC</td>
+      <td>PROCTER &amp; GAMBLE Co</td>
+    </tr>
+    <tr>
+      <td>660.61</td>
+      <td>MNST</td>
+      <td>RCCRCCR</td>
+      <td>Monster Beverage Corp</td>
+    </tr>
+    <tr>
+      <td>647.33</td>
+      <td>INTC</td>
+      <td>RCCCRRCRCC</td>
+      <td>INTEL CORP</td>
+    </tr>
+    <tr>
+      <td>636.5</td>
+      <td>RTX</td>
+      <td>CRRRRCCR</td>
+      <td>RTX Corp</td>
+    </tr>
+    <tr>
+      <td>636.35</td>
+      <td>PFE</td>
+      <td>RCCCCRRRR</td>
+      <td>PFIZER INC</td>
+    </tr>
+    <tr>
+      <td>635.81</td>
+      <td>NOW</td>
+      <td>CRRRRRCRRR</td>
+      <td>ServiceNow, Inc.</td>
+    </tr>
+    <tr>
+      <td>609.98</td>
+      <td>WFC</td>
+      <td>RRRCCCCCC</td>
+      <td>WELLS FARGO &amp; COMPANY/MN</td>
+    </tr>
+    <tr>
+      <td>602.53</td>
+      <td>SHW</td>
+      <td>CCCRCRRRRC</td>
+      <td>SHERWIN WILLIAMS CO</td>
+    </tr>
+    <tr>
+      <td>585.76</td>
+      <td>TXN</td>
+      <td>RRRCRRCR</td>
+      <td>TEXAS INSTRUMENTS INC</td>
+    </tr>
+    <tr>
+      <td>578.28</td>
+      <td>TMO</td>
+      <td>RCCRCCR</td>
+      <td>THERMO FISHER SCIENTIFIC INC.</td>
+    </tr>
+    <tr>
+      <td>567.99</td>
+      <td>TTWO</td>
+      <td>RRCCRCCR</td>
+      <td>TAKE TWO INTERACTIVE SOFTWARE INC</td>
+    </tr>
+    <tr>
+      <td>559.19</td>
+      <td>ACN</td>
+      <td>RCRCRCCRRC</td>
+      <td>Accenture plc</td>
+    </tr>
+    <tr>
+      <td>557.21</td>
+      <td>PYPL</td>
+      <td>CRCCCCCRRC</td>
+      <td>PayPal Holdings, Inc.</td>
+    </tr>
+    <tr>
+      <td>551.06</td>
+      <td>ORCL</td>
+      <td>RCCCRCRCC</td>
+      <td>ORACLE CORP</td>
+    </tr>
+    <tr>
+      <td>549.99</td>
+      <td>JNJ</td>
+      <td>CCCCCRCRRC</td>
+      <td>JOHNSON &amp; JOHNSON</td>
+    </tr>
+    <tr>
+      <td>549.92</td>
+      <td>PEP</td>
+      <td>RRCCCCRCRR</td>
+      <td>PEPSICO INC</td>
+    </tr>
+    <tr>
+      <td>546.54</td>
+      <td>MCD</td>
+      <td>CCCCRR</td>
+      <td>MCDONALDS CORP</td>
+    </tr>
+    <tr>
+      <td>542.67</td>
+      <td>TMUS</td>
+      <td>CRRRRCRCC</td>
+      <td>T-Mobile US, Inc.</td>
+    </tr>
+    <tr>
+      <td>532.88</td>
+      <td>KLAC</td>
+      <td>CCCCCCC</td>
+      <td>KLA CORP</td>
+    </tr>
+    <tr>
+      <td>532.79</td>
+      <td>AXON</td>
+      <td>CCCCCRCCCR</td>
+      <td>AXON ENTERPRISE, INC.</td>
+    </tr>
+    <tr>
+      <td>525.91</td>
+      <td>NKE</td>
+      <td>RCCCCRC</td>
+      <td>NIKE, Inc.</td>
+    </tr>
+    <tr>
+      <td>525.73</td>
+      <td>PH</td>
+      <td>CCRRR</td>
+      <td>PARKER HANNIFIN CORP</td>
+    </tr>
+    <tr>
+      <td>523.57</td>
+      <td>AMT</td>
+      <td>CCRCRRCC</td>
+      <td>AMERICAN TOWER CORP /MA/</td>
+    </tr>
+    <tr>
+      <td>515.17</td>
+      <td>KO</td>
+      <td>RCCRRRR</td>
+      <td>COCA COLA CO</td>
+    </tr>
+    <tr>
+      <td>513.92</td>
+      <td>AXP</td>
+      <td>RCCCRCRR</td>
+      <td>AMERICAN EXPRESS CO</td>
+    </tr>
+    <tr>
+      <td>513.82</td>
+      <td>MRK</td>
+      <td>RCRRCRR</td>
+      <td>Merck &amp; Co. Inc.</td>
+    </tr>
+    <tr>
+      <td>504.79</td>
+      <td>TGT</td>
+      <td>RCCCRRC</td>
+      <td>TARGET CORP</td>
+    </tr>
+    <tr>
+      <td>502.44</td>
+      <td>RCL</td>
+      <td>CRRRCRRRCC</td>
+      <td>ROYAL CARIBBEAN CRUISES LTD</td>
+    </tr>
+    <tr>
+      <td>483.04</td>
+      <td>UPS</td>
+      <td>RCRCCCR</td>
+      <td>UNITED PARCEL SERVICE INC</td>
+    </tr>
+    <tr>
+      <td>478.45</td>
+      <td>VZ</td>
+      <td>RRCCCR</td>
+      <td>VERIZON COMMUNICATIONS INC</td>
+    </tr>
+    <tr>
+      <td>462.48</td>
+      <td>APH</td>
+      <td>RRRRC</td>
+      <td>AMPHENOL CORP /DE/</td>
+    </tr>
+    <tr>
+      <td>457.53</td>
+      <td>ADP</td>
+      <td>CRRCCRCCC</td>
+      <td>AUTOMATIC DATA PROCESSING INC</td>
+    </tr>
+    <tr>
+      <td>453.7</td>
+      <td>REGN</td>
+      <td>RCCCRCR</td>
+      <td>REGENERON PHARMACEUTICALS INC</td>
+    </tr>
+    <tr>
+      <td>442.2</td>
+      <td>T</td>
+      <td>CRCRC</td>
+      <td>AT&amp;T INC.</td>
+    </tr>
+    <tr>
+      <td>440.57</td>
+      <td>LIN</td>
+      <td>CRRRRC</td>
+      <td>LINDE PLC</td>
+    </tr>
+    <tr>
+      <td>437.48</td>
+      <td>KVUE</td>
+      <td>CRRRR</td>
+      <td>Kenvue Inc.</td>
+    </tr>
+    <tr>
+      <td>436.92</td>
+      <td>SNPS</td>
+      <td>RRR</td>
+      <td>SYNOPSYS INC</td>
+    </tr>
+    <tr>
+      <td>435.69</td>
+      <td>VST</td>
+      <td>RCRCCCCCCR</td>
+      <td>Vistra Corp.</td>
+    </tr>
+    <tr>
+      <td>425.04</td>
+      <td>ODFL</td>
+      <td>CRRRC</td>
+      <td>OLD DOMINION FREIGHT LINE INC/VA</td>
+    </tr>
+    <tr>
+      <td>415.88</td>
+      <td>ABT</td>
+      <td>CCCCCC</td>
+      <td>ABBOTT LABORATORIES</td>
+    </tr>
+    <tr>
+      <td>408.1</td>
+      <td>MCHP</td>
+      <td>RCCCRRCRC</td>
+      <td>MICROCHIP TECHNOLOGY INC</td>
+    </tr>
+    <tr>
+      <td>404.75</td>
+      <td>MMM</td>
+      <td>CRCCRRRCC</td>
+      <td>3M CO</td>
+    </tr>
+    <tr>
+      <td>398.46</td>
+      <td>OXY</td>
+      <td>CCCCRCRCCC</td>
+      <td>OCCIDENTAL PETROLEUM CORP /DE/</td>
+    </tr>
+    <tr>
+      <td>394.68</td>
+      <td>LOW</td>
+      <td>CRRCR</td>
+      <td>LOWES COMPANIES INC</td>
+    </tr>
+    <tr>
+      <td>390.43</td>
+      <td>ANET</td>
+      <td>CCCCCRRRR</td>
+      <td>Arista Networks, Inc.</td>
+    </tr>
+    <tr>
+      <td>389.82</td>
+      <td>UNP</td>
+      <td>CCRCRRRCC</td>
+      <td>UNION PACIFIC CORP</td>
+    </tr>
+    <tr>
+      <td>388.54</td>
+      <td>AKAM</td>
+      <td>CCCCCCRCR</td>
+      <td>AKAMAI TECHNOLOGIES INC</td>
+    </tr>
+    <tr>
+      <td>386.22</td>
+      <td>CRWD</td>
+      <td>CCCRCRRCR</td>
+      <td>CrowdStrike Holdings, Inc.</td>
+    </tr>
+    <tr>
+      <td>384.46</td>
+      <td>MDLZ</td>
+      <td>RCCRRCRCR</td>
+      <td>Mondelez International, Inc.</td>
+    </tr>
+    <tr>
+      <td>379.51</td>
+      <td>PGR</td>
+      <td>RRRRRCCCRC</td>
+      <td>PROGRESSIVE CORP/OH/</td>
+    </tr>
+    <tr>
+      <td>373.51</td>
+      <td>AZO</td>
+      <td>CRCRCCCCCR</td>
+      <td>AUTOZONE INC</td>
+    </tr>
+    <tr>
+      <td>370.22</td>
+      <td>MPWR</td>
+      <td>RRRRCRRR</td>
+      <td>MONOLITHIC POWER SYSTEMS INC</td>
+    </tr>
+    <tr>
+      <td>368.17</td>
+      <td>VRTX</td>
+      <td>CCCCRCC</td>
+      <td>VERTEX PHARMACEUTICALS INC / MA</td>
+    </tr>
+    <tr>
+      <td>364.28</td>
+      <td>PODD</td>
+      <td>RRCCCRCCCR</td>
+      <td>INSULET CORP</td>
+    </tr>
+    <tr>
+      <td>357.39</td>
+      <td>MLM</td>
+      <td>CRCRRRCRRC</td>
+      <td>MARTIN MARIETTA MATERIALS INC</td>
+    </tr>
+    <tr>
+      <td>356.48</td>
+      <td>TT</td>
+      <td>RCRCCCCRC</td>
+      <td>Trane Technologies plc</td>
+    </tr>
+    <tr>
+      <td>351.57</td>
+      <td>SBUX</td>
+      <td>RCRCRCCCCC</td>
+      <td>STARBUCKS CORP</td>
+    </tr>
+    <tr>
+      <td>344.66</td>
+      <td>LMT</td>
+      <td>CCRCCRR</td>
+      <td>LOCKHEED MARTIN CORP</td>
+    </tr>
+    <tr>
+      <td>343.94</td>
+      <td>SO</td>
+      <td>CCRRCRRCCC</td>
+      <td>SOUTHERN CO</td>
+    </tr>
+    <tr>
+      <td>334.02</td>
+      <td>MS</td>
+      <td>CRCRRRRRC</td>
+      <td>MORGAN STANLEY</td>
+    </tr>
+    <tr>
+      <td>332.57</td>
+      <td>MPC</td>
+      <td>CCCCCRCCR</td>
+      <td>Marathon Petroleum Corp</td>
+    </tr>
+    <tr>
+      <td>322.7</td>
+      <td>AAL</td>
+      <td>RRCCRCCCR</td>
+      <td>American Airlines Group Inc.</td>
+    </tr>
+    <tr>
+      <td>314.76</td>
+      <td>WDC</td>
+      <td>RCRRCCC</td>
+      <td>WESTERN DIGITAL CORP</td>
+    </tr>
+    <tr>
+      <td>314.65</td>
+      <td>AIG</td>
+      <td>RRCCRCCR</td>
+      <td>AMERICAN INTERNATIONAL GROUP INC</td>
+    </tr>
+    <tr>
+      <td>310.15</td>
+      <td>LULU</td>
+      <td>RCRCRRCRCC</td>
+      <td>lululemon athletica inc.</td>
+    </tr>
+    <tr>
+      <td>308.52</td>
+      <td>NEE</td>
+      <td>CCCCCCCRC</td>
+      <td>NEXTERA ENERGY INC</td>
+    </tr>
+    <tr>
+      <td>301.89</td>
+      <td>ON</td>
+      <td>CRCCRCRCCC</td>
+      <td>ON SEMICONDUCTOR CORP</td>
+    </tr>
+    <tr>
+      <td>301.01</td>
+      <td>AEP</td>
+      <td>RRCRCRRRCC</td>
+      <td>AMERICAN ELECTRIC POWER CO INC</td>
+    </tr>
+    <tr>
+      <td>299.52</td>
+      <td>ULTA</td>
+      <td>RRRCRRCR</td>
+      <td>Ulta Salon, Cosmetics &amp; Fragrance, Inc.</td>
+    </tr>
+    <tr>
+      <td>298.72</td>
+      <td>COST</td>
+      <td>CRCRRCR</td>
+      <td>COSTCO WHOLESALE CORP /NEW</td>
+    </tr>
+    <tr>
+      <td>297.72</td>
+      <td>SPGI</td>
+      <td>RCCRCCRC</td>
+      <td>S&amp;P Global Inc.</td>
+    </tr>
+    <tr>
+      <td>287.97</td>
+      <td>WBD</td>
+      <td>RRCCRRRCR</td>
+      <td>Warner Bros. Discovery, Inc.</td>
+    </tr>
+    <tr>
+      <td>287.5</td>
+      <td>K</td>
+      <td>CCRRCCRCR</td>
+      <td>KELLOGG CO</td>
+    </tr>
+    <tr>
+      <td>280.8</td>
+      <td>PM</td>
+      <td>RCCRCRCR</td>
+      <td>Philip Morris International Inc.</td>
+    </tr>
+    <tr>
+      <td>278.49</td>
+      <td>PSX</td>
+      <td>RCRCRRCR</td>
+      <td>Phillips 66</td>
+    </tr>
+    <tr>
+      <td>274.36</td>
+      <td>MO</td>
+      <td>RCRCCCRRR</td>
+      <td>ALTRIA GROUP, INC.</td>
+    </tr>
+    <tr>
+      <td>269.9</td>
+      <td>USB</td>
+      <td>RCCRCCCR</td>
+      <td>US BANCORP \DE\</td>
+    </tr>
+    <tr>
+      <td>266.28</td>
+      <td>APTV</td>
+      <td>CRCRCRRCC</td>
+      <td>Aptiv PLC</td>
+    </tr>
+    <tr>
+      <td>265.43</td>
+      <td>SCHW</td>
+      <td>CRRCRCR</td>
+      <td>SCHWAB CHARLES CORP</td>
+    </tr>
+    <tr>
+      <td>265.16</td>
+      <td>WMB</td>
+      <td>CRRRCRRRRC</td>
+      <td>WILLIAMS COMPANIES INC</td>
+    </tr>
+    <tr>
+      <td>263.71</td>
+      <td>NXPI</td>
+      <td>RRRRRCRR</td>
+      <td>NXP Semiconductors N.V.</td>
+    </tr>
+    <tr>
+      <td>262.83</td>
+      <td>NRG</td>
+      <td>CRRCCRRCCC</td>
+      <td>NRG ENERGY, INC.</td>
+    </tr>
+    <tr>
+      <td>262.2</td>
+      <td>BDX</td>
+      <td>RRRCCRCRC</td>
+      <td>BECTON DICKINSON &amp; CO</td>
+    </tr>
+    <tr>
+      <td>259.74</td>
+      <td>APD</td>
+      <td>RCCCRRCCRC</td>
+      <td>Air Products &amp; Chemicals, Inc.</td>
+    </tr>
+    <tr>
+      <td>259.55</td>
+      <td>EXPE</td>
+      <td>CRCCRCRRCR</td>
+      <td>Expedia, Inc.</td>
+    </tr>
+    <tr>
+      <td>259.2</td>
+      <td>WST</td>
+      <td>CCCCRRC</td>
+      <td>WEST PHARMACEUTICAL SERVICES INC</td>
+    </tr>
+    <tr>
+      <td>259.06</td>
+      <td>TFC</td>
+      <td>RCCRCRR</td>
+      <td>TRUIST FINANCIAL CORP</td>
+    </tr>
+    <tr>
+      <td>258.28</td>
+      <td>SYK</td>
+      <td>RCCRRCRRC</td>
+      <td>STRYKER CORP</td>
+    </tr>
+    <tr>
+      <td>256.8</td>
+      <td>MAR</td>
+      <td>CRCRRCCRRC</td>
+      <td>MARRIOTT INTERNATIONAL INC /MD/</td>
+    </tr>
+    <tr>
+      <td>256.77</td>
+      <td>WELL</td>
+      <td>RRRCRR</td>
+      <td>WELLTOWER INC.</td>
+    </tr>
+    <tr>
+      <td>255.68</td>
+      <td>NOC</td>
+      <td>CCCRRCRCR</td>
+      <td>NORTHROP GRUMMAN CORP /DE/</td>
+    </tr>
+    <tr>
+      <td>254.56</td>
+      <td>MDT</td>
+      <td>CCCRRCC</td>
+      <td>Medtronic plc</td>
+    </tr>
+    <tr>
+      <td>252.99</td>
+      <td>LVS</td>
+      <td>CRCCCC</td>
+      <td>LAS VEGAS SANDS CORP</td>
+    </tr>
+    <tr>
+      <td>243.0</td>
+      <td>ALB</td>
+      <td>RRRRRCCRRR</td>
+      <td>ALBEMARLE CORP</td>
+    </tr>
+    <tr>
+      <td>238.52</td>
+      <td>TRGP</td>
+      <td>CRRRRRRC</td>
+      <td>Targa Resources Corp.</td>
+    </tr>
+    <tr>
+      <td>237.69</td>
+      <td>VLO</td>
+      <td>RRRCRCRRRC</td>
+      <td>VALERO ENERGY CORP/TX</td>
+    </tr>
+    <tr>
+      <td>237.47</td>
+      <td>MCO</td>
+      <td>RCCRR</td>
+      <td>MOODYS CORP /DE/</td>
+    </tr>
+    <tr>
+      <td>237.35</td>
+      <td>BIIB</td>
+      <td>CRRRCRCRR</td>
+      <td>BIOGEN INC.</td>
+    </tr>
+    <tr>
+      <td>235.75</td>
+      <td>TRV</td>
+      <td>CRCRRCRCCC</td>
+      <td>TRAVELERS COMPANIES, INC.</td>
+    </tr>
+    <tr>
+      <td>235.46</td>
+      <td>SLB</td>
+      <td>RCCRRRR</td>
+      <td>SCHLUMBERGER LIMITED/NV</td>
+    </tr>
+    <tr>
+      <td>235.4</td>
+      <td>UAL</td>
+      <td>RCRCCCRCC</td>
+      <td>United Continental Holdings, Inc.</td>
+    </tr>
+    <tr>
+      <td>233.4</td>
+      <td>DIS</td>
+      <td>CCCCRCRRR</td>
+      <td>Walt Disney Co</td>
+    </tr>
+    <tr>
+      <td>233.28</td>
+      <td>URI</td>
+      <td>CCCRRRCRCR</td>
+      <td>UNITED RENTALS INC /DE</td>
+    </tr>
+    <tr>
+      <td>233.19</td>
+      <td>ORLY</td>
+      <td>CRRRRCCRRR</td>
+      <td>O REILLY AUTOMOTIVE INC</td>
+    </tr>
+    <tr>
+      <td>232.9</td>
+      <td>CVX</td>
+      <td>CCCRRRCRC</td>
+      <td>CHEVRON CORP</td>
+    </tr>
+    <tr>
+      <td>232.87</td>
+      <td>KKR</td>
+      <td>RCCRRRC</td>
+      <td>KKR &amp; Co. L.P.</td>
+    </tr>
+    <tr>
+      <td>232.66</td>
+      <td>PLD</td>
+      <td>CRCRRCCCCC</td>
+      <td>Prologis, Inc.</td>
+    </tr>
+    <tr>
+      <td>229.76</td>
+      <td>BK</td>
+      <td>RCCCRRCR</td>
+      <td>Bank of New York Mellon CORP</td>
+    </tr>
+    <tr>
+      <td>229.49</td>
+      <td>SPG</td>
+      <td>CCCCR</td>
+      <td>SIMON PROPERTY GROUP INC /DE/</td>
+    </tr>
+    <tr>
+      <td>225.61</td>
+      <td>GM</td>
+      <td>CRRRRCCCR</td>
+      <td>General Motors Co</td>
+    </tr>
+    <tr>
+      <td>219.25</td>
+      <td>OKE</td>
+      <td>CCCRRRRCR</td>
+      <td>ONEOK INC /NEW/</td>
+    </tr>
+    <tr>
+      <td>218.59</td>
+      <td>VMC</td>
+      <td>RRRRC</td>
+      <td>Vulcan Materials CO</td>
+    </tr>
+    <tr>
+      <td>214.83</td>
+      <td>KEYS</td>
+      <td>RCRCRRCRC</td>
+      <td>Keysight Technologies, Inc.</td>
+    </tr>
+    <tr>
+      <td>213.57</td>
+      <td>LEN</td>
+      <td>RCCCRR</td>
+      <td>LENNAR CORP /NEW/</td>
+    </tr>
+    <tr>
+      <td>213.27</td>
+      <td>STZ</td>
+      <td>RRCCRCRCR</td>
+      <td>CONSTELLATION BRANDS, INC.</td>
+    </tr>
+    <tr>
+      <td>212.41</td>
+      <td>GS</td>
+      <td>CCCRCRR</td>
+      <td>GOLDMAN SACHS GROUP INC</td>
+    </tr>
+    <tr>
+      <td>211.81</td>
+      <td>TDG</td>
+      <td>RRCRCCCC</td>
+      <td>TransDigm Group INC</td>
+    </tr>
+    <tr>
+      <td>211.45</td>
+      <td>KEY</td>
+      <td>RCRRCCCRR</td>
+      <td>KEYCORP /NEW/</td>
+    </tr>
+    <tr>
+      <td>210.99</td>
+      <td>GILD</td>
+      <td>RRCCCC</td>
+      <td>GILEAD SCIENCES INC</td>
+    </tr>
+    <tr>
+      <td>210.88</td>
+      <td>PWR</td>
+      <td>RCRCRCR</td>
+      <td>QUANTA SERVICES INC</td>
+    </tr>
+    <tr>
+      <td>209.27</td>
+      <td>HD</td>
+      <td>RCCRCCRC</td>
+      <td>HOME DEPOT INC</td>
+    </tr>
+    <tr>
+      <td>206.24</td>
+      <td>WM</td>
+      <td>CRRCCCRRCR</td>
+      <td>WASTE MANAGEMENT INC</td>
+    </tr>
+    <tr>
+      <td>206.18</td>
+      <td>AME</td>
+      <td>CRRRCRRCR</td>
+      <td>AMETEK INC/</td>
+    </tr>
+    <tr>
+      <td>203.96</td>
+      <td>MMC</td>
+      <td>RRRRRRRRCC</td>
+      <td>MARSH &amp; MCLENNAN COMPANIES, INC.</td>
+    </tr>
+    <tr>
+      <td>202.92</td>
+      <td>VTR</td>
+      <td>CRCRRCRR</td>
+      <td>VENTAS INC</td>
+    </tr>
+    <tr>
+      <td>201.94</td>
+      <td>ALGN</td>
+      <td>RRCRCRRCCR</td>
+      <td>ALIGN TECHNOLOGY INC</td>
+    </tr>
+    <tr>
+      <td>201.05</td>
+      <td>ADSK</td>
+      <td>RCCRRRR</td>
+      <td>Autodesk, Inc.</td>
+    </tr>
+    <tr>
+      <td>199.53</td>
+      <td>AFL</td>
+      <td>RCCRCCC</td>
+      <td>AFLAC INC</td>
+    </tr>
+    <tr>
+      <td>198.91</td>
+      <td>PCAR</td>
+      <td>CRCCCCRCC</td>
+      <td>PACCAR INC</td>
+    </tr>
+    <tr>
+      <td>198.75</td>
+      <td>YUM</td>
+      <td>RCCRCC</td>
+      <td>YUM BRANDS INC</td>
+    </tr>
+    <tr>
+      <td>198.75</td>
+      <td>BKR</td>
+      <td>CCCRRCCC</td>
+      <td>Baker Hughes Co</td>
+    </tr>
+    <tr>
+      <td>198.74</td>
+      <td>MRNA</td>
+      <td>CRRCRCC</td>
+      <td>Moderna, Inc.</td>
+    </tr>
+    <tr>
+      <td>196.53</td>
+      <td>SRE</td>
+      <td>CCRRCCCR</td>
+      <td>SEMPRA ENERGY</td>
+    </tr>
+    <tr>
+      <td>194.1</td>
+      <td>AMP</td>
+      <td>CCRRRCR</td>
+      <td>AMERIPRISE FINANCIAL INC</td>
+    </tr>
+    <tr>
+      <td>192.22</td>
+      <td>KMI</td>
+      <td>RCRRC</td>
+      <td>KINDER MORGAN, INC.</td>
+    </tr>
+    <tr>
+      <td>191.87</td>
+      <td>PHM</td>
+      <td>RRRRRCRCRC</td>
+      <td>PULTEGROUP INC/MI/</td>
+    </tr>
+    <tr>
+      <td>186.82</td>
+      <td>JCI</td>
+      <td>RCCCCCRRCR</td>
+      <td>Johnson Controls International plc</td>
+    </tr>
+    <tr>
+      <td>186.4</td>
+      <td>WYNN</td>
+      <td>RRCRCRRCRC</td>
+      <td>WYNN RESORTS LTD</td>
+    </tr>
+    <tr>
+      <td>185.37</td>
+      <td>AJG</td>
+      <td>RRCCRCCR</td>
+      <td>GALLAGHER ARTHUR J &amp; CO</td>
+    </tr>
+    <tr>
+      <td>183.24</td>
+      <td>ISRG</td>
+      <td>CRRRRRC</td>
+      <td>INTUITIVE SURGICAL INC</td>
+    </tr>
+    <tr>
+      <td>181.52</td>
+      <td>RSG</td>
+      <td>RCRCRRC</td>
+      <td>REPUBLIC SERVICES, INC.</td>
+    </tr>
+    <tr>
+      <td>179.31</td>
+      <td>KHC</td>
+      <td>CCRRRRC</td>
+      <td>Kraft Heinz Co</td>
+    </tr>
+    <tr>
+      <td>178.63</td>
+      <td>PCG</td>
+      <td>RRCRCRCCCC</td>
+      <td>PG&amp;E Corp</td>
+    </tr>
+    <tr>
+      <td>175.35</td>
+      <td>PSA</td>
+      <td>RRRRCRCCRR</td>
+      <td>Public Storage</td>
+    </tr>
+    <tr>
+      <td>175.17</td>
+      <td>NVR</td>
+      <td>RRRCRRR</td>
+      <td>NVR INC</td>
+    </tr>
+    <tr>
+      <td>174.34</td>
+      <td>NEM</td>
+      <td>CCCCCCRC</td>
+      <td>NEWMONT MINING CORP /DE/</td>
+    </tr>
+    <tr>
+      <td>172.54</td>
+      <td>IBM</td>
+      <td>RCCCCRRR</td>
+      <td>INTERNATIONAL BUSINESS MACHINES CORP</td>
+    </tr>
+    <tr>
+      <td>170.53</td>
+      <td>ROST</td>
+      <td>RRRCRRCCCC</td>
+      <td>ROSS STORES INC</td>
+    </tr>
+    <tr>
+      <td>170.41</td>
+      <td>AWK</td>
+      <td>RRCCRRRRCC</td>
+      <td>American Water Works Company, Inc.</td>
+    </tr>
+    <tr>
+      <td>170.22</td>
+      <td>SYY</td>
+      <td>CC</td>
+      <td>SYSCO CORP</td>
+    </tr>
+    <tr>
+      <td>169.48</td>
+      <td>MRO</td>
+      <td>RRRRRCRCCC</td>
+      <td>MARATHON OIL CORP</td>
+    </tr>
+    <tr>
+      <td>169.22</td>
+      <td>NSC</td>
+      <td>CCRCCRCR</td>
+      <td>NORFOLK SOUTHERN CORP</td>
+    </tr>
+    <tr>
+      <td>168.29</td>
+      <td>NCLH</td>
+      <td>RCCCCCC</td>
+      <td>Norwegian Cruise Line Holdings Ltd.</td>
+    </tr>
+    <tr>
+      <td>165.89</td>
+      <td>PEG</td>
+      <td>RRCCRRRR</td>
+      <td>PUBLIC SERVICE ENTERPRISE GROUP INC</td>
+    </tr>
+    <tr>
+      <td>162.26</td>
+      <td>TSCO</td>
+      <td>CRCRCRRRRR</td>
+      <td>TRACTOR SUPPLY CO /DE/</td>
+    </tr>
+    <tr>
+      <td>161.45</td>
+      <td>ROK</td>
+      <td>RRCRRRRC</td>
+      <td>ROCKWELL AUTOMATION INC</td>
+    </tr>
+    <tr>
+      <td>161.42</td>
+      <td>WEC</td>
+      <td>CCCRCRR</td>
+      <td>WISCONSIN ENERGY CORP</td>
+    </tr>
+    <tr>
+      <td>159.9</td>
+      <td>O</td>
+      <td>RRCCCCC</td>
+      <td>REALTY INCOME CORP</td>
+    </tr>
+    <tr>
+      <td>159.57</td>
+      <td>SBAC</td>
+      <td>CCRCRRR</td>
+      <td>SBA COMMUNICATIONS CORP</td>
+    </tr>
+    <tr>
+      <td>157.53</td>
+      <td>MGM</td>
+      <td>CRRRCCRCCR</td>
+      <td>MGM Resorts International</td>
+    </tr>
+    <tr>
+      <td>156.72</td>
+      <td>ATO</td>
+      <td>RRRRRRCCCR</td>
+      <td>ATMOS ENERGY CORP</td>
+    </tr>
+    <tr>
+      <td>156.6</td>
+      <td>VLTO</td>
+      <td>CR</td>
+      <td>Veralto Corp</td>
+    </tr>
+    <tr>
+      <td>156.41</td>
+      <td>ROP</td>
+      <td>CRCRRCR</td>
+      <td>ROPER INDUSTRIES INC</td>
+    </tr>
+    <tr>
+      <td>154.98</td>
+      <td>TEL</td>
+      <td>RCRCR</td>
+      <td>TE Connectivity Ltd.</td>
+    </tr>
+    <tr>
+      <td>154.44</td>
+      <td>NTAP</td>
+      <td>RRRCC</td>
+      <td>NetApp, Inc.</td>
+    </tr>
+    <tr>
+      <td>153.94</td>
+      <td>TFX</td>
+      <td>CCCRRRCC</td>
+      <td>TELEFLEX INC</td>
+    </tr>
+    <tr>
+      <td>153.75</td>
+      <td>AON</td>
+      <td>RRCCCCRCCC</td>
+      <td>Aon plc</td>
+    </tr>
+    <tr>
+      <td>152.75</td>
+      <td>KMB</td>
+      <td>CRCRCRCRRR</td>
+      <td>KIMBERLY CLARK CORP</td>
+    </tr>
+    <tr>
+      <td>149.41</td>
+      <td>BG</td>
+      <td>RRCRRCCRCR</td>
+      <td>Bunge Global SA</td>
+    </tr>
+    <tr>
+      <td>148.96</td>
+      <td>AES</td>
+      <td>CRRRCCR</td>
+      <td>AES CORP</td>
+    </tr>
+    <tr>
+      <td>148.82</td>
+      <td>ETN</td>
+      <td>RCCCCRRRRR</td>
+      <td>Eaton Corp plc</td>
+    </tr>
+    <tr>
+      <td>148.45</td>
+      <td>PARA</td>
+      <td>RRCRCRCRR</td>
+      <td>Paramount Global</td>
+    </tr>
+    <tr>
+      <td>147.74</td>
+      <td>WAB</td>
+      <td>CCRCCRRCRC</td>
+      <td>WESTINGHOUSE AIR BRAKE TECHNOLOGIES CORP</td>
+    </tr>
+    <tr>
+      <td>147.53</td>
+      <td>LUV</td>
+      <td>CCCCCR</td>
+      <td>SOUTHWEST AIRLINES CO</td>
+    </tr>
+    <tr>
+      <td>146.87</td>
+      <td>LDOS</td>
+      <td>RCCCCCCCCR</td>
+      <td>Leidos Holdings, Inc.</td>
+    </tr>
+    <tr>
+      <td>144.73</td>
+      <td>TER</td>
+      <td>CCCCCCCR</td>
+      <td>TERADYNE, INC</td>
+    </tr>
+    <tr>
+      <td>143.8</td>
+      <td>OTIS</td>
+      <td>CRCC</td>
+      <td>Otis Worldwide Corp</td>
+    </tr>
+    <tr>
+      <td>141.23</td>
+      <td>STX</td>
+      <td>RCCRRR</td>
+      <td>Seagate Technology plc</td>
+    </tr>
+    <tr>
+      <td>140.92</td>
+      <td>SYF</td>
+      <td>RRRRCC</td>
+      <td>Synchrony Financial</td>
+    </tr>
+    <tr>
+      <td>140.47</td>
+      <td>MET</td>
+      <td>RCCRRRR</td>
+      <td>METLIFE INC</td>
+    </tr>
+    <tr>
+      <td>140.29</td>
+      <td>KDP</td>
+      <td>RRRRRCCCR</td>
+      <td>Keurig Dr Pepper Inc.</td>
+    </tr>
+    <tr>
+      <td>140.07</td>
+      <td>MSI</td>
+      <td>RRCRCCCCC</td>
+      <td>Motorola Solutions, Inc.</td>
+    </tr>
+    <tr>
+      <td>139.93</td>
+      <td>LW</td>
+      <td>CCRRRCCCCC</td>
+      <td>Lamb Weston Holdings, Inc.</td>
+    </tr>
+    <tr>
+      <td>139.25</td>
+      <td>PAYX</td>
+      <td>RCCRCR</td>
+      <td>PAYCHEX INC</td>
+    </tr>
+    <tr>
+      <td>138.29</td>
+      <td>NWSA</td>
+      <td>RRRCRCRRCR</td>
+      <td>NEWS CORP</td>
+    </tr>
+    <tr>
+      <td>137.94</td>
+      <td>INTU</td>
+      <td>CCRRCRRRC</td>
+      <td>INTUIT INC</td>
+    </tr>
+    <tr>
+      <td>137.73</td>
+      <td>NI</td>
+      <td>CCRRCCCR</td>
+      <td>NISOURCE INC.</td>
+    </tr>
+    <tr>
+      <td>137.59</td>
+      <td>LYB</td>
+      <td>CCRRCCRRC</td>
+      <td>LyondellBasell Industries N.V.</td>
+    </tr>
+    <tr>
+      <td>136.86</td>
+      <td>BBY</td>
+      <td>CRRCCCCR</td>
+      <td>BEST BUY CO INC</td>
+    </tr>
+    <tr>
+      <td>136.27</td>
+      <td>BAX</td>
+      <td>CRCCRCCCRC</td>
+      <td>BAXTER INTERNATIONAL INC</td>
+    </tr>
+    <tr>
+      <td>134.24</td>
+      <td>ICE</td>
+      <td>RCCRRRCCR</td>
+      <td>IntercontinentalExchange Group, Inc.</td>
+    </tr>
+    <tr>
+      <td>133.21</td>
+      <td>ALL</td>
+      <td>CRRRCRRRCR</td>
+      <td>ALLSTATE CORP</td>
+    </tr>
+    <tr>
+      <td>132.79</td>
+      <td>F</td>
+      <td>CRCCCRRRCR</td>
+      <td>FORD MOTOR CO</td>
+    </tr>
+    <tr>
+      <td>130.08</td>
+      <td>GE</td>
+      <td>CCRCCRRRCC</td>
+      <td>GENERAL ELECTRIC CO</td>
+    </tr>
+    <tr>
+      <td>130.05</td>
+      <td>CRM</td>
+      <td>CRRRCRRR</td>
+      <td>Salesforce, Inc.</td>
+    </tr>
+    <tr>
+      <td>127.98</td>
+      <td>MTCH</td>
+      <td>RRRRRC</td>
+      <td>Match Group, Inc.</td>
+    </tr>
+    <tr>
+      <td>126.52</td>
+      <td>TSN</td>
+      <td>RCRCCRRCC</td>
+      <td>TYSON FOODS INC</td>
+    </tr>
+    <tr>
+      <td>125.88</td>
+      <td>APA</td>
+      <td>CCRCRRRCCR</td>
+      <td>APA Corp</td>
+    </tr>
+    <tr>
+      <td>125.39</td>
+      <td>PPL</td>
+      <td>CRRCCRRC</td>
+      <td>PPL Corp</td>
+    </tr>
+    <tr>
+      <td>124.45</td>
+      <td>TPR</td>
+      <td>RCRCCRCR</td>
+      <td>TAPESTRY, INC.</td>
+    </tr>
+    <tr>
+      <td>124.25</td>
+      <td>AVB</td>
+      <td>CCRRRC</td>
+      <td>AVALONBAY COMMUNITIES INC</td>
+    </tr>
+    <tr>
+      <td>123.44</td>
+      <td>GEV</td>
+      <td>C</td>
+      <td>GE Vernova Inc.</td>
+    </tr>
+    <tr>
+      <td>123.26</td>
+      <td>PTC</td>
+      <td>CRCCC</td>
+      <td>PTC INC.</td>
+    </tr>
+    <tr>
+      <td>122.35</td>
+      <td>UDR</td>
+      <td>CRCCCRRRC</td>
+      <td>UDR, Inc.</td>
+    </tr>
+    <tr>
+      <td>122.11</td>
+      <td>PRU</td>
+      <td>CRRCR</td>
+      <td>PRUDENTIAL FINANCIAL INC</td>
+    </tr>
+    <tr>
+      <td>122.02</td>
+      <td>CSCO</td>
+      <td>CRCRCC</td>
+      <td>CISCO SYSTEMS, INC.</td>
+    </tr>
+    <tr>
+      <td>121.47</td>
+      <td>CMG</td>
+      <td>RCCCC</td>
+      <td>CHIPOTLE MEXICAN GRILL INC</td>
+    </tr>
+    <tr>
+      <td>121.4</td>
+      <td>SWKS</td>
+      <td>RCRRRRCCC</td>
+      <td>SKYWORKS SOLUTIONS, INC.</td>
+    </tr>
+    <tr>
+      <td>119.47</td>
+      <td>PPG</td>
+      <td>RCCCRRRCRR</td>
+      <td>PPG INDUSTRIES INC</td>
+    </tr>
+    <tr>
+      <td>117.18</td>
+      <td>RMD</td>
+      <td>CRRCCRRRRC</td>
+      <td>RESMED INC</td>
+    </tr>
+    <tr>
+      <td>116.82</td>
+      <td>BALL</td>
+      <td>RCCCRRC</td>
+      <td>BALL Corp</td>
+    </tr>
+    <tr>
+      <td>116.59</td>
+      <td>XYL</td>
+      <td>RCCRCRRCC</td>
+      <td>Xylem Inc.</td>
+    </tr>
+    <tr>
+      <td>116.57</td>
+      <td>LHX</td>
+      <td>CRRCRCRRC</td>
+      <td>L3HARRIS TECHNOLOGIES, INC. /DE/</td>
+    </tr>
+    <tr>
+      <td>116.57</td>
+      <td>AEE</td>
+      <td>RRRCRRR</td>
+      <td>AMEREN CORP</td>
+    </tr>
+    <tr>
+      <td>115.58</td>
+      <td>LH</td>
+      <td>RRCRRC</td>
+      <td>LABORATORY CORP OF AMERICA HOLDINGS</td>
+    </tr>
+    <tr>
+      <td>115.41</td>
+      <td>KR</td>
+      <td>CCCCRCCCCC</td>
+      <td>KROGER CO</td>
+    </tr>
+    <tr>
+      <td>114.72</td>
+      <td>MSCI</td>
+      <td>RCRRCCCRC</td>
+      <td>MSCI Inc.</td>
+    </tr>
+    <tr>
+      <td>112.75</td>
+      <td>KMX</td>
+      <td>RC</td>
+      <td>CARMAX INC</td>
+    </tr>
+    <tr>
+      <td>112.57</td>
+      <td>FTNT</td>
+      <td>CCRCCR</td>
+      <td>FORTINET INC</td>
+    </tr>
+    <tr>
+      <td>112.39</td>
+      <td>NDAQ</td>
+      <td>RRCCCCR</td>
+      <td>NASDAQ OMX GROUP, INC.</td>
+    </tr>
+    <tr>
+      <td>112.26</td>
+      <td>HES</td>
+      <td>CCRRRCCR</td>
+      <td>HESS CORP</td>
+    </tr>
+    <tr>
+      <td>110.91</td>
+      <td>WY</td>
+      <td>RRRRCCRRC</td>
+      <td>WEYERHAEUSER CO</td>
+    </tr>
+    <tr>
+      <td>110.73</td>
+      <td>RL</td>
+      <td>RCCCCCRR</td>
+      <td>RALPH LAUREN CORP</td>
+    </tr>
+    <tr>
+      <td>110.23</td>
+      <td>VICI</td>
+      <td>CRCRRCRR</td>
+      <td>VICI PROPERTIES INC.</td>
+    </tr>
+    <tr>
+      <td>109.58</td>
+      <td>UHS</td>
+      <td>CRRRRRCR</td>
+      <td>UNIVERSAL HEALTH SERVICES INC</td>
+    </tr>
+    <tr>
+      <td>109.42</td>
+      <td>MOH</td>
+      <td>CCCRRCRRC</td>
+      <td>MOLINA HEALTHCARE, INC.</td>
+    </tr>
+    <tr>
+      <td>108.75</td>
+      <td>ALLE</td>
+      <td>RRRRCRRRRR</td>
+      <td>Allegion plc</td>
+    </tr>
+    <tr>
+      <td>106.49</td>
+      <td>NUE</td>
+      <td>RRRRCCR</td>
+      <td>NUCOR CORP</td>
+    </tr>
+    <tr>
+      <td>104.89</td>
+      <td>XEL</td>
+      <td>RCCRRRRRCR</td>
+      <td>XCEL ENERGY INC</td>
+    </tr>
+    <tr>
+      <td>104.74</td>
+      <td>AVY</td>
+      <td>CRCCRRRRCC</td>
+      <td>Avery Dennison Corp</td>
+    </tr>
+    <tr>
+      <td>104.55</td>
+      <td>WBA</td>
+      <td>CCRCRCCRCC</td>
+      <td>Walgreens Boots Alliance, Inc.</td>
+    </tr>
+    <tr>
+      <td>102.78</td>
+      <td>WTW</td>
+      <td>CRCCCRCR</td>
+      <td>WILLIS TOWERS WATSON PLC</td>
+    </tr>
+    <tr>
+      <td>102.71</td>
+      <td>STE</td>
+      <td>CRCCCCC</td>
+      <td>STERIS plc</td>
+    </tr>
+    <tr>
+      <td>101.68</td>
+      <td>MOS</td>
+      <td>RCCRRCRCRR</td>
+      <td>MOSAIC CO</td>
+    </tr>
+    <tr>
+      <td>101.67</td>
+      <td>A</td>
+      <td>CRRCCRCC</td>
+      <td>AGILENT TECHNOLOGIES INC</td>
+    </tr>
+    <tr>
+      <td>101.41</td>
+      <td>MTD</td>
+      <td>CRRRCRRCRC</td>
+      <td>METTLER TOLEDO INTERNATIONAL INC/</td>
+    </tr>
+    <tr>
+      <td>101.39</td>
+      <td>CTSH</td>
+      <td>RCRCCCCC</td>
+      <td>COGNIZANT TECHNOLOGY SOLUTIONS CORP</td>
+    </tr>
+    <tr>
+      <td>100.15</td>
+      <td>BBWI</td>
+      <td>CRRCCRRRCR</td>
+      <td>Bath &amp; Body Works, Inc.</td>
+    </tr>
+    <tr>
+      <td>100.1</td>
+      <td>VTRS</td>
+      <td>CCCRCCCCRC</td>
+      <td>Viatris Inc</td>
+    </tr>
+    <tr>
+      <td>98.49</td>
+      <td>ACGL</td>
+      <td>RCRCRCR</td>
+      <td>ARCH CAPITAL GROUP LTD.</td>
+    </tr>
+    <tr>
+      <td>98.48</td>
+      <td>ANSS</td>
+      <td>CRRRCRCCCR</td>
+      <td>ANSYS INC</td>
+    </tr>
+    <tr>
+      <td>98.3</td>
+      <td>LYV</td>
+      <td>RCRRRCCRCR</td>
+      <td>Live Nation Entertainment, Inc.</td>
+    </tr>
+    <tr>
+      <td>97.84</td>
+      <td>VRSK</td>
+      <td>CCCRRCRCCR</td>
+      <td>Verisk Analytics, Inc.</td>
+    </tr>
+    <tr>
+      <td>97.23</td>
+      <td>MAA</td>
+      <td>RCRCRRRCC</td>
+      <td>MID AMERICA APARTMENT COMMUNITIES INC</td>
+    </tr>
+    <tr>
+      <td>96.59</td>
+      <td>STLD</td>
+      <td>RCRRCCCCR</td>
+      <td>STEEL DYNAMICS INC</td>
+    </tr>
+    <tr>
+      <td>94.76</td>
+      <td>STT</td>
+      <td>CRCCRRRC</td>
+      <td>BLACK HILLS CORP /SD/</td>
+    </tr>
+    <tr>
+      <td>94.68</td>
+      <td>RJF</td>
+      <td>RCCCRCCR</td>
+      <td>RAYMOND JAMES FINANCIAL INC</td>
+    </tr>
+    <tr>
+      <td>94.44</td>
+      <td>RF</td>
+      <td>RRRRRC</td>
+      <td>REGIONS FINANCIAL CORP</td>
+    </tr>
+    <tr>
+      <td>94.22</td>
+      <td>PNC</td>
+      <td>RCCCCCR</td>
+      <td>PNC FINANCIAL SERVICES GROUP INC</td>
+    </tr>
+    <tr>
+      <td>92.81</td>
+      <td>BMY</td>
+      <td>CCCCCRCRRC</td>
+      <td>BRISTOL MYERS SQUIBB CO</td>
+    </tr>
+    <tr>
+      <td>90.26</td>
+      <td>MKC</td>
+      <td>RCCCCCRRRR</td>
+      <td>MCCORMICK &amp; CO INC</td>
+    </tr>
+    <tr>
+      <td>89.65</td>
+      <td>QRVO</td>
+      <td>RCRRRCRRC</td>
+      <td>Qorvo, Inc.</td>
+    </tr>
+    <tr>
+      <td>89.61</td>
+      <td>DAL</td>
+      <td>RRRRRRCCRC</td>
+      <td>DELTA AIR LINES INC /DE/</td>
+    </tr>
+    <tr>
+      <td>88.64</td>
+      <td>CVS</td>
+      <td>RCRRCCCCCC</td>
+      <td>CVS CAREMARK CORP</td>
+    </tr>
+    <tr>
+      <td>87.35</td>
+      <td>DE</td>
+      <td>CRRCRCR</td>
+      <td>DEERE &amp; CO</td>
+    </tr>
+    <tr>
+      <td>86.86</td>
+      <td>AOS</td>
+      <td>CCCRRC</td>
+      <td>SMITH A O CORP</td>
+    </tr>
+    <tr>
+      <td>85.33</td>
+      <td>COP</td>
+      <td>RRCRCCRR</td>
+      <td>CONOCOPHILLIPS</td>
+    </tr>
+    <tr>
+      <td>83.49</td>
+      <td>FCX</td>
+      <td>RCRRCCCRC</td>
+      <td>FREEPORT-MCMORAN INC</td>
+    </tr>
+    <tr>
+      <td>82.43</td>
+      <td>ENPH</td>
+      <td>CCCCRCRCCR</td>
+      <td>Enphase Energy, Inc.</td>
+    </tr>
+    <tr>
+      <td>82.19</td>
+      <td>AMCR</td>
+      <td>CRRCCCRCC</td>
+      <td>Amcor plc</td>
+    </tr>
+    <tr>
+      <td>82.04</td>
+      <td>VRSN</td>
+      <td>CCCCCRCCRC</td>
+      <td>VERISIGN INC/CA</td>
+    </tr>
+    <tr>
+      <td>81.0</td>
+      <td>DHI</td>
+      <td>CCRC</td>
+      <td>HORTON D R INC /DE/</td>
+    </tr>
+    <tr>
+      <td>80.3</td>
+      <td>POOL</td>
+      <td>CRRR</td>
+      <td>POOL CORP</td>
+    </tr>
+    <tr>
+      <td>78.3</td>
+      <td>HON</td>
+      <td>RRCRCCRCCR</td>
+      <td>HONEYWELL INTERNATIONAL INC</td>
+    </tr>
+    <tr>
+      <td>78.25</td>
+      <td>SWK</td>
+      <td>RRRCRCR</td>
+      <td>STANLEY BLACK &amp; DECKER, INC.</td>
+    </tr>
+    <tr>
+      <td>77.91</td>
+      <td>TAP</td>
+      <td>RCCRRCRCCR</td>
+      <td>MOLSON COORS BEVERAGE CO</td>
+    </tr>
+    <tr>
+      <td>77.63</td>
+      <td>ADM</td>
+      <td>RRCCCCRCCC</td>
+      <td>Archer-Daniels-Midland Co</td>
+    </tr>
+    <tr>
+      <td>77.1</td>
+      <td>NTRS</td>
+      <td>CRCCRCCC</td>
+      <td>NORTHERN TRUST CORP</td>
+    </tr>
+    <tr>
+      <td>76.71</td>
+      <td>BIO</td>
+      <td>CRCRCRCCRR</td>
+      <td>BIO RAD LABORATORIES INC</td>
+    </tr>
+    <tr>
+      <td>76.52</td>
+      <td>TYL</td>
+      <td>RCRCRCCRC</td>
+      <td>TYLER TECHNOLOGIES INC</td>
+    </tr>
+    <tr>
+      <td>75.21</td>
+      <td>WRB</td>
+      <td>RCRRRCCR</td>
+      <td>BERKLEY W R CORP</td>
+    </tr>
+    <tr>
+      <td>74.89</td>
+      <td>EFX</td>
+      <td>CCCCCRCC</td>
+      <td>EQUIFAX INC</td>
+    </tr>
+    <tr>
+      <td>74.58</td>
+      <td>PAYC</td>
+      <td>CCRCRRR</td>
+      <td>Paycom Software, Inc.</td>
+    </tr>
+    <tr>
+      <td>74.44</td>
+      <td>MTB</td>
+      <td>RCCRR</td>
+      <td>M&amp;T BANK CORP</td>
+    </tr>
+    <tr>
+      <td>74.12</td>
+      <td>DHR</td>
+      <td>RRCCRCRRC</td>
+      <td>DANAHER CORP /DE/</td>
+    </tr>
+    <tr>
+      <td>73.93</td>
+      <td>EMR</td>
+      <td>CCCRRRCCR</td>
+      <td>EMERSON ELECTRIC CO</td>
+    </tr>
+    <tr>
+      <td>73.71</td>
+      <td>PNR</td>
+      <td>CRRCCCRCR</td>
+      <td>PENTAIR INC</td>
+    </tr>
+    <tr>
+      <td>73.59</td>
+      <td>ARE</td>
+      <td>CRCRRRRCCC</td>
+      <td>ALEXANDRIA REAL ESTATE EQUITIES, INC.</td>
+    </tr>
+    <tr>
+      <td>72.96</td>
+      <td>PNW</td>
+      <td>RRCCCCCCC</td>
+      <td>PINNACLE WEST CAPITAL CORP</td>
+    </tr>
+    <tr>
+      <td>72.69</td>
+      <td>SJM</td>
+      <td>CCCCCCCRC</td>
+      <td>J M SMUCKER Co</td>
+    </tr>
+    <tr>
+      <td>72.01</td>
+      <td>ROL</td>
+      <td>CCCCRC</td>
+      <td>ROLLINS INC</td>
+    </tr>
+    <tr>
+      <td>71.88</td>
+      <td>EOG</td>
+      <td>CRRRRCRCCR</td>
+      <td>EOG RESOURCES INC</td>
+    </tr>
+    <tr>
+      <td>71.6</td>
+      <td>TROW</td>
+      <td>CRRCCRRCR</td>
+      <td>PRICE T ROWE GROUP INC</td>
+    </tr>
+    <tr>
+      <td>70.91</td>
+      <td>WAT</td>
+      <td>RRCRCRRC</td>
+      <td>WATERS CORP /DE/</td>
+    </tr>
+    <tr>
+      <td>70.63</td>
+      <td>OMC</td>
+      <td>RRRRCCRRCR</td>
+      <td>OMNICOM GROUP INC.</td>
+    </tr>
+    <tr>
+      <td>68.33</td>
+      <td>FDX</td>
+      <td>CRCRRRRRRC</td>
+      <td>FEDEX CORP</td>
+    </tr>
+    <tr>
+      <td>67.62</td>
+      <td>TXT</td>
+      <td>CRCCCRCRC</td>
+      <td>TEXTRON INC</td>
+    </tr>
+    <tr>
+      <td>67.22</td>
+      <td>JKHY</td>
+      <td>CRRCR</td>
+      <td>HENRY JACK &amp; ASSOCIATES INC</td>
+    </tr>
+    <tr>
+      <td>66.4</td>
+      <td>TRMB</td>
+      <td>RRCCCRRRRR</td>
+      <td>TRIMBLE INC.</td>
+    </tr>
+    <tr>
+      <td>64.95</td>
+      <td>MHK</td>
+      <td>RCCCCRRCRR</td>
+      <td>MOHAWK INDUSTRIES INC</td>
+    </tr>
+    <tr>
+      <td>64.89</td>
+      <td>LNT</td>
+      <td>CRRRRRRR</td>
+      <td>ALLIANT ENERGY CORP</td>
+    </tr>
+    <tr>
+      <td>64.46</td>
+      <td>HCA</td>
+      <td>RRCCCC</td>
+      <td>HCA Healthcare, Inc.</td>
+    </tr>
+    <tr>
+      <td>63.33</td>
+      <td>HUM</td>
+      <td>CRRCRRRCCC</td>
+      <td>HUMANA INC</td>
+    </tr>
+    <tr>
+      <td>62.4</td>
+      <td>FSLR</td>
+      <td>RCRRRCCCCR</td>
+      <td>FIRST SOLAR, INC.</td>
+    </tr>
+    <tr>
+      <td>61.82</td>
+      <td>PFG</td>
+      <td>RRRCRCCCC</td>
+      <td>PRINCIPAL FINANCIAL GROUP INC</td>
+    </tr>
+    <tr>
+      <td>61.51</td>
+      <td>HSY</td>
+      <td>CCCCCRRCC</td>
+      <td>HERSHEY CO</td>
+    </tr>
+    <tr>
+      <td>61.16</td>
+      <td>JNPR</td>
+      <td>RCR</td>
+      <td>JUNIPER NETWORKS INC</td>
+    </tr>
+    <tr>
+      <td>60.87</td>
+      <td>RVTY</td>
+      <td>RCC</td>
+      <td>REVVITY, INC.</td>
+    </tr>
+    <tr>
+      <td>60.55</td>
+      <td>TECH</td>
+      <td>CCRCCCCR</td>
+      <td>TECHNE CORP /MN/</td>
+    </tr>
+    <tr>
+      <td>60.08</td>
+      <td>HLT</td>
+      <td>RRRRCRCC</td>
+      <td>Hilton Worldwide Holdings Inc.</td>
+    </tr>
+    <tr>
+      <td>58.97</td>
+      <td>PKG</td>
+      <td>CCRRCRR</td>
+      <td>PACKAGING CORP OF AMERICA</td>
+    </tr>
+    <tr>
+      <td>58.56</td>
+      <td>DVN</td>
+      <td>RRCCCCCCRC</td>
+      <td>DEVON ENERGY CORP/DE</td>
+    </tr>
+    <tr>
+      <td>57.86</td>
+      <td>MKTX</td>
+      <td>RRCCCC</td>
+      <td>MARKETAXESS HOLDINGS INC</td>
+    </tr>
+    <tr>
+      <td>56.23</td>
+      <td>TDY</td>
+      <td>CRRRRR</td>
+      <td>TELEDYNE TECHNOLOGIES INC</td>
+    </tr>
+    <tr>
+      <td>55.76</td>
+      <td>IR</td>
+      <td>CCRCR</td>
+      <td>Ingersoll-Rand plc</td>
+    </tr>
+    <tr>
+      <td>54.58</td>
+      <td>EL</td>
+      <td>CRCRRCCRRC</td>
+      <td>ESTEE LAUDER COMPANIES INC</td>
+    </tr>
+    <tr>
+      <td>53.97</td>
+      <td>AIZ</td>
+      <td>RCRRC</td>
+      <td>ASSURANT INC</td>
+    </tr>
+    <tr>
+      <td>53.94</td>
+      <td>EQIX</td>
+      <td>RRCRCC</td>
+      <td>EQUINIX INC</td>
+    </tr>
+    <tr>
+      <td>53.38</td>
+      <td>REG</td>
+      <td>RCRCCCC</td>
+      <td>REGENCY CENTERS CORP</td>
+    </tr>
+    <tr>
+      <td>53.32</td>
+      <td>EW</td>
+      <td>RCRRCR</td>
+      <td>Edwards Lifesciences Corp</td>
+    </tr>
+    <tr>
+      <td>51.69</td>
+      <td>EA</td>
+      <td>CCCRRCC</td>
+      <td>ELECTRONIC ARTS INC.</td>
+    </tr>
+    <tr>
+      <td>51.64</td>
+      <td>MAS</td>
+      <td>CCRRRRCRCC</td>
+      <td>MASCO CORP /DE/</td>
+    </tr>
+    <tr>
+      <td>51.1</td>
+      <td>EXC</td>
+      <td>RCRCRRRRR</td>
+      <td>EXELON CORP</td>
+    </tr>
+    <tr>
+      <td>50.54</td>
+      <td>ITW</td>
+      <td>RRRCCRC</td>
+      <td>ILLINOIS TOOL WORKS INC</td>
+    </tr>
+    <tr>
+      <td>50.28</td>
+      <td>IDXX</td>
+      <td>CCRCCRCRR</td>
+      <td>IDEXX LABORATORIES INC /DE</td>
+    </tr>
+    <tr>
+      <td>48.0</td>
+      <td>DXCM</td>
+      <td>CCCRRRCCRC</td>
+      <td>DEXCOM INC</td>
+    </tr>
+    <tr>
+      <td>46.71</td>
+      <td>GPN</td>
+      <td>CCRCRCCC</td>
+      <td>GLOBAL PAYMENTS INC</td>
+    </tr>
+    <tr>
+      <td>46.66</td>
+      <td>GNRC</td>
+      <td>RRRCRR</td>
+      <td>GENERAC HOLDINGS INC.</td>
+    </tr>
+    <tr>
+      <td>46.53</td>
+      <td>SNA</td>
+      <td>RCRRCCRCCR</td>
+      <td>SNAP-ON Inc</td>
+    </tr>
+    <tr>
+      <td>46.31</td>
+      <td>BEN</td>
+      <td>CRCRRCCR</td>
+      <td>FRANKLIN RESOURCES INC</td>
+    </tr>
+    <tr>
+      <td>45.38</td>
+      <td>HPQ</td>
+      <td>RCCCCRCR</td>
+      <td>HP INC</td>
+    </tr>
+    <tr>
+      <td>44.97</td>
+      <td>GD</td>
+      <td>CCCCRCRRCC</td>
+      <td>GENERAL DYNAMICS CORP</td>
+    </tr>
+    <tr>
+      <td>44.32</td>
+      <td>ED</td>
+      <td>RCRRCRRRR</td>
+      <td>CONSOLIDATED EDISON INC</td>
+    </tr>
+    <tr>
+      <td>44.1</td>
+      <td>ELV</td>
+      <td>CCRRRCRCC</td>
+      <td>Elevance Health, Inc.</td>
+    </tr>
+    <tr>
+      <td>42.83</td>
+      <td>LKQ</td>
+      <td>CCRRRCC</td>
+      <td>LKQ CORP</td>
+    </tr>
+    <tr>
+      <td>42.45</td>
+      <td>DUK</td>
+      <td>CCCRCRCRRR</td>
+      <td>Duke Energy CORP</td>
+    </tr>
+    <tr>
+      <td>42.13</td>
+      <td>HWM</td>
+      <td>CCCCCRRC</td>
+      <td>Howmet Aerospace Inc.</td>
+    </tr>
+    <tr>
+      <td>41.1</td>
+      <td>HOLX</td>
+      <td>CRCCRCCRR</td>
+      <td>HOLOGIC INC</td>
+    </tr>
+    <tr>
+      <td>40.35</td>
+      <td>HST</td>
+      <td>CRRC</td>
+      <td>HOST HOTELS &amp; RESORTS, INC.</td>
+    </tr>
+    <tr>
+      <td>39.39</td>
+      <td>NDSN</td>
+      <td>CRCRC</td>
+      <td>NORDSON CORP</td>
+    </tr>
+    <tr>
+      <td>39.36</td>
+      <td>HBAN</td>
+      <td>RCRRCRCRCC</td>
+      <td>HUNTINGTON BANCSHARES INC /MD/</td>
+    </tr>
+    <tr>
+      <td>38.81</td>
+      <td>HUBB</td>
+      <td>CRRCR</td>
+      <td>HUBBELL INC</td>
+    </tr>
+    <tr>
+      <td>38.65</td>
+      <td>CSX</td>
+      <td>RRRRRCRCC</td>
+      <td>CSX CORP</td>
+    </tr>
+    <tr>
+      <td>36.12</td>
+      <td>L</td>
+      <td>RCCRCCCC</td>
+      <td>LOEWS CORP</td>
+    </tr>
+    <tr>
+      <td>35.01</td>
+      <td>ECL</td>
+      <td>RCCRCC</td>
+      <td>ECOLAB INC</td>
+    </tr>
+    <tr>
+      <td>34.77</td>
+      <td>ES</td>
+      <td>RRCCRCR</td>
+      <td>EVERSOURCE ENERGY</td>
+    </tr>
+    <tr>
+      <td>34.73</td>
+      <td>IRM</td>
+      <td>RCRRCRCC</td>
+      <td>IRON MOUNTAIN INC</td>
+    </tr>
+    <tr>
+      <td>34.42</td>
+      <td>CZR</td>
+      <td>CRCRCRCRR</td>
+      <td>Caesars Entertainment, Inc.</td>
+    </tr>
+    <tr>
+      <td>34.08</td>
+      <td>EVRG</td>
+      <td>RCCCRRCRRR</td>
+      <td>Evergy, Inc.</td>
+    </tr>
+    <tr>
+      <td>33.4</td>
+      <td>GWW</td>
+      <td>RCRCCCCR</td>
+      <td>GRAINGER W W INC</td>
+    </tr>
+    <tr>
+      <td>33.19</td>
+      <td>KIM</td>
+      <td>CCCRRRCC</td>
+      <td>KIMCO REALTY CORP</td>
+    </tr>
+    <tr>
+      <td>32.89</td>
+      <td>HAL</td>
+      <td>RRRRC</td>
+      <td>HALLIBURTON CO</td>
+    </tr>
+    <tr>
+      <td>32.65</td>
+      <td>JBHT</td>
+      <td>CCRCRR</td>
+      <td>HUNT J B TRANSPORT SERVICES INC</td>
+    </tr>
+    <tr>
+      <td>32.51</td>
+      <td>GIS</td>
+      <td>RRRRCCCCR</td>
+      <td>GENERAL MILLS INC</td>
+    </tr>
+    <tr>
+      <td>32.48</td>
+      <td>IFF</td>
+      <td>RCCRCCCC</td>
+      <td>INTERNATIONAL FLAVORS &amp; FRAGRANCES INC</td>
+    </tr>
+    <tr>
+      <td>32.0</td>
+      <td>D</td>
+      <td>CRRRCRRC</td>
+      <td>DOMINION ENERGY, INC</td>
+    </tr>
+    <tr>
+      <td>31.58</td>
+      <td>HPE</td>
+      <td>RCCR</td>
+      <td>Hewlett Packard Enterprise Co</td>
+    </tr>
+    <tr>
+      <td>30.46</td>
+      <td>HSIC</td>
+      <td>CCCRCCC</td>
+      <td>HENRY SCHEIN INC</td>
+    </tr>
+    <tr>
+      <td>30.12</td>
+      <td>J</td>
+      <td>RCCRRRRCC</td>
+      <td>JACOBS SOLUTIONS INC.</td>
+    </tr>
+    <tr>
+      <td>29.74</td>
+      <td>EQT</td>
+      <td>RCRRRCCCC</td>
+      <td>EQT Corp</td>
+    </tr>
+    <tr>
+      <td>29.58</td>
+      <td>ETSY</td>
+      <td>RCRCCRCCCC</td>
+      <td>ETSY INC</td>
+    </tr>
+    <tr>
+      <td>29.55</td>
+      <td>DG</td>
+      <td>RRRRCCRR</td>
+      <td>DOLLAR GENERAL CORP</td>
+    </tr>
+    <tr>
+      <td>29.54</td>
+      <td>IP</td>
+      <td>CRCC</td>
+      <td>INTERNATIONAL PAPER CO /NEW/</td>
+    </tr>
+    <tr>
+      <td>29.44</td>
+      <td>EBAY</td>
+      <td>RCRCCCRCCR</td>
+      <td>EBAY INC</td>
+    </tr>
+    <tr>
+      <td>28.81</td>
+      <td>COR</td>
+      <td>RRCCCCCCC</td>
+      <td>Cencora, Inc.</td>
+    </tr>
+    <tr>
+      <td>28.46</td>
+      <td>FI</td>
+      <td>RRCRR</td>
+      <td>Frank's International N.V.</td>
+    </tr>
+    <tr>
+      <td>27.85</td>
+      <td>DLTR</td>
+      <td>CCCRCCCCR</td>
+      <td>DOLLAR TREE INC</td>
+    </tr>
+    <tr>
+      <td>27.14</td>
+      <td>FANG</td>
+      <td>CRCCR</td>
+      <td>Diamondback Energy, Inc.</td>
+    </tr>
+    <tr>
+      <td>25.64</td>
+      <td>FIS</td>
+      <td>RCRCRRCC</td>
+      <td>Fidelity National Information Services, Inc.</td>
+    </tr>
+    <tr>
+      <td>25.34</td>
+      <td>CNP</td>
+      <td>CRCRRCRRRC</td>
+      <td>CENTERPOINT ENERGY INC</td>
+    </tr>
+    <tr>
+      <td>25.27</td>
+      <td>HIG</td>
+      <td>CCCRRCRRRC</td>
+      <td>HARTFORD FINANCIAL SERVICES GROUP, INC.</td>
+    </tr>
+    <tr>
+      <td>24.31</td>
+      <td>CTRA</td>
+      <td>RCRRRRCCC</td>
+      <td>Coterra Energy Inc.</td>
+    </tr>
+    <tr>
+      <td>23.77</td>
+      <td>DECK</td>
+      <td>CRRRRRCR</td>
+      <td>DECKERS OUTDOOR CORP</td>
+    </tr>
+    <tr>
+      <td>23.63</td>
+      <td>FICO</td>
+      <td>RCCRCRRCRR</td>
+      <td>FAIR ISAAC CORP</td>
+    </tr>
+    <tr>
+      <td>23.56</td>
+      <td>DOW</td>
+      <td>RRCCR</td>
+      <td>DOW INC.</td>
+    </tr>
+    <tr>
+      <td>23.47</td>
+      <td>ETR</td>
+      <td>CCRCCCR</td>
+      <td>ENTERGY CORP /DE/</td>
+    </tr>
+    <tr>
+      <td>23.11</td>
+      <td>EIX</td>
+      <td>CRCRCRCCC</td>
+      <td>EDISON INTERNATIONAL</td>
+    </tr>
+    <tr>
+      <td>23.06</td>
+      <td>GDDY</td>
+      <td>RCCCRCCCCC</td>
+      <td>GoDaddy Inc.</td>
+    </tr>
+    <tr>
+      <td>21.49</td>
+      <td>CTAS</td>
+      <td>CCRCRCC</td>
+      <td>CINTAS CORP</td>
+    </tr>
+    <tr>
+      <td>21.26</td>
+      <td>EPAM</td>
+      <td>CCCCC</td>
+      <td>EPAM Systems, Inc.</td>
+    </tr>
+    <tr>
+      <td>21.22</td>
+      <td>CRL</td>
+      <td>RCCCCRRR</td>
+      <td>CHARLES RIVER LABORATORIES INTERNATIONAL INC</td>
+    </tr>
+    <tr>
+      <td>20.33</td>
+      <td>GEHC</td>
+      <td>RCCRRC</td>
+      <td>GE HealthCare Technologies Inc.</td>
+    </tr>
+    <tr>
+      <td>20.29</td>
+      <td>COF</td>
+      <td>RCCCRR</td>
+      <td>CAPITAL ONE FINANCIAL CORP</td>
+    </tr>
+    <tr>
+      <td>20.13</td>
+      <td>NWS</td>
+      <td>RCCCCCRRR</td>
+      <td>NEWS CORP</td>
+    </tr>
+    <tr>
+      <td>19.47</td>
+      <td>IEX</td>
+      <td>CRRRCCRR</td>
+      <td>IDEX CORP /DE/</td>
+    </tr>
+    <tr>
+      <td>19.39</td>
+      <td>GLW</td>
+      <td>CCRCCR</td>
+      <td>CORNING INC /NY</td>
+    </tr>
+    <tr>
+      <td>19.16</td>
+      <td>CCL</td>
+      <td>RRCCCCR</td>
+      <td>CARNIVAL CORP</td>
+    </tr>
+    <tr>
+      <td>19.05</td>
+      <td>DRI</td>
+      <td>CRCRCRR</td>
+      <td>DARDEN RESTAURANTS INC</td>
+    </tr>
+    <tr>
+      <td>18.88</td>
+      <td>IT</td>
+      <td>CRCCRRRCCC</td>
+      <td>GARTNER INC</td>
+    </tr>
+    <tr>
+      <td>18.67</td>
+      <td>IQV</td>
+      <td>CCCC</td>
+      <td>IQVIA HOLDINGS INC.</td>
+    </tr>
+    <tr>
+      <td>18.45</td>
+      <td>CDNS</td>
+      <td>RRRRRCCCR</td>
+      <td>CADENCE DESIGN SYSTEMS INC</td>
+    </tr>
+    <tr>
+      <td>18.29</td>
+      <td>FE</td>
+      <td>RCCCCRCRCC</td>
+      <td>FIRSTENERGY CORP</td>
+    </tr>
+    <tr>
+      <td>18.01</td>
+      <td>CMCSA</td>
+      <td>CRCCCRCCR</td>
+      <td>COMCAST CORP</td>
+    </tr>
+    <tr>
+      <td>17.92</td>
+      <td>INCY</td>
+      <td>RRRRRRCCCC</td>
+      <td>INCYTE CORP</td>
+    </tr>
+    <tr>
+      <td>17.77</td>
+      <td>EXPD</td>
+      <td>CCRRCCRC</td>
+      <td>EXPEDITORS INTERNATIONAL OF WASHINGTON INC</td>
+    </tr>
+    <tr>
+      <td>17.66</td>
+      <td>GRMN</td>
+      <td>CCCCRRCRRR</td>
+      <td>GARMIN LTD</td>
+    </tr>
+    <tr>
+      <td>15.64</td>
+      <td>IPG</td>
+      <td>RRRCCCRRC</td>
+      <td>INTERPUBLIC GROUP OF COMPANIES, INC.</td>
+    </tr>
+    <tr>
+      <td>15.55</td>
+      <td>FOXA</td>
+      <td>RRRCRRCRC</td>
+      <td>Fox Corp</td>
+    </tr>
+    <tr>
+      <td>15.45</td>
+      <td>FRT</td>
+      <td>CRRCRRCCCC</td>
+      <td>FEDERAL REALTY INVESTMENT TRUST</td>
+    </tr>
+    <tr>
+      <td>14.96</td>
+      <td>JBL</td>
+      <td>CCCCCCR</td>
+      <td>JABIL CIRCUIT INC</td>
+    </tr>
+    <tr>
+      <td>13.82</td>
+      <td>IVZ</td>
+      <td>CRCRRR</td>
+      <td>Invesco Ltd.</td>
+    </tr>
+    <tr>
+      <td>13.4</td>
+      <td>DLR</td>
+      <td>RCCCCCC</td>
+      <td>Digital Realty Trust, Inc.</td>
+    </tr>
+    <tr>
+      <td>13.21</td>
+      <td>CLX</td>
+      <td>CRRCCRRC</td>
+      <td>CLOROX CO /DE/</td>
+    </tr>
+    <tr>
+      <td>13.15</td>
+      <td>FAST</td>
+      <td>CRCRRRC</td>
+      <td>FASTENAL CO</td>
+    </tr>
+    <tr>
+      <td>12.71</td>
+      <td>FTV</td>
+      <td>CRRCCCRCC</td>
+      <td>Fortive Corp</td>
+    </tr>
+    <tr>
+      <td>12.71</td>
+      <td>CPRT</td>
+      <td>CRCRC</td>
+      <td>COPART INC</td>
+    </tr>
+    <tr>
+      <td>12.63</td>
+      <td>CSGP</td>
+      <td>RRCCCCC</td>
+      <td>COSTAR GROUP INC</td>
+    </tr>
+    <tr>
+      <td>12.6</td>
+      <td>FMC</td>
+      <td>CCRCCRRRCR</td>
+      <td>FMC CORP</td>
+    </tr>
+    <tr>
+      <td>12.45</td>
+      <td>CNC</td>
+      <td>RRRCCCCCRR</td>
+      <td>CENTENE CORP</td>
+    </tr>
+    <tr>
+      <td>12.42</td>
+      <td>GL</td>
+      <td>CCRCRRRC</td>
+      <td>GLOBE LIFE INC.</td>
+    </tr>
+    <tr>
+      <td>12.37</td>
+      <td>HII</td>
+      <td>CCCRRCCCC</td>
+      <td>HUNTINGTON INGALLS INDUSTRIES, INC.</td>
+    </tr>
+    <tr>
+      <td>12.22</td>
+      <td>DPZ</td>
+      <td>CRRRCRRRRC</td>
+      <td>DOMINOS PIZZA INC</td>
+    </tr>
+    <tr>
+      <td>12.21</td>
+      <td>CEG</td>
+      <td>RCCCCCCCR</td>
+      <td>Constellation Energy Corp</td>
+    </tr>
+    <tr>
+      <td>12.08</td>
+      <td>CMS</td>
+      <td>RRCCCCCCC</td>
+      <td>CMS ENERGY CORP</td>
+    </tr>
+    <tr>
+      <td>12.06</td>
+      <td>GPC</td>
+      <td>RCCCCRCRCR</td>
+      <td>GENUINE PARTS CO</td>
+    </tr>
+    <tr>
+      <td>11.77</td>
+      <td>CMI</td>
+      <td>RRRRRRRCR</td>
+      <td>CUMMINS INC</td>
+    </tr>
+    <tr>
+      <td>11.58</td>
+      <td>DVA</td>
+      <td>RRCRCCCRR</td>
+      <td>DAVITA INC</td>
+    </tr>
+    <tr>
+      <td>11.4</td>
+      <td>FITB</td>
+      <td>RCRRRRRR</td>
+      <td>FIFTH THIRD BANCORP</td>
+    </tr>
+    <tr>
+      <td>10.94</td>
+      <td>CPB</td>
+      <td>RRCCCCCCR</td>
+      <td>CAMPBELL SOUP CO</td>
+    </tr>
+    <tr>
+      <td>10.9</td>
+      <td>CHTR</td>
+      <td>RCCCCCRCR</td>
+      <td>CHARTER COMMUNICATIONS, INC. /MO/</td>
+    </tr>
+    <tr>
+      <td>10.85</td>
+      <td>HAS</td>
+      <td>RRRRCC</td>
+      <td>HASBRO INC</td>
+    </tr>
+    <tr>
+      <td>10.76</td>
+      <td>CAT</td>
+      <td>CCRRCC</td>
+      <td>CATERPILLAR INC</td>
+    </tr>
+    <tr>
+      <td>10.69</td>
+      <td>DOV</td>
+      <td>CCRRRRCCRC</td>
+      <td>DOVER Corp</td>
+    </tr>
+    <tr>
+      <td>10.28</td>
+      <td>CL</td>
+      <td>CRRCCCCCR</td>
+      <td>COLGATE PALMOLIVE CO</td>
+    </tr>
+    <tr>
+      <td>10.05</td>
+      <td>INVH</td>
+      <td>CCCCCCRCC</td>
+      <td>Invitation Homes Inc.</td>
+    </tr>
+    <tr>
+      <td>10.05</td>
+      <td>GEN</td>
+      <td>CCCRR</td>
+      <td>Gen Digital Inc.</td>
+    </tr>
+    <tr>
+      <td>9.97</td>
+      <td>C</td>
+      <td>CRRRRRR</td>
+      <td>CITIGROUP INC</td>
+    </tr>
+    <tr>
+      <td>9.51</td>
+      <td>BSX</td>
+      <td>RCCCRRRRCC</td>
+      <td>BOSTON SCIENTIFIC CORP</td>
+    </tr>
+    <tr>
+      <td>9.33</td>
+      <td>CB</td>
+      <td>CRCCRRCR</td>
+      <td>Chubb Ltd</td>
+    </tr>
+    <tr>
+      <td>9.17</td>
+      <td>ESS</td>
+      <td>RRCRCCCCRR</td>
+      <td>ESSEX PROPERTY TRUST INC</td>
+    </tr>
+    <tr>
+      <td>9.14</td>
+      <td>CTVA</td>
+      <td>RRRRCRCRC</td>
+      <td>Corteva, Inc.</td>
+    </tr>
+    <tr>
+      <td>8.88</td>
+      <td>DTE</td>
+      <td>RCRRRRRCC</td>
+      <td>DTE ENERGY CO</td>
+    </tr>
+    <tr>
+      <td>8.72</td>
+      <td>DGX</td>
+      <td>RRC</td>
+      <td>QUEST DIAGNOSTICS INC</td>
+    </tr>
+    <tr>
+      <td>8.61</td>
+      <td>DFS</td>
+      <td>RCRCCRCR</td>
+      <td>Discover Financial Services</td>
+    </tr>
+    <tr>
+      <td>8.23</td>
+      <td>CTLT</td>
+      <td>CCRCRCCRC</td>
+      <td>Catalent, Inc.</td>
+    </tr>
+    <tr>
+      <td>8.16</td>
+      <td>EXR</td>
+      <td>RRCRRCC</td>
+      <td>Extra Space Storage Inc.</td>
+    </tr>
+    <tr>
+      <td>7.74</td>
+      <td>EG</td>
+      <td>CCC</td>
+      <td>EVEREST GROUP, LTD.</td>
+    </tr>
+    <tr>
+      <td>7.25</td>
+      <td>CPAY</td>
+      <td>C</td>
+      <td>CORPAY, INC.</td>
+    </tr>
+    <tr>
+      <td>7.17</td>
+      <td>BLK</td>
+      <td>CCRCCR</td>
+      <td>BlackRock Inc.</td>
+    </tr>
+    <tr>
+      <td>6.91</td>
+      <td>DD</td>
+      <td>RCRRCR</td>
+      <td>DuPont de Nemours, Inc.</td>
+    </tr>
+    <tr>
+      <td>6.75</td>
+      <td>FDS</td>
+      <td>CCRCRRRRR</td>
+      <td>FACTSET RESEARCH SYSTEMS INC</td>
+    </tr>
+    <tr>
+      <td>6.55</td>
+      <td>DAY</td>
+      <td>CC</td>
+      <td>Dayforce, Inc.</td>
+    </tr>
+    <tr>
+      <td>6.37</td>
+      <td>DOC</td>
+      <td>CRRCRCCR</td>
+      <td>HEALTHPEAK PROPERTIES, INC.</td>
+    </tr>
+    <tr>
+      <td>6.03</td>
+      <td>CME</td>
+      <td>RRRCRRRCCR</td>
+      <td>CME GROUP INC.</td>
+    </tr>
+    <tr>
+      <td>6.01</td>
+      <td>EQR</td>
+      <td>CRCCCCCCC</td>
+      <td>EQUITY RESIDENTIAL</td>
+    </tr>
+    <tr>
+      <td>5.89</td>
+      <td>HRL</td>
+      <td>CRCCCCC</td>
+      <td>HORMEL FOODS CORP /DE/</td>
+    </tr>
+    <tr>
+      <td>5.1</td>
+      <td>BX</td>
+      <td>RRCCRC</td>
+      <td>Blackstone Group L.P.</td>
+    </tr>
+    <tr>
+      <td>4.87</td>
+      <td>CCI</td>
+      <td>RCRRCRRC</td>
+      <td>CROWN CASTLE INTERNATIONAL CORP</td>
+    </tr>
+    <tr>
+      <td>4.63</td>
+      <td>FFIV</td>
+      <td>CRCCCR</td>
+      <td>F5 NETWORKS INC</td>
+    </tr>
+    <tr>
+      <td>4.58</td>
+      <td>CI</td>
+      <td>RRRCCRCRCR</td>
+      <td>Cigna Group</td>
+    </tr>
+    <tr>
+      <td>4.41</td>
+      <td>COO</td>
+      <td>RCCCCCCRC</td>
+      <td>Designer Brands Inc.</td>
+    </tr>
+    <tr>
+      <td>3.82</td>
+      <td>EMN</td>
+      <td>CCRCCCR</td>
+      <td>EASTMAN CHEMICAL CO</td>
+    </tr>
+    <tr>
+      <td>3.76</td>
+      <td>CFG</td>
+      <td>RRRCCCRR</td>
+      <td>CITIZENS FINANCIAL GROUP INC/RI</td>
+    </tr>
+    <tr>
+      <td>3.08</td>
+      <td>FOX</td>
+      <td>RRCCRCCRC</td>
+      <td>Fox Corp</td>
+    </tr>
+    <tr>
+      <td>2.94</td>
+      <td>CHD</td>
+      <td>CRRRRCRCRC</td>
+      <td>CHURCH &amp; DWIGHT CO INC /DE/</td>
+    </tr>
+    <tr>
+      <td>2.9</td>
+      <td>CPT</td>
+      <td>CRCCRRCCR</td>
+      <td>CAMDEN PROPERTY TRUST</td>
+    </tr>
+    <tr>
+      <td>2.8</td>
+      <td>CHRW</td>
+      <td>CCCCR</td>
+      <td>C. H. ROBINSON WORLDWIDE, INC.</td>
+    </tr>
+    <tr>
+      <td>2.39</td>
+      <td>CF</td>
+      <td>CRRRCRRRC</td>
+      <td>CF Industries Holdings, Inc.</td>
+    </tr>
+    <tr>
+      <td>1.75</td>
+      <td>CBRE</td>
+      <td>CCRCCRCR</td>
+      <td>CBRE GROUP, INC.</td>
+    </tr>
+    <tr>
+      <td>1.54</td>
+      <td>CARR</td>
+      <td>RCCRCRRRR</td>
+      <td>CARRIER GLOBAL Corp</td>
+    </tr>
+    <tr>
+      <td>1.49</td>
+      <td>CBOE</td>
+      <td>CCCRRCRCCC</td>
+      <td>Cboe Global Markets, Inc.</td>
+    </tr>
+    <tr>
+      <td>1.34</td>
+      <td>CAH</td>
+      <td>RCRRRCRR</td>
+      <td>CARDINAL HEALTH INC</td>
+    </tr>
+    <tr>
+      <td>1.33</td>
+      <td>CDW</td>
+      <td>CCRCRRRCC</td>
+      <td>CDW Corp</td>
+    </tr>
+    <tr>
+      <td>1.21</td>
+      <td>CAG</td>
+      <td>RRRCCCCRCC</td>
+      <td>CONAGRA BRANDS INC.</td>
+    </tr>
+    <tr>
+      <td>1.15</td>
+      <td>CINF</td>
+      <td>RCRRCRCRCC</td>
+      <td>CINCINNATI FINANCIAL CORP</td>
+    </tr>
+    <tr>
+      <td>1.13</td>
+      <td>BWA</td>
+      <td>RCCCRCRRCR</td>
+      <td>BORGWARNER INC</td>
+    </tr>
+    <tr>
+      <td>1.1</td>
+      <td>BLDR</td>
+      <td>CRCRCRCCRR</td>
+      <td>Builders FirstSource, Inc.</td>
+    </tr>
+    <tr>
+      <td>1.08</td>
+      <td>BRO</td>
+      <td>CCRRRRRC</td>
+      <td>BROWN &amp; BROWN INC</td>
+    </tr>
+    <tr>
+      <td>0.91</td>
+      <td>BR</td>
+      <td>CCCCRCCCC</td>
+      <td>BROADRIDGE FINANCIAL SOLUTIONS, INC.</td>
+    </tr>
+    <tr>
+      <td>0.71</td>
+      <td>CE</td>
+      <td>CRRRRCCRC</td>
+      <td>Celanese Corp</td>
+    </tr>
+    <tr>
+      <td>0.51</td>
+      <td>BXP</td>
+      <td>RCCRRCRR</td>
+      <td>BOSTON PROPERTIES INC</td>
+    </tr>
+  </tbody>
+</table>
+	</body>
+	</html>
+	
