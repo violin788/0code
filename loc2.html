@@ -1,0 +1,28 @@
+<html>
+<body>
+search local
+<form id="for" onchange="myFunction()">
+  <input type="text" id="sea" name="fname"><br>
+</form>
+<p id="p1">results show here after input</p>
+
+<script>
+function myFunction(){
+    var inp = document.getElementById("sea").value;
+    var ray = [];
+    ray.push("https://fredericksburg.craigslist.org/search/sss?sort=priceasc&query=_____");
+    ray.push("https://www.facebook.com/marketplace/103795126325698/search?sortBy=price_ascend&query=_____&exact=false");
+    ray.push("https://www.ebay.com/sch/i.html?_from=R40&_nkw=_____&_sacat=0&_stpos=22401&_sadis=25&LH_PrefLoc=99&_fspt=1&_sop=15");
+    var ray2 = [];
+    var out = "";
+    for (let i = 0; i < ray.length; i++) {
+        var app = ray[i].replace("_____",inp);
+        ray2.push(app);
+        out = out+app+"<br><br>";
+        }
+    document.getElementById("p1").innerHTML =out;
+    }
+</script>
+</body>
+</html>
+
