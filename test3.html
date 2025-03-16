@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Drag and Drop Editor</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+    }
+
+    #container {
+        width: 80%;
+        margin: 20px auto;
+        border: 2px dashed #ccc;
+        min-height: 200px;
+        padding: 10px;
+        position: relative;
+    }
+
+    .draggable {
+        border: 1px solid #ddd;
+        padding: 10px;
+        margin: 10px 0;
+        cursor: pointer;
+    }
+
+    .draggable:hover {
+        background-color: #f0f0f0;
+    }
+
+    .element {
+        position: absolute;
+        cursor: pointer;
+    }
+</style>
+<script>
+    function allowDrop(event) {
+        event.preventDefault();
+    }
+
+    function drag(event) {
+        event.dataTransfer.setData("text", event.target.id);
+    }
+
+    function drop(event) {
+        event.preventDefault();
+        var data = event.dataTransfer.getData("text");
+        var draggableElement = document.getElementById(data).cloneNode(true);
+        draggableElement.classList.remove('draggable');
+        draggableElement.classList.add('element');
+        draggableElement.style.position = 'absolute';
+        draggableElement.style.left = (event.clientX - event.target.getBoundingClientRect().left - draggableElement.offsetWidth / 2) + 'px';
+        draggableElement.style.top = (event.clientY - event.target.getBoundingClientRect().top - draggableElement.offsetHeight / 2) + 'px';
+        event.target.appendChild(draggableElement);
+    }
+</script>
+</head>
+<body>
+
+<h2>Drag and Drop Editor</h2>
+
+<div id="container" ondrop="drop(event)" ondragover="allowDrop(event)">
+    Drag elements below into this container:
+    <div id="draggable1" class="draggable" draggable="true" ondragstart="drag(event)">Draggable Element 1</div>
+    <div id="draggable2" class="draggable" draggable="true" ondragstart="drag(event)">Draggable Element 2</div>
+</div>
+
+</body>
+</html>
