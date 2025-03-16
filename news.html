@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rumble Video Embed</title>
+</head>
+<style>
+    body {
+        font-size: 20px; /* Change this value to your desired font size */
+    }
+</style>
+<span style="font-size: 30px;font-weight: bold;">Oversight Project</span>
+<br><br>
+Arizona-Explanation of Arizona Voter Fraud
+<p id="text1"></p><br>
+Michigan-Explanation of Michigan Voter Fraud<br>
+Michigan State Senator-Jim Runestad
+<p id="text2"></p><br>
+ Michigan-2020 Electon-Van Drops of Ballots in Middle of Night 
+<p id="text3"></p><br>
+<p id="text4"></p><br>
+<p id="text5"></p><br>
+<p id="text6"></p><br>
+<p id="text7"></p><br>
+<p id="text8"></p><br>
+<p id="text9"></p><br>
+<p id="text10"></p><br>
+<p id="text11"></p><br>
+<p id="text12"></p><br>
+<p id="text13"></p><br>
+<p id="text14"></p><br>
+<p id="text15"></p><br>
+<p id="text16"></p><br>
+<p id="text17"></p><br>
+<p id="text18"></p><br>
+<p id="text19"></p><br>
+<p id="text20"></p><br>
+
+
+<script type="text/javascript">
+        /*
+        width="640" 
+        height="360" 
+        */
+    iframe_outline = 
+    `
+    <iframe 
+        class="rumble" 
+        width="500" 
+        height="300" 
+        src="https://rumble.com/embed/__rumble_code__/?pub=3i4h9q" 
+        frameborder="0" 
+        allowfullscreen
+        loading="lazy"
+        >
+    </iframe>
+    `
+    links = []
+    links.push(["v4qvth5","Arizona-Explanation of Arizona Voter Fraud"])
+    links.push(["v4qvtai","Michigan-Explanation of Arizona Voter Fraud"])
+    links.push(["v4qyb7l"," Michigan-2020 Electon-Van Drops of Ballots in Middle of Night"])
+    https://rumble.com/embed/v4qyb7l/?pub=3i4h9q
+    //links.push(["new_rumble_code","__new_explanation__"])
+    //links.push(["new_rumble_code","__new_explanation__"])
+    //links.push(["new_rumble_code","__new_explanation__"])
+    //links.push(["new_rumble_code","__new_explanation__"])
+    //links.push(["new_rumble_code","__new_explanation__"])
+    for(var a=0;a<links.length;a++){
+        a_plus_one = a+1
+        number = a_plus_one.toString()
+        val = links[a]
+        rumble_code = val[0]
+        explanation = val[1]
+        //new_html_code = iframe_generator([rumble_code,explanation])
+        new_html_code = iframe_outline
+        //new_html_code = new_html_code.replace("__title__",explanation)
+        new_html_code = new_html_code.replace("__rumble_code__",rumble_code)
+        document.getElementById("text"+number).innerHTML = new_html_code; 
+        //console.log(a,___[a])
+    }
+</script>
+</html>
