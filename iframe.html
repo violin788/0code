@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Browser-like Iframe</title>
+</head>
+<body>
+
+    <h1>Interactive Iframe Browser</h1>
+    
+    <!-- Navigation Controls -->
+    <input type="text" id="urlInput" placeholder="Enter URL">
+    <button onclick="navigate()">Go</button>
+    <button onclick="goBack()">Back</button>
+    <button onclick="goForward()">Forward</button>
+
+    <!-- Iframe for Navigation -->
+    <iframe id="browserIframe" src="https://www.example.com" width="800" height="600"></iframe>
+
+    <script>
+        function navigate() {
+            const url = document.getElementById('urlInput').value;
+            const iframe = document.getElementById('browserIframe');
+            iframe.src = url; // Change iframe src to navigate to the new URL
+        }
+
+        function goBack() {
+            const iframe = document.getElementById('browserIframe');
+            iframe.contentWindow.history.back(); // Go back to the previous page in iframe
+        }
+
+        function goForward() {
+            const iframe = document.getElementById('browserIframe');
+            iframe.contentWindow.history.forward(); // Go forward to the next page in iframe
+        }
+    </script>
+
+</body>
+</html>
