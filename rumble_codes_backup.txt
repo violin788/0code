@@ -1,0 +1,5 @@
+array = []
+array.append("https://rumble.com/v4v6n4l-nevada-130-thousand-illegal-votes-were-cast-in-nevada.html","https://rumble.com/embed/v4spnbx/?pub=3i4h9q")
+array.append("https://rumble.com/v4tdnz8-arizona-explanation-of-voter-fraud.html","https://rumble.com/embed/v4qvth5/?pub=3i4h9q")
+array.append("https://rumble.com/v4tst7l-over-300000-ballot-images-lost-georgia-2020-recount-fulton-county.html","https://rumble.com/embed/v4rayvc/?pub=3i4h9q")
+array.append("
