@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Movable and Resizable Image</title>
+<style>
+  /* Style for the container */
+  .container {
+    border: 2px dashed #ccc;
+    width: 400px;
+    height: 300px;
+    position: relative; /* Change position to relative */
+    overflow: hidden; /* Add overflow */
+  }
+
+  /* Style for the image */
+  .image {
+    position: absolute; /* Position the image absolutely */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    cursor: move; /* Set cursor to move when hovering over the image */
+    resize: both; /* Allow resizing */
+    overflow: hidden; /* Add overflow */
+  }
+</style>
+</head>
+<body>
+
+<!-- Container with image -->
+<div class="container" id="container">
+  <img class="image" src="your-image.jpg" alt="Movable and Resizable Image">
+</div>
+
+<script>
+// Get the image element
+var image = document.querySelector('.image');
+
+// Variables to store previous mouse position when dragging or resizing
+var prevX, prevY, prevWidth, prevHeight;
+
+// Function to handle dragging
+function dragImage(event) {
+  var diffX = event.clientX - prevX;
+  var diffY = event.clientY - prevY;
+  image.style.left = image.offsetLeft + diffX + 'px';
+  image.style.top = image.offsetTop + diffY + 'px';
+  prevX = event.clientX;
+  prevY = event.clientY;
+}
+
+// Function to handle resizing
+function resizeImage(event) {
+  var diffWidth = event.clientX - prevWidth;
+  var diffHeight = event.clientY - prevHeight;
+  image.style.width = image.offsetWidth + diffWidth + 'px';
+  image.style.height = image.offsetHeight + diffHeight + 'px';
+  prevWidth = event.clientX;
+  prevHeight = event.clientY;
+}
+
+// Event listener for mouse down on image to start dragging
+image.addEventListener('mousedown', function(event) {
+  prevX = event.clientX;
+  prevY = event.clientY;
+  document.addEventListener('mousemove', dragImage);
+  document.addEventListener('mouseup', function() {
+    document.removeEventListener('mousemove', dragImage);
+  });
+});
+
+// Event listener for mouse down on image to start resizing
+image.addEventListener('mousedown', function(event) {
+  prevWidth = event.clientX;
+  prevHeight = event.clientY;
+  document.addEventListener('mousemove', resizeImage);
+  document.addEventListener('mouseup', function() {
+    document.removeEventListener('mousemove', resizeImage);
+  });
+});
+</script>
+
+</body>
+</html>
