@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html><title>run code</title>
+type code file to run<br>
+<input type="text" id="file_to_run" value="xls.js"><br><br>
+<input type="submit" value="click to run" onclick="run">
+<a href="C:\Users\-\code\tes.js">Run Script</a>
+<script type="text/javascript">
+	function run(){
+		//to_run = input[0]
+		const file = document.getElementById("file_to_run");
+		const shell = require('shelljs');
+		shell.exec(file);
+	}
+
+</script>
+</html>
