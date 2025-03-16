@@ -1,0 +1,20 @@
+<html>
+<link href="C:/Program Files/Git/grapesjs/dist/css/grapes.min.css" rel="stylesheet"/>
+<script src="C:/Program Files/Git/grapesjs/dist/grapes.min.js"></script>
+<script src="path/to/grapesjs-preset-webpage.min.js"></script>
+
+<div id="gjs"></div>
+
+<script type="text/javascript">
+  var editor = grapesjs.init({
+      container : '#gjs',
+      ...
+      plugins: ['grapesjs-preset-webpage'],
+      pluginsOpts: {
+        'grapesjs-preset-webpage': {
+          // options
+        }
+      }
+  });
+</script>
+</html>
