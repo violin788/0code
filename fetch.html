@@ -1,0 +1,48 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+    <title>JavaScript to Python Example</title> 
+</head> 
+<body> 
+    Type the stock symbol you want to know about.<br>
+    <input type="text" id="input_symbol"><br>
+    and then click the information you want to have.<br><br>
+    <button id="button_prices" onclick="return_prices()">Historical Prices</button> 
+    <button id="button_earnings" onclick="return_earnings()">Historical Earnings</button><br><br>
+    <button id="button_earnings_prices" onclick="return_earn_prices()">Prices Around Earnings</button><br><br>
+    <!--<button onclick="sendData()">inquire!</button>-->
+    <div id="output_data1">output_data1</div>
+    <div id="output_data2">output_data2</div> 
+    <script> 
+        function return_prices() { 
+            var symbol = document.getElementById('input_symbol').value; 
+
+            const options = {
+              method: 'POST',
+              headers: {
+                'Content-Type': 'application/json'},
+              body: JSON.stringify("TSLA-yfinance_history_corrected")};
+            url = "http://localhost:5000/handle_post"
+            fetch(url, options)
+              .then(response => {
+                display = response.json()
+                document.getElementById('output_data2').innerHTML = display;
+                //console.log(display)
+
+                if (!response.ok) {
+                  throw new Error('Network response was not ok');
+                }
+                return response;})
+              .then(data => {
+                //code or whatever here..
+              })
+              .catch(error => {
+                console.error('Fetch error:', error);
+              });
+
+
+
+            //document.getElementById('output').innerHTML = array;
+    </script> 
+</body> 
+</html> 
