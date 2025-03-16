@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Button Links</title>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const buttons = [
+                { text: "Go to Example", url: "https://www.example.com" },
+                { text: "Go to Google", url: "https://www.google.com" },
+                { text: "Go to GitHub", url: "https://www.github.com" }
+            ];
+
+            const container = document.getElementById("buttonContainer");
+
+            buttons.forEach(button => {
+                const btn = document.createElement("button");
+                btn.textContent = button.text;
+                btn.onclick = () => window.open(button.url, "_blank");
+
+                container.appendChild(btn);
+                container.appendChild(document.createElement("br")); // Add line break
+            });
+        });
+    </script>
+</head>
+<body>
+
+    <div id="buttonContainer"></div>
+
+</body>
+</html>
