@@ -1,0 +1,26 @@
+<html>
+<center><input value="Open" class="btn btn-default text" type="button" onclick="open_all();" id="button"></center>
+</script>
+    </head>
+	<script type="text/javascript"> 
+    function open_all() {
+        //var x = document.getElementById('list_urls').value.split('\n');
+        var x = []
+        //x.push("www.google.com");
+        //x.push("www.yahoo.com");
+
+        ___rep___
+    
+        for (var i = 0; i < x.length; i++)
+					
+
+
+		//if (x[i].indexOf('.') > 0)
+		//if (x[i].indexOf('://') < 0)
+		//	window.open('http://' + x[i]);
+		//else
+		//	window.open(x[i]);
+		
+		window.open(x[i]);
+    }
+</script> 
