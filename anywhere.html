@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Copy Items Example</title>
+    <style>
+        .container {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            width: 300px;
+            /* Removed margin: 0 auto; to keep items aligned to the left */
+        }
+
+        .item {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .item span {
+            border: 1px solid #ccc;
+            padding: 5px;
+            font-size: 16px;
+            width: 200px;
+        }
+
+        .item button {
+            padding: 5px 10px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container" id="itemList">
+        <!-- Items will be added here by JavaScript -->
+    </div>
+    <br>
+<button onclick="openUrls1()">Open URLs1</button><br>
+<button onclick="openUrls2()">Open URLs2</button>
+    <script>
+
+        function openUrls1() {
+            const urls = [
+                "https://www.drive.google.com",
+                "https://www.gmail.com",
+                "https://www.keep.google.com",
+                "https://www.example.com",
+                "https://www.example.com",
+                "https://www.example.com"
+            ];
+
+            urls.forEach(url => {
+                window.open(url, '_blank');
+            });
+        }
+
+        function openUrls2() {
+            const urls = [
+                "https://www.reddit.com",
+                "https://www.twitter.com",
+                "https://www.messenger.com",
+                "https://www.protonmail.com",
+                "https://www.example.com",
+                "https://www.example.com"
+            ];
+
+            urls.forEach(url => {
+                window.open(url, '_blank');
+            });
+        }
+
+        // Array of items
+        const items = [
+            "media788788@gmail.com",
+            "Medmed1!",
+            "violin78",
+            "viovio",
+            "cia7788",
+            "mustang1",
+            "oversight333",
+            "Oveove1!",
+            "violin78@protonmail.com",
+            "viovio"
+        ];
+
+        // Function to copy text to clipboard
+        function copyText(text) {
+            // Create a temporary input element
+            const tempInput = document.createElement("input");
+            tempInput.value = text;
+            document.body.appendChild(tempInput);
+            tempInput.select();
+            document.execCommand("copy");
+            document.body.removeChild(tempInput);
+            
+            // Optional: Alert to show that text has been copied
+            alert("Copied: " + text);
+        }
+
+        // Function to create list items with copy buttons
+        function createItemList() {
+            const container = document.getElementById("itemList");
+
+            items.forEach(item => {
+                // Create a div for each item
+                const itemDiv = document.createElement("div");
+                itemDiv.className = "item";
+
+                // Create a span to hold the text
+                const itemText = document.createElement("span");
+                itemText.textContent = item;
+
+                // Create a copy button
+                const copyButton = document.createElement("button");
+                copyButton.textContent = "Copy";
+                copyButton.onclick = () => copyText(item);
+
+                // Append text and button to the div
+                itemDiv.appendChild(itemText);
+                itemDiv.appendChild(copyButton);
+
+                // Append the div to the container
+                container.appendChild(itemDiv);
+            });
+        }
+
+        // Initialize the list on page load
+        createItemList();
+    </script>
+</body>
+</html>
