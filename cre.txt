@@ -1,0 +1,5 @@
+exec(open('bas.py').read())
+def cre():
+
+inp = []	
+cre(inp)
