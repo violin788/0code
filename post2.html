@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Flask App</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<style>
+    body {font-size: 16px;}
+</style>
+<body>
+    <form id="myForm">
+        <label for="startDate">Start Date:</label>
+        <input type="date" id="startDate" name="startDate"><br>
+        <label for="endDate">End Date:</label>
+        <input type="date" id="endDate" name="endDate"><br>
+        <label for="optionsExpiration">Options Expiration:</label>
+        <input type="date" id="optionsExpiration" name="optionsExpiration"><br>
+        Call or Put:
+        <select name="myDropdown">
+          <option value="blank"></option>
+          <option value="call">Call</option>
+          <option value="put">Put</option>
+        </select><br>    
+        <label for="symbol">Price:</label>
+        <input type="text" id="price" name="price"><br>
+        <label for="symbol">Symbol:</label>
+        <input type="text" id="symbol" name="symbol"><br><br>
+        Available info = <br>
+        Bloomberg<br>
+        CNBC<br>
+        Earnings_Calendar<br>
+        Economic_Calendar<br>
+        Polygon Option<br>
+        Polygon Stock<br>
+        TradingView<br>
+        Unusual Whales<br>
+        Yahoo Options<br><br>
+        What information do you want?
+        <select name="what_to_do" id="what_to_do">
+          <option value="blank"></option>
+          <option value="Options-Polygon">Options-Polygon</option>
+          <option value="Stock-Polygon">Stock-Polygon</option>
+          <option value="TradingView">TradingView</option>
+          <option value="Yahoo-Options">Yahoo-Options</option>
+          <option value="Earnings_Calendar">Earnings_Calendar</option>
+          <option value="Economic_Calendar">Economic_Calendar</option>
+          <option value="CNBC">CNBC</option>
+          <option value="Bloomberg">Bloomberg</option>
+        </select><br>   
+        <button type="submit" onclick="openURL()">Submit</button><br> 
+    <div id="result"></div>    
+</body>
+    <script>
+        function openURL() {
+            const dropdown = document.getElementById("what_to_do");
+            const selected = dropdown.value;
+            const symbol = document.getElementById('symbol').value;
+            const url = ""
+            if (selected=="Yahoo-Options") {
+                const url = "https://finance.yahoo.com/quote/"+symbol+"/options/"; 
+                window.open(url, "_blank"); // Opens in a new tab
+            }
+            if (selected=="TradingView") {
+                const url = "https://www.tradingview.com/chart/?symbol="+symbol; 
+                window.open(url, "_blank"); // Opens in a new tab
+            }
+            if (selected=="Earnings_Calendar") {
+                const url = "https://unusualwhales.com/earnings#google_vignette"; 
+                window.open(url, "_blank"); // Opens in a new tab
+            }
+            if (selected=="Economic_Calendar") {
+                const url = "https://unusualwhales.com/economic-calendar"; 
+                window.open(url, "_blank"); // Opens in a new tab
+            
+            }
+            if (selected=="CNBC") {
+                const url = "https://www.youtube.com/@CNBCtelevision/videos"; 
+                window.open(url, "_blank"); // Opens in a new tab   
+            }
+            if (selected=="Bloomberg") {
+                const url = "https://www.youtube.com/@markets/videos"; 
+                window.open(url, "_blank"); // Opens in a new tab
+            }
+        }
+        function open_yahoo_option() {
+          const inputValue = document.getElementById('symbol').value;
+          //const url = 'https://finance.yahoo.com/quote/'+inputValue+'/options/'
+          const url = `https://finance.yahoo.com/quote/${inputValue}/options/`; // Replace with your desired base URL
+          window.open(url, '_blank'); // Open in a new tab
+        }
+        $(document).ready(function() {
+            $('#myForm').submit(function(event) {
+                event.preventDefault();
+                $.ajax({
+                    type: 'POST',
+                    url: '/',
+                    data: $(this).serialize(),
+                    success: function(response) {
+                        $('#result').html(response);
+                    }
+                });
+            });
+        });
+    </script>
+</html>
