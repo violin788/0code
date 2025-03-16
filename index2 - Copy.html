@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+
+<h2>client3</h2>
+<button type="button" onclick="getData()">GET Data</button>
+<p id="demo">demo</p>
+<script>
+function getData() {
+  var xhttp = new XMLHttpRequest();
+  //var targetUrl = "https://pokeapi.co/api/v2/pokemon/pikachu";
+  //var targetUrl = "http://localhost:3000/";
+  var targetUrl = "http://localhost:3000/";
+  xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+      document.getElementById("demo").innerHTML =
+      this.responseText;
+    }else if (this.status){
+		document.getElementById("demo").innerHTML = "Can not access: " + targetUrl 
+			+ " <br /> Response: " + this.status + " " + this.responseText;
+	}else{
+		document.getElementById("demo").innerHTML = "Loading... ";
+	}
+  };
+  
+  xhttp.open("GET", targetUrl, true);
+  xhttp.send();
+}
+</script>
+
+
+</html>
