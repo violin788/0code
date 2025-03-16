@@ -1,0 +1,196 @@
+jump to content
+GET NEW REDDITMY SUBREDDITS
+HOME-POPULAR-ALL-RANDOM-USERS | POVERTYFINANCE-CAREERGUIDANCE-CAREERADVICE-ANNOUNCEMENTS | ASKREDDIT-PICS-FUNNY-MOVIES-GAMING-WORLDNEWS-NEWS-TODAYILEARNED-NOTTHEONION-EXPLAINLIKEIMFIVE-MILDLYINTERESTING-DIY-VIDEOS-OLDSCHOOLCOOL-TWOXCHROMOSOMES-TIFU-MUSIC-BOOKS-LIFEPROTIPS-DATAISBEAUTIFUL-AWW-SCIENCE-SPACE-SHOWERTHOUGHTS-ASKSCIENCE-JOKES-IAMA-FUTUROLOGY-SPORTS-UPLIFTINGNEWS-FOOD-NOSLEEP-CREEPY-HISTORY-GIFS-INTERNETISBEAUTIFUL-GETMOTIVATED-GADGETS-WRITINGPROMPTS-PHILOSOPHY-DOCUMENTARIES-EARTHPORN-PHOTOSHOPBATTLES-LISTENTOTHIS-BLOG
+EDIT »
+reddit.com savant78overviewcommentssubmittedupvoteddownvotedhiddensaved
+savant78 (1,600)|messages657|chat messages|preferences|logout
+savant78
+1,600 post karma
+298 comment karma
+show karma breakdown by subreddit
+View/edit my snoovatar
+get extra features and help support reddit with a reddit premium subscription
+redditor for 2 months
+TROPHY CASE
+
+Verified Email
+Get an ad-free experience with special benefits, and directly support Reddit.
+Get Reddit Premium
+account activity
+
+sorted by: new
+1
+I've written some webpages using Python's Flask, and, a couple days ago somebody wrote that a person can host a Python Flask with something called Fly.io, but, they have to use something called Docker, and, does Fly.io do a good job of hosting the Python code? (self.learnpython)
+
+submitted 5 minutes ago by savant78 to r/learnpython
+
+commentsharesavehidedeletensfwcrosspost
+0
+I'm not sure if this is the correct subreddit or another one, but, when it comes to SSI, Supplemental Security Income, if a person is born in Oct, the year a person turns 65, do they get SSI from Jan 1, or, from Oct 1, basically when in the year they turn 65 do they get it if applicable? (self.SocialSecurity)
+
+submitted 5 hours ago by savant78 to r/SocialSecurity
+
+9 commentssharesavehidedeletensfwspoilercrosspost
+4
+I've been reading about the cost of living now and it just seems astronomical..I've debated about actually not paying rent an living in a car for months or something, but, do a lot of people just a Starlink or something for Internet, or, what is the cheapest for Internet, if they can't get wifi? (self.povertyfinance)
+
+submitted 5 hours ago by savant78 to r/povertyfinance
+
+20 commentssharesavehidedeletensfwspoilerflaircrosspost
+8
+If somebody literally has a 200 yard driveway on acres of land..do police literally have the right to drive up to their house without a warrant, or even drive onto the driveway on the property without a warrant, or, do they need a warrant to even drive on and otherwise it is illegal trespass? (self.legaladviceofftopic)
+
+submitted 6 hours ago by savant78 to r/legaladviceofftopic
+
+15 commentssharesavehidedeletensfwspoilerflaircrosspost
+0
+In the political sphere..is it more or less agreed upon that in western Europe the citizens of western Europe have decided to have their healthcare funded via taxes..and, if that is the case, why is it called an "entitlement" in other circles if it has been agreed upon by vote? (self.PoliticalScience)
+
+submitted 8 hours ago by savant78 to r/PoliticalScience
+
+commentsharesavehidedeletensfwspoilerflaircrosspost
+1
+I was reading about mysql..and, when it comes to storing your users logins and passwords, does it use a certain amount of encryption when storing the data, or, what kind of safeguards does it have so that hacking cannot occur unauthorized access is made not possible? (self.mysql)
+
+submitted 13 hours ago by savant78 to r/mysql
+
+2 commentssharesavehidedeletensfwflaircrosspost
+0
+Are there any webhosts that give a person a free domain name that doesn't have the name of the webhost in the domain or some weird affix to do, so, is there any webhost that gives a free .com to somebody, or maybe a .net or .org, I think most put their host name in the url? (self.Hosting)
+
+submitted 13 hours ago by savant78 to r/Hosting
+
+12 commentssharesavehidedeletensfwspoilercrosspost
+1
+Can a person use a python library to completely set up a MariaDB or MySQL database? I have downloaded MariaDB and MySQL..but..I've never used them before, so, can a person just use a Python library to do everything, and then deploy from that? (self.learnpython)
+
+submitted 22 hours ago by savant78 to r/learnpython
+
+10 commentssharesavehidedeletensfwcrosspost
+1
+If you play festivals in the summer as a busker..can you literally live on that for the rest of the year? I mean..can you literally busk maybe 2-3 months a year in high season and then live the rest of the year until next summer on it? I didn't know if people do that/can be done? (self.Busking)
+
+submitted 1 day ago by savant78 to r/Busking
+
+11 commentssharesavehidedeletensfwspoilerflaircrosspost
+6
+I am homeless..and have basically realized busking is more or less a good and only way a person can have income..but, can a person make like..idk, 5-6x doing it at a summer festival or something? What I mean is when homeless, can you busk in the summer (festival?) then then live on it rest of year? (self.homeless)
+
+submitted 1 day ago by savant78 to r/homeless
+
+9 commentssharesavehidedeletensfwspoilercrosspost
+366
+I live in Fredericksburg, Virginia, and, we were just made aware the the person who controls the local hospital, Mary Washington Healthcare, who is Mike McDermott, who receives 1.8 million dollars a year in compensation plans to severely cut resources to indigent persons at the health system? (self.Virginia)
+
+submitted 1 day ago by savant78 to r/Virginia
+
+77 commentssharesavehidedeletensfwspoilercrosspost
+7
+
+I went to do an update to Windows 8 because I have to be able to install .net 4.8, but, when I do the update, KB2919355, this comes up after it runs..so, it doesn't install, but, it doesn't give me a log file or something, where can a person see why it didn't install and go from there? (i.redd.it)
+
+submitted 1 day ago by savant78 to r/windows8
+
+5 commentssharesavehidedeletensfwspoilerflaircrosspost
+0
+I was looking at MariaDB, and, I have about 500 xls files..with different stock prices from years back, I was thinking of migrating them to a MySQL database..but, I am totally/woefully have no idea how to do this, what do people recommend to do to start using MySQL with no clue how to do this? (self.mariadb)
+
+submitted 1 day ago by savant78 to r/mariadb
+
+9 commentssharesavehidedeletensfwspoilercrosspost
+0
+I was looking at databases..and, how much faster is a MariaDB or MySQL vs for ex 500 xls files that are search with a python script? I mean if I have to get rows 50-100 in a file with a specific name, how much faster does a MariaDB/MySQL do that than a python script that does it? (self.Database)
+
+submitted 1 day ago by savant78 to r/Database
+
+13 commentssharesavehidedeletensfwspoilercrosspost
+1
+When dealing with web development, I have recently come in contact with an online IDE called replit, but, is deploying there as good? (self.webdevelopment)
+
+submitted 1 day ago by savant78 to r/webdevelopment
+
+4 commentssharesavehidedeletensfwspoilercrosspost
+39
+Is it actually illegal for a library to have a "library cat"? I have seen some stories about libraries that have cats in them for years..but then somebody literally files a lawsuit because somebody doesn't like cats..but, I think except for allergies they are fine, but,is this actually contentious? (self.legaladviceofftopic)
+
+submitted 1 day ago by savant78 to r/legaladviceofftopic
+
+20 commentssharesavehidedeletensfwspoilerflaircrosspost
+1
+I was reading up on trading..and, I saw this site, Stooq.com, and it's the only site that I have ever seen that has historical stock prices that loads in a couple seconds simply as text, but, is it a good vendor to use? I think it is based in Europe..but, it seemed very good? (self.Trading)
+
+submitted 1 day ago by savant78 to r/Trading
+
+commentsharesavehidedeletensfwspoilerflair
+0
+When it comes to computing..I have seen that special types of software exist for certain things, for ex when doing computing and using a Python file to find an xls file in 500 with a specific title and then get rows 50-100, there are things like MariaDB/MySQL that do that do, but, how much faster? (self.computing)
+
+submitted 1 day ago by savant78 to r/computing
+
+commentsharesavehidedeletensfwspoilercrosspost
+2
+I'm not sure if this belongs in r/learnpython, but, if a person uses Flask and wants to deploy an application in it, are there any rankings done by python or something that literally shows which entities are the best/fastest for hosting python flask applications on them? (self.learnpython)
+
+submitted 1 day ago by savant78 to r/learnpython
+
+2 commentssharesavehidedeletensfwcrosspost
+0
+What webhost is the best for running Python Flask on a domain that doesn't have the webhost's name in it? I have seen some webhosts actually will give a person free webhosting, but, then they have to have the webhost name in the domain, but, if you have built a webpage in Flask, the best webhost? (self.Hosting)
+
+submitted 2 days ago by savant78 to r/Hosting
+
+1 commentsharesavehidedeletensfwspoilercrosspost
+7
+Is it actually legal for a company to be started with then intent of literally only getting bought out? For ex if there is a space..and then a company gets started with 50k dollars..and then the business plan is literally to get bought out for over 200k from a competitor, can they actually do that? (self.legaladviceofftopic)
+
+submitted 2 days ago by savant78 to r/legaladviceofftopic
+
+39 commentssharesavehidedeletensfwspoilerflaircrosspost
+10
+I saw that they have a lot of new looking apartment buildings in Fredericksburg by the, I think it was the Mellow Mushroom and the Sedona Taphouse, the building beside the Publisher Hotel that is being built, but, how much can a person expect to pay in rent for living in the new apartment building? (self.fredericksburg)
+
+submitted 2 days ago by savant78 to r/fredericksburg
+
+17 commentssharesavehidedeletensfwspoilercrosspost
+15
+When I was younger..I used to go out and go things, build things/fix things, but, I have gotten physically hurt doing so..I've basically realized that the only way I can have physical activity without getting hurt is..well..pickeball or golf, but, do a lot of people who are aging think the same? (self.Aging)
+
+submitted 2 days ago by savant78 to r/Aging
+
+34 commentssharesavehidedeletensfwspoilerflaircrosspost
+0
+I was reading up on WW2..and if France and the UK would have not declared war on Germany after they expanded..and thought to wait to see if they invaded the Soviet Union,if Germany would have then defeated the Soviet Union, would Germany have attempted to impose a dictatorship on those to it's west? (self.AlternateHistory)
+
+submitted 2 days ago by savant78 to r/AlternateHistory
+
+4 commentssharesavehidedeletensfwspoilerflaircrosspost
+7
+If you want to use Flask to host a website, how many pages can you basically have on it? I mean, I've read that Django should be used for larger projects, but, is Flask ok with, idk 10-20 pages, or, even 100 or so? I'm not really sure what the limit is? (self.flask)
+
+submitted 2 days ago by savant78 to r/flask
+
+18 commentssharesavehidedeletensfwspoilerflaircrosspost
+view more: next ›
+about
+blog
+about
+advertising
+careers
+help
+site rules
+Reddit help center
+reddiquette
+mod guidelines
+contact us
+apps & tools
+Reddit for iPhone
+Reddit for Android
+mobile website
+<3
+reddit premium
+Use of this site constitutes acceptance of our User Agreement and Privacy Policy. © 2024 reddit inc. All rights reserved.
+
+REDDIT and the ALIEN Logo are registered trademarks of reddit inc.
+
+
+π 
