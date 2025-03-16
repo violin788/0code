@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<title>ye</title>
+<style type="text/css">
+	.block {
+	  display: block;
+	  width: 100%;
+	  border: none;
+	  background-color: #04AA6D;
+	  color: white;
+	  padding: 0px 0px;
+	  font-size: 20px;
+	  cursor: pointer;
+	  text-align: center;
+	}
+</style>
+<p id="text1">demo</p>
+<p id="text2">demo</p>
+<p id="text3">demo</p>
+<p id="text4">demo</p>
+<p id="text5">demo</p>
+<p id="text6">demo</p>
+<p id="text7">demo</p>
+<p id="text8">demo</p>
+<p id="text9">demo</p>
+<p id="text10">demo</p>
+<p id="text11">demo</p>
+<p id="text12">42</p>
+<p id="text13">43</p>
+<p id="text14">44</p>
+<p id="text15">45</p>
+<p id="text16">46</p>
+<p id="text17">47</p>
+<p id="text18">48</p>
+<p id="text19">49</p>
+<p id="text20">50</p>
+<p id="text21">demo</p>
+<p id="text22">42</p>
+<p id="text23">43</p>
+<p id="text24">44</p>
+<p id="text25">45</p>
+<p id="text26">46</p>
+<p id="text27">47</p>
+<p id="text28">48</p>
+<p id="text29">49</p>
+<p id="text30">50</p>
+<script type="text/javascript">
+	array = []
+	array.push("hostinger")
+	array.push("dreamhost")
+	array.push("wordpress")
+	array.push("wix")
+	array.push("bluehost")
+	array.push("siteground")
+	array.push("namecheap")
+	array.push("scalahosting")
+	array.push("hostgator")
+	array.push("hostarmada")
+	array.push("ionos")
+	array.push("godaddy")
+	//document.getElementById("text1").innerHTML =text;
+	for(var a=0;a<array.length;a++){
+		val = array[a]
+		google_search = val+" free domain name"
+		url = "https://www.google.com/search?q="+google_search
+		new_html = "<a href=\""+url+"\" target=\"_blank\" class=\"block\" font=\"6\">"+google_search+"</a>"
+		row = (a+1).toString()
+		document.getElementById("text"+row).innerHTML =new_html;
+		//console.log(a,___[a])
+	}
+	for(var a=0;a<array.length;a++){
+		val = array[a]
+		b = a+13
+		google_search = val+" free web hosting"
+		url = "https://www.google.com/search?q="+google_search
+		new_html = "<a href=\""+url+"\" target=\"_blank\" class=\"block\" font=\"6\">"+google_search+"</a>"
+		row = (b+1).toString()
+		document.getElementById("text"+row).innerHTML =new_html;
+		//console.log(a,___[a])
+	}
+</script>
+</html>
