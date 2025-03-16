@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Adjustable and Movable Container with iframe</title>
+<style>
+  /* Style for the container */
+  .container {
+    border: 2px dashed #ccc;
+    width: 400px;
+    height: 300px;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    resize: both;
+    overflow: auto;
+  }
+
+  /* Style for the iframe */
+  .iframe {
+    width: 100%;
+    height: 100%;
+  }
+
+  /* Style for the resize handle */
+  .resize-handle {
+    width: 10px;
+    height: 10px;
+    background-color: #000;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    cursor: nwse-resize;
+  }
+</style>
+</head>
+<body>
+
+<!-- Container with iframe and resize handle -->
+<div class="container" id="container">
+  <iframe class="iframe" src="https://rumble.com/embed/v4spnbx/?pub=3i4h9q"></iframe>
+  <div class="resize-handle" id="resizeHandle"></div>
+</div>
+
+<script>
+// Get the container and resize handle elements
+var container = document.getElementById('container');
+var resizeHandle = document.getElementById('resizeHandle');
+
+// Variables to store offset when resizing or dragging
+var resizeOffsetX, resizeOffsetY, dragOffsetX, dragOffsetY;
+
+// Function to handle resizing
+function resizeContainer(event) {
+  // Update container width and height based on mouse position
+  container.style.width = event.clientX - container.offsetLeft - resizeOffsetX + 'px';
+  container.style.height = event.clientY - container.offsetTop - resizeOffsetY + 'px';
+}
+
+// Function to handle dragging
+function dragContainer(event) {
+  // Calculate new container position based on mouse movement
+  var newX = event.clientX - dragOffsetX;
+  var newY = event.clientY - dragOffsetY;
+  
+  // Set new container position
+  container.style.left = newX + 'px';
+  container.style.top = newY + 'px';
+}
+
+// Event listener for mouse down on resize handle
+resizeHandle.addEventListener('mousedown', function(event) {
+  // Calculate and store offset when starting to resize
+  resizeOffsetX = event.clientX - container.offsetLeft - container.offsetWidth;
+  resizeOffsetY = event.clientY - container.offsetTop - container.offsetHeight;
+
+  // Add event listener for mousemove event
+  document.addEventListener('mousemove', resizeContainer);
+  
+  // Add event listener for mouseup event to stop resizing
+  document.addEventListener('mouseup', function() {
+    // Remove event listener for mousemove event
+    document.removeEventListener('mousemove', resizeContainer);
+  });
+});
+
+// Event listener for mouse down on container to start dragging
+container.addEventListener('mousedown', function(event) {
+  // Calculate and store offset when starting to drag
+  dragOffsetX = event.clientX - container.offsetLeft;
+  dragOffsetY = event.clientY - container.offsetTop;
+  
+  // Add event listener for mousemove event
+  document.addEventListener('mousemove', dragContainer);
+  
+  // Add event listener for mouseup event to stop dragging
+  document.addEventListener('mouseup', function() {
+    // Remove event listener for mousemove event
+    document.removeEventListener('mousemove', dragContainer);
+  });
+});
+
+// Event listener for mouse down on resize handle
+resizeHandle.addEventListener('mousedown', function(event) {
+  // Add event listeners for mousemove and mouseup events
+  document.addEventListener('mousemove', resizeContainer);
+  document.addEventListener('mouseup', function() {
+    // Remove event listeners once resizing is complete
+    document.removeEventListener('mousemove', resizeContainer);
+  });
+});
+
+
+// Get the container and resize handle elements
+var container = document.getElementById('container');
+var resizeHandle = document.getElementById('resizeHandle');
+
+// Function to handle resizing
+function resizeContainer(event) {
+  // Update container width and height based on mouse position
+  container.style.width = event.clientX - container.offsetLeft + 'px';
+  container.style.height = event.clientY - container.offsetTop + 'px';
+}
+
+// Event listener for mouse down on resize handle
+resizeHandle.addEventListener('mousedown', function(event) {
+  // Add event listeners for mousemove and mouseup events
+  document.addEventListener('mousemove', resizeContainer);
+  document.addEventListener('mouseup', function() {
+    // Remove event listeners once resizing is complete
+    document.removeEventListener('mousemove', resizeContainer);
+  });
+});
+
+
+
+</script>
+
+</body>
+</html>
