@@ -1,0 +1,52 @@
+<html>
+<body>
+youtube url to get mp3 from
+<form id="for" onchange="myFunction()">
+  <input type="text" id="sea" name="fname"><br>
+</form>
+y2mate url to get mp3 from generated below
+<p id="p1"></p>
+
+<script>
+function myFunction(){
+    var inp = document.getElementById("sea").value;
+
+    val = inp
+    eqa = val.search("=")
+    sub = val.substring(eqa+1,val.length);
+    y2m = "https://www.y2mate.com/youtube/"+sub
+
+    ray = []
+    ray.push(val)
+    ray.push(eqa)
+    ray.push(sub)
+    ray.push(y2m)
+    //console.log(y2m)
+
+    out = "<a href=\""+y2m+\">"+y2m+"</a>" 
+
+    document.getElementById("p1").innerHTML =y2m;
+    /*
+
+
+
+    var eqa = inp.find("=");
+    var ray = [];
+    //ray.push("https://fredericksburg.craigslist.org/search/sss?sort=priceasc&query=_____");
+    //ray.push("https://www.facebook.com/marketplace/103795126325698/search?sortBy=price_ascend&query=_____&exact=false");
+    ray.push(eqa);
+    var ray2 = [];
+    var out = "";
+    for (let i = 0; i < ray.length; i++) {
+        var app = ray[i].replace("_____",inp);
+        ray2.push(app);
+        out = out+app+"<br><br>";
+        }
+    document.getElementById("p1").innerHTML =out;
+    */
+    }
+</script>
+</body>
+</html>
+
+,
