@@ -1,0 +1,4 @@
+exec(open('bas.py').read())
+
+ray = "ray"	
+cre(ray)
