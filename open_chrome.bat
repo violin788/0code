@@ -1,3 +1,3 @@
 @echo off
-python C:\Users\--\code\open_chrome.py
+python C:\Users\--\0code\open_chrome.py
 pause
