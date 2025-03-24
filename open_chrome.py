@@ -1,4 +1,10 @@
 #exec(open('util.py').read())
+import os,time,sys
+import pyautogui
+os.startfile("chrome.lnk")
+time.sleep(5)
+pyautogui.hotkey('alt', 'f4')
+
 def open_chrome(inp):
 	def copy_paste(text):
 		#copy_paste("test")
@@ -53,7 +59,7 @@ def open_chrome(inp):
 	pyautogui.press('tab')
 	pyautogui.press('tab')
 	pyautogui.press('tab')
-	copy_paste_enter("ballotamend")
+	copy_paste_enter("direct_measure")
 	time.sleep(2)
 	copy_paste_enter("votevote")
 

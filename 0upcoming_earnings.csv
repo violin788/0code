@@ -1,11 +1,1501 @@
-vol*pri,symbol,date,name
-35280302426,NVDA,2025-05-20,Nvidia Corp.
-5163021269,BABA,2025-05-12,
-2767389285,WMT,2025-05-15,
-2627163000,HD,2025-05-20,Home Depot
-2360145800,MRVL,2025-05-28,Marvell Technology Group
-2254000000,CRM,2025-05-27,Salesforce.Com Inc
-2168673174,COST,2025-05-28,Costco Wholesale Corp.
-1710155994,INTU,2025-05-21,Intuit Inc.
-1440822024,AMAT,2025-05-14,Applied Materials
-1427659999,CSCO,2025-05-13,Cisco Systems
+symbol,date,name
+LNG,2025-05-01,
+ITIC,2025-05-01,Investors Title Company
+PRLB,2025-05-01,Proto Labs Inc.
+WLFC,2025-05-01,Willis Lease Finance Corp.
+OMI,2025-05-01,Owens & Minor
+NSARO,2025-05-01,
+GAM,2025-05-01,General American Investors
+UUUU,2025-05-01,
+HSY,2025-05-01,Hershey Foods Corp.
+BIOF,2025-05-01,Biofuel Energy
+ARVN,2025-05-01,
+MBLU,2025-05-01,
+FLGT,2025-05-01,
+CIO,2025-05-01,
+CBOE,2025-05-01,CBOE Holdings
+PH,2025-05-01,Parker-Hannifin Corp.
+CMLS,2025-05-01,Cumulus Media Inc.
+ETHE,2025-05-01,
+PAGP,2025-05-01,
+JOUT,2025-05-01,Johnson Outdoors Inc.
+JANL,2025-05-01,
+TBNK,2025-05-01,Territorial Bancorp Inc.
+CQP,2025-05-01,
+PWP,2025-05-01,
+GTLS,2025-05-01,Chart Industries
+TRMB,2025-05-01,Trimble Navigation Limited
+PPWLO,2025-05-01,
+ADNT,2025-05-01,
+ASIX,2025-05-01,
+PAA,2025-05-01,Plains All American Pipeline L.P.
+NMRK,2025-05-01,
+FUBO,2025-05-01,
+ALTS,2025-05-01,
+BNCC,2025-05-01,
+LLY,2025-05-01,Eli Lilly And Company
+CBRE,2025-05-01,
+UNIT,2025-05-01,
+USM,2025-05-01,United States Cellular Corp.
+BFNH,2025-05-01,
+CRBG,2025-05-01,
+LPTV,2025-05-01,
+BDX,2025-05-01,Becton Dickinson And Company
+MITT,2025-05-01,Ag Mortgage Investment Trust
+AXL,2025-05-01,American Axle & Manufacturing
+KOP,2025-05-01,Koppers Holdings Inc.
+BEPC,2025-05-01,
+IESC,2025-05-01,Integrated Electrical Services
+LGIQ,2025-05-01,
+IDXX,2025-05-01,Idexx Laboratories
+COLM,2025-05-01,Columbia Sportswear Company
+TILE,2025-05-01,Interface
+GPK,2025-05-01,Graphic Packaging Holdings Company
+ATR,2025-05-01,Aptargroup
+GPRE,2025-05-01,Green Plains Renewable Energy
+RPID,2025-05-01,
+SCIA,2025-05-01,
+RPT,2025-05-01,Ramco-Gershenson Properties Trust
+TDS,2025-05-01,Telephone And Data Systems
+TSVT,2025-05-01,
+FLR,2025-05-01,Fluor Corp.
+EL,2025-05-01,Estee Lauder Companies
+XPO,2025-05-01,Express-1 Expedited Solutions
+ABR,2025-05-01,Arbor Realty Trust
+SHEN,2025-05-01,Shenandoah Telecommunications Co
+BCPC,2025-05-01,Balchem Corp.
+FUST,2025-05-01,
+FYBR,2025-05-01,
+IP,2025-04-30,International Paper Company
+STTK,2025-04-30,
+DFH,2025-04-30,
+ATGE,2025-04-30,
+REG,2025-04-30,Regency Centers Corp.
+AAMI,2025-04-30,
+NB,2025-04-30,
+THRY,2025-04-30,
+VTN,2025-04-30,
+CTRE,2025-04-30,
+OHI,2025-04-30,Omega Healthcare Investors
+ATYR,2025-04-30,
+CTA PR A,2025-04-30,
+BECN,2025-04-30,Beacon Roofing Supply
+MRIN,2025-04-30,Marin Sotfware Incorporated
+SHAK,2025-04-30,
+TRUP,2025-04-30,
+AVNS,2025-04-30,
+KTB,2025-04-30,
+TWST,2025-04-30,
+VSTS,2025-04-30,
+CLFD,2025-04-30,Clearfield
+BBIO,2025-04-30,
+EOG,2025-04-30,Eog Resources
+SABR,2025-04-30,
+K,2025-04-30,Kellogg Company
+EXLS,2025-04-30,Exlservice Holdings
+EVC,2025-04-30,Entravision Communications Corp.
+GDYN,2025-04-30,
+TARA,2025-04-30,
+OMCL,2025-04-30,Omnicell
+COHU,2025-04-30,Cohu
+MGPI,2025-04-30,Mgp Ingredients
+DKNG,2025-04-30,
+XYL,2025-04-30,Xylem Inc. Common Stock New Whe
+SAMG,2025-04-30,Silvercrest Asset Management Gr
+BCYC,2025-04-30,
+ACA,2025-04-30,
+UTZ,2025-04-30,
+WLDN,2025-04-30,Willdan Group
+SDIG,2025-04-30,
+UPBD,2025-04-30,
+IQI,2025-04-30,Invesco Quality Muni Income Trust
+BTSG,2025-04-30,
+BAX,2025-04-30,
+BPMC,2025-04-30,
+NXTC,2025-04-30,
+DLR,2025-04-30,Digital Realty Trust
+HUN,2025-04-30,Huntsman Corp.
+OFS,2025-04-30,Ofs Capital Corporation
+JYNT,2025-04-30,
+MTZ,2025-04-30,Mastec
+FTDR,2025-04-30,
+ONEW,2025-04-30,
+ILMN,2025-04-30,Illumina
+BILL,2025-04-30,
+NET,2025-04-30,
+CHD,2025-04-30,Church & Dwight Company
+ALDX,2025-04-30,
+IQV,2025-04-30,
+CAH,2025-04-30,Cardinal Health
+FIVN,2025-04-30,
+CI,2025-04-30,Cigna Corp.
+MTSI,2025-04-30,M/A-Com Technology Solutions Ho
+DYN,2025-04-30,Dynegy Inc
+AAPL,2025-04-30,Apple Inc.
+RGA,2025-04-30,Reinsurance Group Of America Inc.
+REZI,2025-04-30,
+OLED,2025-04-30,Universal Display Corp.
+AMH,2025-04-30,American Homes 4 Rent
+CMI,2025-04-30,Cummmins Inc.
+MRNA,2025-04-30,
+RKT,2025-04-30,Rock-Tenn Company
+MDU,2025-04-30,Mdu Res Group Inc
+NSIT,2025-04-30,Insight Enterprises
+CNK,2025-04-30,Cinemark Holdings Inc
+KYMR,2025-04-30,
+LIN,2025-04-30,Lin Media Llc
+LFVN,2025-04-30,Lifevantage Corp
+TW,2025-04-30,Towers Watson & Co
+FTNT,2025-04-30,Fortinet
+RXO,2025-04-30,
+AES,2025-04-30,The Aes Corp.
+XYZ,2025-04-30,
+CTRA,2025-04-30,
+PAX,2025-04-30,
+MNTX,2025-04-30,Manitex International
+LANC,2025-04-30,Lancaster Colony Corp.
+LXRX,2025-04-30,Lexicon Pharmaceuticals
+CPT,2025-04-30,Camden Property Trust
+CTO,2025-04-30,
+AGIO,2025-04-30,Agios Pharmaceuticals Inc.
+IR,2025-04-30,Ingersoll-Rand Plc [Ireland]
+IDCC,2025-04-30,Interdigital
+LMAT,2025-04-30,Lemaitre Vascular
+AME,2025-04-30,Amtek
+PWR,2025-04-30,Quanta Services
+GSIT,2025-04-30,Gsi Technology
+HOLX,2025-04-30,Hologic
+CSTL,2025-04-30,
+GTIM,2025-04-30,Good Times Restaurants Inc.
+IMII,2025-04-30,
+RYAN,2025-04-30,
+WSC,2025-04-30,
+OLPX,2025-04-30,
+MCO,2025-04-30,Moody's Corp.
+DMRC,2025-04-30,Digimarc Corp.
+RAVE,2025-04-30,
+LNT,2025-04-30,Alliant Energy Corp.
+NEXA,2025-04-30,
+JHG,2025-04-30,
+MSGS,2025-04-30,
+COP,2025-04-30,Conocophillips
+NREF,2025-04-30,
+TNDM,2025-04-30,
+APPN,2025-04-30,
+CRTO,2025-04-30,
+OPEN,2025-04-30,Opentable
+OGN,2025-04-30,
+IRMD,2025-04-30,
+KURA,2025-04-30,
+D,2025-04-30,Dominion Resources
+PTON,2025-04-30,
+RARE,2025-04-30,
+RLAY,2025-04-30,
+LASR,2025-04-30,
+CCRD,2025-04-30,
+CTOS,2025-04-30,
+ITT,2025-04-30,Itt Industries
+KRP,2025-04-30,
+LOCO,2025-04-30,
+BKNG,2025-04-30,
+UMH,2025-04-30,Umh Properties
+WRLD,2025-04-30,World Acceptance Corp.
+ITRI,2025-04-30,Itron
+GVA,2025-04-30,Granite Construction Inc.
+VREX,2025-04-30,
+FND,2025-04-30,
+GERN,2025-04-30,Geron Corp.
+OSPN,2025-04-30,
+UGRO,2025-04-30,
+AIP,2025-04-30,
+TPIC,2025-04-30,
+ULCC,2025-04-30,
+CLAR,2025-04-30,
+SNDR,2025-04-30,
+MSI,2025-04-30,Motorola Solutions
+UEIC,2025-04-30,Universal Electronics Inc.
+PENN,2025-04-30,Penn National Gaming
+SEM,2025-04-30,Select Medical Holdings Corp.
+AGCO,2025-04-30,Agco Corp.
+KRC,2025-04-30,Kilroy Realty Corp.
+ALGN,2025-04-30,Align Technology
+DSGR,2025-04-30,
+ELEV,2025-04-30,
+LEE,2025-04-30,Lee Enterprises Inc.
+GEVO,2025-04-30,Gevo
+MUR,2025-04-30,Murphy Oil Corp.
+BMNM,2025-04-30,
+ENOV,2025-04-30,
+BTU,2025-04-30,Peabody Energy Corp.
+DRVN,2025-04-30,
+SPT,2025-04-30,
+VGZ,2025-04-30,
+IDA,2025-04-30,Idacorp
+MNST,2025-04-30,Monster Beverage Corp
+AUPH,2025-04-30,
+GEL,2025-04-30,Genesis Energy L.P.
+SHBI,2025-04-30,Shore Bancshares Inc
+LAMR,2025-04-30,Lamar Advertising Company
+PLMR,2025-04-30,
+ATUS,2025-04-30,
+TXRH,2025-04-30,Texas Roadhouse
+ECVT,2025-04-30,
+WK,2025-04-30,
+PTVE,2025-04-30,
+FOXF,2025-04-30,Fox Factory Holding Corp.
+ED,2025-04-30,Consolidated Edison Company Of New York
+VNT,2025-04-30,
+CIVI,2025-04-30,
+ZYME,2025-04-30,
+AAON,2025-04-30,Aaon
+SILC,2025-04-30,Silicom Ltd
+WD,2025-04-30,
+CABO,2025-04-30,
+PNW,2025-04-30,Pinnacle West Capital Corp.
+CRDF,2025-04-30,
+VEL,2025-04-30,
+REGN,2025-04-30,Regeneron Pharmaceuticals
+AXGN,2025-04-30,Lectec Corp
+EXC,2025-04-30,Exelon Corp.
+FDP,2025-04-30,Fresh Del Monte Produce
+ARW,2025-04-30,Arrow Electronics
+RMAX,2025-04-30,
+PBF,2025-04-30,Pbf Energy Inc.
+PCTY,2025-04-30,
+LAUR,2025-04-30,
+ACCO,2025-04-30,
+MATW,2025-04-30,Matthews International Corp.
+ESGR,2025-04-30,Enstar Group Limited
+ASPU,2025-04-30,
+FLWS,2025-04-30,1-800 Flowers.Com
+TPB,2025-04-30,
+OXSQ,2025-04-30,
+PDEX,2025-04-30,Pro-Dex
+XPOF,2025-04-30,
+DXYN,2025-04-30,The Dixie Group
+GNRV,2025-04-30,
+KWR,2025-04-30,Quaker Chemical Corp.
+HTGC,2025-04-30,Hercules Technology Growth Capital
+FT,2025-04-30,Franklin Universal Trust
+IBOC,2025-04-30,International Bancshares Corp.
+MP,2025-04-30,
+CTHR,2025-04-30,Charles & Colvard Ltd
+SHC,2025-04-30,
+LNTH,2025-04-30,
+DVA,2025-04-30,Davita Inc.
+BRKR,2025-04-30,Bruker Corp.
+ICFI,2025-04-30,Icf International
+ATRO,2025-04-30,Astronics Corp.
+ALHC,2025-04-30,
+SWI,2025-04-30,Solarwinds
+STEM,2025-04-30,Stemcells
+EB,2025-04-30,
+VIR,2025-04-30,
+PTEN,2025-04-30,Patterson-Uti Energy
+STMH,2025-04-30,
+POST,2025-04-30,Post Holdings Inc. Common Stoc
+ASUR,2025-04-30,Asure Software Inc
+BWA,2025-04-30,Borgwarner Inc.
+BFAM,2025-04-30,Bright Horizons Family Solutions Inc.
+QGEN,2025-04-30,Qiagen N.V.
+CDXS,2025-04-30,Codexis
+TRGP,2025-04-30,Targa Resources
+XPEL,2025-04-30,
+GDDY,2025-04-30,
+CSLR,2025-04-30,
+IRTC,2025-04-30,
+VRRM,2025-04-30,
+GECC,2025-04-30,
+SWTX,2025-04-30,
+TUSK,2025-04-30,
+BOOM,2025-04-30,Dynamic Materials Corp.
+GEHC,2025-04-30,
+AEE,2025-04-30,Ameren Corp.
+MBUU,2025-04-30,
+PACK,2025-04-30,
+ABUS,2025-04-30,
+PJT,2025-04-30,
+ZTS,2025-04-30,Zoetis Inc. Class A Common Stoc
+CGNX,2025-04-30,Cognex Corp.
+INMD,2025-04-30,
+AMGN,2025-04-30,Amgen Inc.
+LXP,2025-04-30,Lexington Realty Trust
+ICE,2025-04-30,Intercontinentalexchange
+CRAI,2025-04-30,Cra Internationalinc.
+APO,2025-04-30,Apollo Global Management LLc C
+NVRI,2025-04-30,
+EXPE,2025-04-30,Expedia
+CMPR,2025-04-30,
+RMNI,2025-04-30,
+ZEUS,2025-04-30,Olympic Steel
+CDLX,2025-04-30,
+ALTR,2025-04-30,Altera Corp.
+XRAY,2025-04-30,Dentsply International Inc.
+CYBR,2025-04-30,
+APG,2025-04-30,
+WFCF,2025-04-30,
+FDUS,2025-04-30,Fidus Investment Corporation
+ASNS,2025-04-30,
+NPKI,2025-04-30,
+XHR,2025-04-30,
+HII,2025-04-30,Huntington Ingalls Industries
+MCS,2025-04-30,Marcus Corp.
+MELI,2025-04-30,Mercadolibre
+ONIT,2025-04-30,
+BFS,2025-04-30,Saul Centers
+HAYW,2025-04-30,
+SGHT,2025-04-30,
+BBAI,2025-04-30,
+IRM,2025-04-30,Iron Mountain Inc.
+ALNY,2025-04-30,Alnylam Pharmaceuticals
+PATK,2025-04-30,Patrick Industries
+AXTI,2025-04-30,Axt Inc
+W,2025-04-30,
+LYV,2025-04-30,Live Nation Entertainment
+COIN,2025-04-30,
+ARDX,2025-04-30,
+HWM,2025-04-30,
+PBYI,2025-04-30,Puma Biotechnology
+GCI,2025-04-30,Gannet Co.
+UPLD,2025-04-30,
+DBD,2025-04-30,Diebold Inc.
+DLB,2025-04-30,Dolby Laboratories
+OUT,2025-04-30,
+CERS,2025-04-30,Cerus Corp.
+DMLP,2025-04-30,Dorchester Minerals L.P.
+MODV,2025-04-30,
+VIAV,2025-04-30,
+AWRE,2025-04-30,Aware
+ALG,2025-04-30,Alamo Group
+ARES,2025-04-30,
+PBI,2025-04-30,Pitney Bowes Inc
+ASND,2025-04-30,
+DRH,2025-04-30,Diamondrock Hospitality Company
+BDC,2025-04-30,Belden Inc
+SSTK,2025-04-30,Shutterstock Inc.
+VRSK,2025-04-29,Verisk Analytics
+TCPC,2025-04-29,Tcp Capital Corp.
+ADP,2025-04-29,Automatic Data Processing
+SMHI,2025-04-29,
+SFM,2025-04-29,Sprouts Farmers Market Inc.
+GPN,2025-04-29,Global Payments Inc.
+FAT,2025-04-29,
+RM,2025-04-29,Regional Managment Corp
+CSGS,2025-04-29,Csg Systems International
+RDN,2025-04-29,Radian Group Inc.
+WHG,2025-04-29,
+ASPN,2025-04-29,
+YIBO,2025-04-29,
+EXTR,2025-04-29,Extreme Networks
+ESAB,2025-04-29,
+CCRN,2025-04-29,Cross Country Healthcare
+ELME,2025-04-29,
+AMIH,2025-04-29,
+SR,2025-04-29,Standard Register Company
+GM,2025-04-29,General Motors Company
+MA,2025-04-29,Mastercard Inc.
+AMWL,2025-04-29,
+ENVX,2025-04-29,
+NOVA,2025-04-29,
+WLKP,2025-04-29,
+CAR,2025-04-29,Avis Budget Group
+PMHG,2025-04-29,
+AVT,2025-04-29,Avnet
+EQC,2025-04-29,
+HRTG,2025-04-29,
+AWK,2025-04-29,American Water Works
+DASH,2025-04-29,
+PFE,2025-04-29,Pfizer
+EZPW,2025-04-29,Ezcorp
+NVEC,2025-04-29,Nve Corp.
+CTVA,2025-04-29,
+OSW,2025-04-29,
+PGRE,2025-04-29,
+ALB,2025-04-29,Albemarle Corp.
+KHC,2025-04-29,
+ES,2025-04-29,
+KKR,2025-04-29,Kkr
+QRVO,2025-04-29,
+WING,2025-04-29,
+ALKT,2025-04-29,
+BRSP,2025-04-29,
+PRDO,2025-04-29,
+TPVG,2025-04-29,
+FSLY,2025-04-29,
+BALY,2025-04-29,
+FCPT,2025-04-29,
+PUMP,2025-04-29,
+BRY,2025-04-29,Berry Petroleum Company
+UFPT,2025-04-29,Ufp Technologies
+BFLY,2025-04-29,
+BV,2025-04-29,Bazaarvoice Inc.
+USAP,2025-04-29,Universal Stainless & Alloy Products
+NWPX,2025-04-29,Northwest Pipe Company
+MAA,2025-04-29,Mid-America Apartment Communities
+TIPT,2025-04-29,Tiptree Financial Inc.
+GTE,2025-04-29,
+MYRG,2025-04-29,Myr Group
+UPWK,2025-04-29,
+DD,2025-04-29,E.I. Du Pont De Nemours And Company
+SHOO,2025-04-29,Steven Madden
+NSA,2025-04-29,
+MUSA,2025-04-29,
+OPI,2025-04-29,
+AFG,2025-04-29,American Financial Group  
+QCOM,2025-04-29,Qualcomm Inc.
+GKOS,2025-04-29,
+JBSS,2025-04-29,John B. Sanfilippo & Son
+NBIX,2025-04-29,Neurocrine Biosciences
+DVN,2025-04-29,Devon Energy Corp.
+MAX,2025-04-29,
+MAR,2025-04-29,Marriot International
+SITE,2025-04-29,
+CVS,2025-04-29,Cvs Corp.
+PBFS,2025-04-29,
+BBSI,2025-04-29,Barrett Business Services
+GTES,2025-04-29,
+SCKT,2025-04-29,
+BNL,2025-04-29,
+AER,2025-04-29,Aercap Holdings N.V.
+EXPI,2025-04-29,
+MET,2025-04-29,Metlife
+CLMB,2025-04-29,
+MGM,2025-04-29,Mgm Resorts International
+XPL,2025-04-29,
+NGVT,2025-04-29,
+AVA,2025-04-29,Avista Corp.
+ANSS,2025-04-29,Ansys
+PCOR,2025-04-29,
+MG,2025-04-29,Mistras Group Inc
+RGEN,2025-04-29,Repligen Corp.
+PLPC,2025-04-29,Preformed Line Products Company
+HPP,2025-04-29,Hudson Pacific Properties
+MVXM,2025-04-29,
+WSR,2025-04-29,
+MO,2025-04-29,Altria Group
+RIOT,2025-04-29,
+PLYM,2025-04-29,
+NERV,2025-04-29,
+DRS,2025-04-29,
+MKL,2025-04-29,Markel Corp.
+ACLS,2025-04-29,Axcelis Technologies
+MOS,2025-04-29,Mosaic Company
+SRDX,2025-04-29,Surmodics
+HLF,2025-04-29,Herbalife Ltd
+TTEK,2025-04-29,Tetra Tech
+PTC,2025-04-29,
+AFL,2025-04-29,Aflac Incorporated
+TENB,2025-04-29,
+ACT,2025-04-29,Actavis Inc.
+STGW,2025-04-29,
+LIVN,2025-04-29,
+HCC,2025-04-29,Hcc Insurance Holdings
+CDE,2025-04-29,Coeur D'Alene Mines Corp.
+GRBK,2025-04-29,
+FLEX,2025-04-29,Flextronics International Ltd
+DAY,2025-04-29,
+EAT,2025-04-29,Brinker International
+CW,2025-04-29,Curtiss-Wright Corp.
+RSI,2025-04-29,
+CULP,2025-04-29,
+NCSM,2025-04-29,
+ETSY,2025-04-29,
+QTWO,2025-04-29,
+RHP,2025-04-29,Gaylord Entertainment Company
+NVST,2025-04-29,
+EBS,2025-04-29,Emergent Biosolutions
+DGII,2025-04-29,Digi International Inc.
+SDGR,2025-04-29,
+VICI,2025-04-29,
+GRMN,2025-04-29,Garmin Ltd
+CENX,2025-04-29,Century Aluminum Company
+UTHR,2025-04-29,United Therapeutics Corp.
+INN,2025-04-29,Summit Hotel Properties
+FORM,2025-04-29,Formfactor
+SLGN,2025-04-29,Silgan Holdings
+CRK,2025-04-29,Comstock Resources
+NCLH,2025-04-29,Norwegian Cruise Line Holdings
+ENSG,2025-04-29,The Ensign Group
+CVNA,2025-04-29,
+PPL,2025-04-29,Ppl Corp.
+ATRC,2025-04-29,Atricure
+WOLF,2025-04-29,
+GFAI,2025-04-29,
+CG,2025-04-29,The Carlyle Group L.P.
+PRCT,2025-04-29,
+CNXN,2025-04-29,
+ZBRA,2025-04-29,Zebra Technologies Corporation
+BCAL,2025-04-29,
+AXTA,2025-04-29,
+RLJ,2025-04-29,Rlj Lodging Trust
+EPR,2025-04-29,Entertainment Properties Trust
+HDSN,2025-04-29,Hudson Technologies
+CLH,2025-04-29,Clean Harbors
+PSN,2025-04-29,
+BHE,2025-04-29,Benchmark Electronics
+ROCK,2025-04-29,Gibraltar Industries
+CMRX,2025-04-29,Chimerix Inc.
+ACHC,2025-04-29,Acadia Healthcare Company Inc.
+INFN,2025-04-29,Infinera Corp.
+CNDT,2025-04-29,
+TROX,2025-04-29,Tronox Inc
+ENTG,2025-04-29,Entegris
+DFIN,2025-04-29,
+CDW,2025-04-29,Cdw Corporation
+GLAD,2025-04-29,Gladstone Capital Corp.
+FRSH,2025-04-29,
+MTRN,2025-04-29,Brush Wellman Inc
+SPOK,2025-04-29,
+APA,2025-04-29,Apache Corp.
+ICDIQ,2025-04-29,
+NYMT,2025-04-29,New York Mortgage Trust
+ERII,2025-04-29,Energy Recovery
+CRS,2025-04-29,Carpenter Technology Corp.
+ARAY,2025-04-29,Accuray Incorporated
+NSP,2025-04-29,Insperity Inc
+CTSH,2025-04-29,Cognizant Technology Solutions
+MTG,2025-04-29,Mgic Investment Corp.
+TECH,2025-04-29,Techne Corp.
+FLG,2025-04-29,
+NMFC,2025-04-29,New Mountain Finance Corporati
+SRPT,2025-04-29,Sarepta Therapeutics Inc
+GNW,2025-04-29,Genworth Financial Inc
+WHD,2025-04-29,
+AVNW,2025-04-29,Aviat Networks
+MPWR,2025-04-29,Monolithic Power Systems
+MRAM,2025-04-29,
+CWH,2025-04-29,Commonwealth REIT
+SIGI,2025-04-29,Selective Insurance Group
+SXC,2025-04-29,Suncoke Energy Inc
+LSEA,2025-04-29,
+CODI,2025-04-29,Compass Diversified Holdings
+EBAY,2025-04-29,Ebay Inc.
+ASTE,2025-04-29,Astec Industries
+SUM,2025-04-29,
+CPSH,2025-04-29,
+EVTC,2025-04-29,Evertec Inc. Common Stock
+Z,2025-04-29,Zillow Inc. Cl A
+CSV,2025-04-29,Carriage Services
+LNKB,2025-04-29,
+CHRW,2025-04-29,C.H. Robinson Worldwide
+KAR,2025-04-29,Kar Auction Services Inc
+LARK,2025-04-29,Landmark Bancorp Inc.
+TGTX,2025-04-29,Tg Therapeutics
+CTS,2025-04-29,Cts Corp.
+LBTYA,2025-04-29,Liberty Global
+PPC,2025-04-29,Pilgrim's Pride Corp.
+NC,2025-04-29,Nacco Industries
+RGCO,2025-04-29,Rgc Resources Inc.
+HST,2025-04-29,Host Marriott Financial Trust
+FMCC,2025-04-29,
+NHTC,2025-04-29,
+AIG,2025-04-29,American International Group
+LUNG,2025-04-29,
+NFG,2025-04-29,National Fuel Gas Company
+ALKS,2025-04-29,Alkermes
+CHEF,2025-04-29,The Chefs' Warehouse Inc.
+ALL,2025-04-29,Allstate Corporation
+HVT,2025-04-29,Haverty Furniture Companies
+NRT,2025-04-29,North European Oil Royality Trust
+BZH,2025-04-29,Beazer Homes USA
+TTMI,2025-04-29,Ttm Technologies
+CORT,2025-04-29,Corcept Therapeutics Inc.
+BIP,2025-04-29,Brookfield Infrastructure Partners Lp
+AEIS,2025-04-29,Advanced Energy Industries
+KN,2025-04-29,
+SMMT,2025-04-29,
+DLX,2025-04-29,Deluxe Corp.
+OFLX,2025-04-29,Omega Flex
+COR,2025-04-29,Coresite Realty Corp.
+RGS,2025-04-29,Regis Corp.
+FSLR,2025-04-29,First Solar
+TSLX,2025-04-29,
+FARO,2025-04-29,Faro Technologies
+PAYC,2025-04-29,
+VAL,2025-04-29,Valspar Corp.
+SGU,2025-04-29,Star Gas Partners L.P.
+ARCC,2025-04-29,Ares Capital Corp.
+NNN,2025-04-29,National Retail Properties
+DLHC,2025-04-29,Dlh Holdings Corp
+HYLN,2025-04-28,
+MIR,2025-04-28,
+VINOQ,2025-04-28,
+BEN,2025-04-28,Franklin Resources
+USA,2025-04-28,Liberty All-Star Equity Fund
+GNRC,2025-04-28,Generac Holdings Inc.
+IT,2025-04-28,Gartner
+PBHC,2025-04-28,Pathfinder Bancorp
+QSR,2025-04-28,
+BXP,2025-04-28,Boston Properties
+OKE,2025-04-28,Oneok
+ITW,2025-04-28,Illinois Tool Works Inc.
+PEG,2025-04-28,Public Service Enterprise Group Inc.
+EVBN,2025-04-28,
+JKS,2025-04-28,Jinkosolar Holding Company Limited
+RMBS,2025-04-28,Rambus
+MIND,2025-04-28,Mitcham Industries
+LFUS,2025-04-28,Littelfuse
+DBRG,2025-04-28,
+TXG,2025-04-28,
+UMBF,2025-04-28,Umb Financial Corp.
+FBIN,2025-04-28,
+SOFI,2025-04-28,
+SITC,2025-04-28,
+SWKS,2025-04-28,Skyworks Solutions
+NXRT,2025-04-28,
+KBR,2025-04-28,Kbr
+FFNW,2025-04-28,First Financial Northwest
+QUAD,2025-04-28,Quad Graphics Inc
+MDLZ,2025-04-28,Mondelez International Inc. Cl A
+RVTY,2025-04-28,
+BSBK,2025-04-28,
+CC,2025-04-28,
+MMM,2025-04-28,3M Company
+PARA,2025-04-28,
+MVBF,2025-04-28,
+OI,2025-04-28,Owens-Illinois
+CECO,2025-04-28,Career Education Corp.
+WWD,2025-04-28,Woodward
+AIXI,2025-04-28,
+CNP,2025-04-28,Centerpoint Energy Inc
+BRBS,2025-04-28,
+KO,2025-04-28,Coca-Cola Company
+MMSI,2025-04-28,Merit Medical Systems
+CCK,2025-04-28,Crown Cork & Seal Company
+RBOT,2025-04-28,
+USLM,2025-04-28,United States Lime & Minerals
+AAT,2025-04-28,American Assets Trust
+THFF,2025-04-28,First Financial Corporation Indiana
+NARI,2025-04-28,
+TMHC,2025-04-28,Taylor Morrison Home Corporatio
+ZYXI,2025-04-28,
+MFIN,2025-04-28,
+PYPL,2025-04-28,
+FLXS,2025-04-28,Flexsteel Industries
+LXU,2025-04-28,Lsb Industries Inc.
+PRU,2025-04-28,Prudential Financial Inflation Retail
+ATEN,2025-04-28,
+FBRT,2025-04-28,
+EG,2025-04-28,
+LTC,2025-04-28,Ltc Properties
+CHGG,2025-04-28,
+TREE,2025-04-28,Tree.Com
+DNB,2025-04-28,Dun & Bradstreet Corp.
+MSTR,2025-04-28,Microstrategy Inc.
+PINS,2025-04-28,
+RNR,2025-04-28,Renaissancere Holdings Ltd
+LMND,2025-04-28,
+ROOT,2025-04-28,
+MED,2025-04-28,Medifast Inc
+DAN,2025-04-28,Dana Holding Corp.
+SSBI,2025-04-28,Summit State Bank
+SIRI,2025-04-28,Sirius Xm Radio Inc.
+CNO,2025-04-28,Cno Financial Group
+HRMY,2025-04-28,
+FSBC,2025-04-28,
+GBFH,2025-04-28,
+LPLA,2025-04-28,Lpl Investment Holdings Inc.
+CWK,2025-04-28,
+NXPI,2025-04-28,Nxp Semiconductors N.V.
+CRAWA,2025-04-28,
+FSP,2025-04-28,
+CSR,2025-04-28,
+ON,2025-04-28,
+RITM,2025-04-28,
+CHCT,2025-04-28,
+CCCS,2025-04-28,
+BRX,2025-04-28,
+MCD,2025-04-28,Mcdonald's Corp.
+CCB,2025-04-28,
+OMF,2025-04-28,
+FFIV,2025-04-28,F5 Networks
+NOG,2025-04-28,
+TBBA,2025-04-28,
+KLIC,2025-04-28,Kulicke And Soffa Industries
+TWO,2025-04-28,Two Harbors Investments Corp
+SMCI,2025-04-28,Super Micro Computer
+OGE,2025-04-28,Oge Energy Corp.
+TWIN,2025-04-28,Twin Disc Inc.
+IVDN,2025-04-28,
+MAC,2025-04-28,Macerich Company
+GABC,2025-04-28,German American Bancorp
+RCKY,2025-04-28,Rocky Brands
+NTGR,2025-04-28,Netgear
+CIVB,2025-04-28,
+VNOM,2025-04-28,
+ACIW,2025-04-28,Aci Worldwide
+NBN,2025-04-28,Northeast Bancorp
+WSBF,2025-04-28,Waterstone Financial
+BMRC,2025-04-28,Bank Of Marin Bancorp
+LEA,2025-04-28,Lear Corp.
+CZWI,2025-04-28,Citizens Community Bancorp
+AWI,2025-04-28,Armstrong World Industries Inc
+KAI,2025-04-28,Kadant Inc
+TRUE,2025-04-28,
+EXR,2025-04-28,Extra Space Storage Inc
+ALLGF,2025-04-28,
+FSS,2025-04-28,Federal Signal Corp.
+PAG,2025-04-28,Penske Automotive Group
+CAC,2025-04-28,Camden National Corp.
+CLBK,2025-04-28,
+AMBZ,2025-04-28,
+AROW,2025-04-28,Arrow Financial Corp.
+HLIT,2025-04-28,Harmonic Inc.
+PCH,2025-04-28,Potlatch Corp.
+MTAL,2025-04-28,
+SANM,2025-04-28,Sanmina-Sci Corp.
+BXC,2025-04-28,Bluelinx Holdings Inc.
+THRM,2025-04-28,Amerigon Incorporated
+ACGL,2025-04-28,Arch Capital Group Ltd
+NMIH,2025-04-28,
+MBIN,2025-04-28,
+INVH,2025-04-28,
+ESBS,2025-04-28,
+LKNCY,2025-04-28,
+AMCR,2025-04-28,
+HRZN,2025-04-28,Horizon Technology Finance Corp.
+HEES,2025-04-28,H&E Equipment Services
+SEB,2025-04-28,
+RIG,2025-04-28,Transocean Inc.
+CVRX,2025-04-28,
+STAG,2025-04-28,STI Inc
+PCAR,2025-04-28,Paccar Inc.
+YUMC,2025-04-28,
+JKHY,2025-04-28,Jack Henry & Associates
+CVI,2025-04-28,Cvr Energy Inc.
+LEG,2025-04-28,Leggett & Platt Inc.
+CCJ,2025-04-28,Cameco Corp.
+ADM,2025-04-28,Archer-Daniels-Midland Company
+PDLB,2025-04-28,
+CVLT,2025-04-28,Commvault Systems
+TRTX,2025-04-28,
+MPC,2025-04-28,Marathon Petroleum Corporation
+AMKR,2025-04-28,Amkor Technology
+FXNC,2025-04-28,
+AMZN,2025-04-28,Amazon.Com
+SSKN,2025-04-28,
+AIN,2025-04-28,Albany International Corp.
+IPGP,2025-04-28,Ipg Photonics Corp.
+LSCC,2025-04-28,Lattice Semiconductor Corp.
+CLW,2025-04-28,Clearwater Paper Corp.
+GPOR,2025-04-28,Gulfport Energy Corp.
+SEVN,2025-04-28,
+DQ,2025-04-28,Daqq New Energy
+EPD,2025-04-28,Enterprise Products Partners L.P.
+WERN,2025-04-28,Werner Enterprises
+ATI,2025-04-28,Allagheny Technologies Inc.
+UWHR,2025-04-28,
+FORR,2025-04-28,Forrester Research
+MCY,2025-04-28,Mercury General Corp.
+BWTL,2025-04-28,
+EQH,2025-04-28,
+AROC,2025-04-28,
+FMBM,2025-04-28,
+BSFO,2025-04-28,
+WTTR,2025-04-28,
+SBUX,2025-04-28,Starbucks Corp.
+HOPE,2025-04-28,
+LODE,2025-04-28,
+EXEL,2025-04-28,Exelixis
+MATX,2025-04-28,Matson Inc
+COUR,2025-04-28,
+LIND,2025-04-28,
+BLKB,2025-04-28,Blackbaud
+AEP,2025-04-28,American Electric Power Company
+KRG,2025-04-28,Kite Realty Group Trust
+PCHM,2025-04-28,
+PK,2025-04-28,
+FNRN,2025-04-28,
+DENN,2025-04-28,Denny's Corp.
+RASP,2025-04-28,
+PROV,2025-04-28,Provident Financial Holdings
+LC,2025-04-28,
+LCNB,2025-04-28,Lcnb Corporation
+VNCE,2025-04-28,
+HMST,2025-04-28,Homestreet Inc.
+POWL,2025-04-28,Powell Industries
+KFRC,2025-04-28,Kforce
+TRS,2025-04-28,Trimas Corp.
+FANG,2025-04-28,Diamondback Energy Inc.
+UAN,2025-04-28,Cvr Partners Lp Common Units R
+DPZ,2025-04-28,Domino's Pizza Inc
+FINW,2025-04-28,
+AIRS,2025-04-28,
+GRNQ,2025-04-28,
+PKOH,2025-04-28,Park-Ohio Holdings
+MLM,2025-04-28,Martin Marietta Materials
+ECL,2025-04-28,Ecolab Inc.
+DSP,2025-04-28,
+SBAC,2025-04-28,SBA Communications Corp.
+CACC,2025-04-28,Credit Acceptance Corp.
+DEA,2025-04-28,
+LGIH,2025-04-28,
+MBCN,2025-04-28,
+MPLX,2025-04-28,Mplx Lp
+PLOW,2025-04-28,Douglas Dynamics
+MSA,2025-04-28,Mine Safety Appliances Company
+EIX,2025-04-28,Edison International
+USNA,2025-04-28,Usana Health Sciences Inc.
+CHNR,2025-04-28,China Natural Resources
+APD,2025-04-28,Air Products And Chemicals
+WELL,2025-04-28,
+LTRX,2025-04-28,Lantronix
+APM,2025-04-28,
+NEO,2025-04-28,Neogenomics Inc
+EEFT,2025-04-28,Euronet Worldwide
+NWPP,2025-04-28,
+BGFV,2025-04-28,Big 5 Sporting Goods Corp.
+SRL,2025-04-28,
+NTST,2025-04-28,
+BKOR,2025-04-28,
+OCSL,2025-04-28,
+HI,2025-04-28,Hillenbrand Inc
+AOREF,2025-04-28,
+ESS,2025-04-28,Essex Property Trust
+PSA,2025-04-28,Public Storage
+FBYD,2025-04-28,
+NTRB,2025-04-28,
+ETN,2025-04-28,Eaton Corp.
+RYI,2025-04-28,
+AX,2025-04-28,
+HNI,2025-04-28,Hon Industries Inc.
+ILPT,2025-04-28,
+AMT,2025-04-28,American Tower Corp.
+FGBI,2025-04-28,
+EKSO,2025-04-28,
+SFBC,2025-04-28,Sound Financial Inc
+GLTO,2025-04-28,
+BSHI,2025-04-28,
+ARLP,2025-04-28,Alliance Resource Partners L.P.
+FPI,2025-04-28,
+VOYA,2025-04-28,
+CNAF,2025-04-28,
+WGS,2025-04-28,
+CLX,2025-04-28,Clorox Company
+LUMN,2025-04-28,
+TMDX,2025-04-28,
+ESI,2025-04-28,Itt Educational Services
+HUBB,2025-04-28,
+FNMA,2025-04-28,
+MVLY,2025-04-28,
+ST,2025-04-28,Sensata Technologies Holding N.V.
+ETWO,2025-04-28,
+TXNM,2025-04-28,
+ARCB,2025-04-28,
+AMD,2025-04-28,Advanced Micro Devices
+FLS,2025-04-28,Flowserve Corp.
+HURN,2025-04-28,Huron Consulting Group Inc.
+FELE,2025-04-28,Franklin Electric Co.
+LYRA,2025-04-28,
+IROQ,2025-04-28,If Bancorp Inc.
+GIGM,2025-04-28,Gigamedia Limited
+PDM,2025-04-28,Piedmont Office Realty Trust
+IVT,2025-04-28,
+MASS,2025-04-28,
+SFDL,2025-04-28,
+AKR,2025-04-28,Acadia Realty Trust
+ARI,2025-04-28,Apollo Commercial Real Estate
+CLWT,2025-04-28,Euro Tech Holdings Company
+EXE,2025-04-28,
+ASH,2025-04-28,Ashland Inc.
+CCEC,2025-04-28,
+INCY,2025-04-28,Incyte Corp.
+CZR,2025-04-28,Caesars Entertainment Corporati
+TFSL,2025-04-28,Tfs Financial Corp.
+JBGS,2025-04-28,
+MDXG,2025-04-28,Mimedx Group Inc
+BGC,2025-04-28,General Cable Corp.
+GLW,2025-04-28,Corning Inc.
+USMT,2025-04-26,
+CNC,2025-04-25,Centene Corp.
+PSX,2025-04-24,Phillips 66 Common Stock
+BALL,2025-04-24,
+ROP,2025-04-24,Roper Industries
+AFBI,2025-04-24,
+VFS,2025-04-24,
+MRBK,2025-04-24,
+AVTR,2025-04-24,
+POR,2025-04-24,Portland General Electric Company
+GNTX,2025-04-24,Gentex Corp.
+TBBB,2025-04-24,
+PG,2025-04-24,Procter & Gamble Company
+VBFC,2025-04-24,Village Bank And Trust Financial
+ABBV,2025-04-24,Abbvie Inc. Common Stock
+TMP,2025-04-24,
+PFLC,2025-04-24,
+LYB,2025-04-24,Lyondellbasell Industries Nv
+ARAT,2025-04-24,
+CVX,2025-04-24,Chevron Corp.
+EFSI,2025-04-24,
+TROW,2025-04-24,T. Rowe Price Group
+EAWD,2025-04-24,
+DOW,2025-04-24,DOW Chemical Company
+EAF,2025-04-24,
+PPIH,2025-04-24,
+NBBK,2025-04-24,
+OIS,2025-04-24,Oil States International
+STEL,2025-04-24,Stellarone Corp.
+FBTT,2025-04-24,
+FCFS,2025-04-24,First Cash Financial Services
+FHB,2025-04-24,
+SCPX,2025-04-24,
+FETM,2025-04-24,
+NWL,2025-04-24,Newell Rubbermaid Inc.
+CHTR,2025-04-24,Charter Communications
+VRTS,2025-04-24,Virtus Investment Partners
+TRCY,2025-04-24,
+MUEL,2025-04-24,
+HFBL,2025-04-24,Home Federal Bancorp Inc. Of Louisiana
+B,2025-04-24,
+FCAP,2025-04-24,First Capital
+ZGN,2025-04-24,
+MRK,2025-04-24,Merck & Company
+OFED,2025-04-24,Oconee Federal Financial
+NBIS,2025-04-24,
+CL,2025-04-24,Colgate-Palmolive Company
+CBFV,2025-04-24,
+CEFC,2025-04-24,
+SAIA,2025-04-24,Saia
+IONM,2025-04-24,
+UBAB,2025-04-24,
+PIPR,2025-04-24,
+NPK,2025-04-24,National Presto Industries
+GLBZ,2025-04-24,Glen Burnie Bancorp
+WT,2025-04-24,
+BMY,2025-04-24,Bristol-Myers Squibb Company
+CRI,2025-04-24,Carter's
+OPY,2025-04-24,Oppenheimer Holdings
+AON,2025-04-24,Aon Plc
+KCLI,2025-04-24,Kansas City Life Insurance Company
+ATNM,2025-04-24,
+TNET,2025-04-24,
+CVEO,2025-04-24,
+DAIO,2025-04-23,Data I/O Corp.
+LHX,2025-04-23,
+CMS PR B,2025-04-23,
+LKFN,2025-04-23,Lakeland Financial Corp.
+ORKA,2025-04-23,
+NOV,2025-04-23,National-Oilwell
+PCG,2025-04-23,Pacific Gas & Electric Co.
+PFIS,2025-04-23,
+WSFS,2025-04-23,Wsfs Financial Corp.
+BYD,2025-04-23,Boyd Gaming Corp.
+IVAC,2025-04-23,Intevac
+FE,2025-04-23,Firstenergy Corp.
+HESM,2025-04-23,
+COLB,2025-04-23,Columbia Banking System
+ROG,2025-04-23,Rogers Corp.
+AMBP,2025-04-23,
+ULBI,2025-04-23,Ultralife Corp.
+HIG,2025-04-23,Hartford Financial Services Group
+FCCO,2025-04-23,First Community Corp.
+CMCSA,2025-04-23,Comcast Corp.
+CUZ,2025-04-23,Cousins Properties Inc.
+FSFG,2025-04-23,First Savings Financial Group
+KRNY,2025-04-23,Kearny Financial
+FNWB,2025-04-23,
+TDOC,2025-04-23,
+EXPO,2025-04-23,Exponent
+DTE,2025-04-23,Dte Energy Company
+GTY,2025-04-23,Getty Realty Corp.
+JNPR,2025-04-23,Juniper Networks
+TRU,2025-04-23,
+LVWR,2025-04-23,
+WVFC,2025-04-23,Wvs Financial
+HTBK,2025-04-23,Heritage Commerce Corp
+PM,2025-04-23,Philip Morris International Inc
+TPC,2025-04-23,Tutor Perini Corp.
+APPF,2025-04-23,
+FFWM,2025-04-23,
+RES,2025-04-23,Rpc
+SPFI,2025-04-23,
+GOOGL,2025-04-23,
+CUBI,2025-04-23,Customers Bancorp
+CARE,2025-04-23,
+PWOD,2025-04-23,Penns Woods Bancorp
+DIMC,2025-04-23,
+RVSB,2025-04-23,Riverview Bancorp Inc
+CSL,2025-04-23,Carlisle Companies Inc.
+MGRC,2025-04-23,Mcgrath Rentcorp
+RCL,2025-04-23,Royal Caribbean Cruises Ltd
+UTMD,2025-04-23,Utah Medical Products
+HOUS,2025-04-23,
+ADT,2025-04-23,Adt Corporation Common Stock W
+ROKU,2025-04-23,
+ALEX,2025-04-23,Alexander And Baldwin Inc
+RHI,2025-04-23,Robert Half International Inc.
+TSLA,2025-04-23,Tesla Motors
+OLN,2025-04-23,Olin Corp.
+KEX,2025-04-23,Kirby Corp.
+SNAP,2025-04-23,
+OPRA,2025-04-23,
+HON,2025-04-23,Honeywell International Inc.
+ALSN,2025-04-23,Allison Transmission Holdings
+MOFG,2025-04-23,Midwestone Financial Group
+FIX,2025-04-23,Comfort Systems USA
+AMAL,2025-04-23,
+ITGR,2025-04-23,
+UNXP,2025-04-23,
+ABCB,2025-04-23,Ameris Bancorp
+RMD,2025-04-23,Resmed Inc.
+GRC,2025-04-23,
+AAL,2025-04-23,
+EMN,2025-04-23,Eastman Chemical Company
+SAGE,2025-04-23,
+BY,2025-04-23,
+MSFT,2025-04-23,Microsoft Corp.
+UVE,2025-04-23,
+FICO,2025-04-23,Fair Isaac And Company Inc.
+NWE,2025-04-23,Northwestern Corp.
+ESQ,2025-04-23,
+MHK,2025-04-23,Mohawk Industries
+NBRI,2025-04-23,
+AVB,2025-04-23,Avalonbay Communities
+SPGI,2025-04-23,
+PPBN,2025-04-23,
+IMAX,2025-04-23,Imax Corp.
+CNOB,2025-04-23,Connectone Bancorp Inc.
+KNSL,2025-04-23,
+HTZ,2025-04-23,Hertz Global Holdings Inc
+HCSG,2025-04-23,Healthcare Services Group
+WTBA,2025-04-23,West Bancorporation
+FISI,2025-04-23,Financial Institutions
+TSCO,2025-04-23,Tractor Supply Company
+CAT,2025-04-23,Caterpillar
+SPSC,2025-04-23,Sps Commerce
+SSB,2025-04-23,
+GWW,2025-04-23,W.W. Grainger
+HUBG,2025-04-23,Hub Group
+HOG,2025-04-23,Harley-Davidson
+NLST,2025-04-23,Netlist
+FCNCA,2025-04-23,First Citizens Bancshares
+RBKB,2025-04-23,
+AB,2025-04-23,Alliance Capital Management L.P.
+LADR,2025-04-23,
+SBSI,2025-04-23,Southside Bancshares
+PTCT,2025-04-23,Ptc Therapeutics Inc.
+RRBI,2025-04-23,
+BFH,2025-04-23,
+DOV,2025-04-23,Dover Corp.
+WKC,2025-04-23,
+RJF,2025-04-23,Raymond James Financial
+MBLY,2025-04-23,
+FAF,2025-04-23,First American Corp.
+ORC,2025-04-23,
+LYTS,2025-04-23,Lsi Industries Inc.
+AJG,2025-04-23,Arthur J. Gallagher & Co.
+PVBK,2025-04-23,
+FBIZ,2025-04-23,First Business Financial Services
+AOS,2025-04-23,Smith [A.O.] Corp.
+HCBC,2025-04-23,
+LAZ,2025-04-23,Lazard Ltd
+BC,2025-04-23,
+ACNB,2025-04-23,Acnb Corp.
+FLIC,2025-04-23,The First Of Long Island Corp.
+DXCM,2025-04-23,Dexcom
+ABG,2025-04-23,
+OSK,2025-04-23,Oshkosh Truck Corp.
+LUV,2025-04-23,Southwest Airlines Company
+NEM,2025-04-23,Newmont Mining Corp.
+TPH,2025-04-23,Tri Pointe Homes Inc. Common S
+PVBC,2025-04-23,
+EME,2025-04-23,Emcor Group
+ATOM,2025-04-23,
+EW,2025-04-23,Edwards Lifesciences Corp.
+EIG,2025-04-23,Employers Holdings Inc
+NOC,2025-04-23,Northrop Grumman Corp.
+STRA,2025-04-23,Strayer Education
+FRSB,2025-04-23,
+UXIN,2025-04-23,
+USCB,2025-04-23,
+SHYF,2025-04-23,
+PECO,2025-04-23,
+FCN,2025-04-23,Fti Consulting
+NECB,2025-04-23,Northeast Community Bancorp
+FRST,2025-04-23,
+ACCD,2025-04-23,
+BFST,2025-04-23,
+CNX,2025-04-23,Consol Energy Inc.
+FHI,2025-04-23,
+ARR,2025-04-23,Armour Residential R
+CBZ,2025-04-23,Cbiz
+OPBK,2025-04-23,
+CINF,2025-04-23,Cincinnati Financial Corp.
+GLPI,2025-04-23,
+CZFS,2025-04-23,
+COF,2025-04-23,Capital One Financial Corp.
+CWST,2025-04-23,Casella Waste Systems
+MTX,2025-04-23,Minerals Technologies Inc.
+DOC,2025-04-23,Physicians Realty Trust
+BORT,2025-04-23,
+GTX,2025-04-23,
+KLAC,2025-04-23,Kla-Tencor Corp.
+VRSN,2025-04-23,Verisign
+AIT,2025-04-23,Applied Industrial Technologies
+SSNC,2025-04-23,SS&C Technologies Holdings
+OSIS,2025-04-23,Osi Systems
+KDP,2025-04-23,
+ULH,2025-04-23,
+IBCP,2025-04-23,Independent Bank Corp.
+DGICA,2025-04-23,Donegal Group
+MPX,2025-04-23,Marine Products Corp.
+CHKP,2025-04-23,Check Point Software Technologies Ltd
+HZO,2025-04-23,Marinemax
+TAL,2025-04-23,Tal International Group
+SKYW,2025-04-23,Skywest
+VC,2025-04-23,Visteon Corp.
+SEI,2025-04-23,
+GILD,2025-04-23,Gilead Sciences
+BELFA,2025-04-23,Bel Fuse Inc.
+CARR,2025-04-23,
+HES,2025-04-23,Hess Corp.
+CWT,2025-04-23,California Water Service Group Holding
+TCBK,2025-04-23,Trico Bancshares
+NRDS,2025-04-23,
+OVBC,2025-04-23,Ohio Valley Banc
+ALLE,2025-04-23,
+PFG,2025-04-23,Principal Financial Group Inc
+HONE,2025-04-23,
+CMS,2025-04-23,Cms Energy Corp.
+PHIN,2025-04-23,
+CDP,2025-04-23,
+MSBI,2025-04-23,
+FTAI,2025-04-23,
+CFR,2025-04-23,Cullen/Frost Bankers
+ORI,2025-04-23,Old Republic International Corp.
+FSRL,2025-04-23,
+INTC,2025-04-23,Intel Corp.
+SCCO,2025-04-23,Southern Peru Copper Corp.
+EBC,2025-04-23,
+R,2025-04-23,Ryder System
+LECO,2025-04-23,Lincoln Electric Holdings
+TMUS,2025-04-23,T-Mobile US Inc.
+UBSI,2025-04-23,United Bankshares
+TBBK,2025-04-23,The Bancorp
+FRME,2025-04-23,First Merchants Corp.
+ERIE,2025-04-23,Erie Indemnity Company
+SBCF,2025-04-23,Seacoast Banking Corporation Of Florida
+TR,2025-04-22,Tootsie Roll Industries
+PRG,2025-04-22,
+VRE,2025-04-22,
+IPG,2025-04-22,Interpublic Group Of Companies
+UHT,2025-04-22,Universal Health Realty Income Trust
+ATNI,2025-04-22,Atlantic Tele-Network
+PFBX,2025-04-22,Peoples Financial Corp.
+HAS,2025-04-22,Hasbro
+FBNC,2025-04-22,First Bancorp
+FTV,2025-04-22,
+ASGN,2025-04-22,On Assignment
+CVLG,2025-04-22,
+GSHD,2025-04-22,
+CHX,2025-04-22,
+SOMC,2025-04-22,
+VKTX,2025-04-22,
+ORLY,2025-04-22,O'Reilly Automotive
+EHC,2025-04-22,
+VIRT,2025-04-22,
+UVSP,2025-04-22,Univest Corporation Of Pennsylvania
+NRIM,2025-04-22,Northrim Bancorp Inc
+QS,2025-04-22,
+CNMD,2025-04-22,Conmed Corp.
+EWBC,2025-04-22,East West Bancorp
+HLX,2025-04-22,Helix Energy Solutions Group
+JOE,2025-04-22,St. Joe Company
+CASH,2025-04-22,Meta Financial Group
+BOKF,2025-04-22,Bok Financial Corp.
+ESSA,2025-04-22,Essa Bancorp
+FUSB,2025-04-22,
+AMTB,2025-04-22,
+CSTM,2025-04-22,Constellium N.V.
+PPBI,2025-04-22,Pacific Premier Bancorp Inc
+IRT,2025-04-22,
+ALRS,2025-04-22,
+SNBR,2025-04-22,
+CMG,2025-04-22,Chipotle Mexican Grill
+BMRN,2025-04-22,Biomarin Pharmaceutical Inc.
+NSC,2025-04-22,Norfolk Souther Corp.
+ETD,2025-04-22,
+NAVI,2025-04-22,
+EPRT,2025-04-22,
+SYF,2025-04-22,
+ROL,2025-04-22,Rollins
+RBBN,2025-04-22,
+HWBK,2025-04-22,Hawthorn Bancshares
+WH,2025-04-22,
+MAS,2025-04-22,Masco Corp.
+HP,2025-04-22,Helmerich & Payne
+BA,2025-04-22,
+OII,2025-04-22,Oceaneering International
+NLY,2025-04-22,Annaly Capital Management Inc
+NOW,2025-04-22,Servicenow Inc.
+PI,2025-04-22,
+AR,2025-04-22,
+ODFL,2025-04-22,Old Dominion Freight Line
+CACI,2025-04-22,Caci International
+RGBP,2025-04-22,
+MPB,2025-04-22,Mid Penn Bancorp
+SLBK,2025-04-22,
+BIIB,2025-04-22,Biogen Idec Inc
+SBT,2025-04-22,
+PEGA,2025-04-22,Pegasystems Inc.
+INBK,2025-04-22,First Internet Bancorp
+JUVF,2025-04-22,
+GPI,2025-04-22,Group 1 Automotive
+AMSF,2025-04-22,Amerisafe
+GGG,2025-04-22,Graco Inc.
+CVBF,2025-04-22,Cvb Financial Corp.
+MORN,2025-04-22,Morningstar
+MOH,2025-04-22,Molina Healthcare Inc
+BSX,2025-04-22,Boston Scientific Corp.
+PMT,2025-04-22,Pennymac Mortgage Investment Trust
+CBAN,2025-04-22,Colony Bankcorp
+FOTB,2025-04-22,
+AAPI,2025-04-22,
+LRCX,2025-04-22,Lam Research Corp.
+AMED,2025-04-22,Amedisys Inc
+KTHN,2025-04-22,
+ETR,2025-04-22,Entergy Corp.
+SLAB,2025-04-22,Silicon Laboratories
+MTH,2025-04-22,Meritage Corp.
+SFNC,2025-04-22,Simmons First National Corp.
+CCNB,2025-04-22,
+NBR,2025-04-22,Nabors Industries
+ESRT,2025-04-22,
+APH,2025-04-22,Amphenol Corp.
+LSTR,2025-04-22,Landstar System
+AUBN,2025-04-22,Auburn National Bancorporation
+JAKK,2025-04-22,Jakks Pacific
+DAR,2025-04-22,Darling International Inc.
+LOB,2025-04-22,
+FFWC,2025-04-22,
+META,2025-04-22,
+COFS,2025-04-22,
+CME,2025-04-22,Cme Group Inc.
+EDU,2025-04-22,New Oriental Education & Technology
+PB,2025-04-22,Prosperity Bancshares
+ICLR,2025-04-22,Icon Plc
+BG,2025-04-22,Bunge Limited
+CFFN,2025-04-22,Capitol Federal Financial
+KNX,2025-04-22,Knight Transportation
+PFSI,2025-04-22,Pennymac Financial Services In
+HUM,2025-04-22,Humana Inc.
+F,2025-04-22,Ford Motor Company
+EDVR,2025-04-22,
+OBK,2025-04-22,
+COOP,2025-04-22,
+CVAC,2025-04-22,
+FMBH,2025-04-22,
+MAMA,2025-04-22,
+BWFG,2025-04-22,
+NFBK,2025-04-22,Northfield Bancorp
+VRT,2025-04-22,
+AM,2025-04-22,American Greetings Corp.
+CHDN,2025-04-22,Churchill Downs Inc.
+NTRS,2025-04-22,Northern Trust Corp.
+OTIS,2025-04-22,
+BWB,2025-04-22,
+HLT,2025-04-22,
+HBNC,2025-04-22,Horizon Bancorp [In]
+FNWD,2025-04-22,
+CDMO,2025-04-22,
+TZOO,2025-04-22,Travelzoo Inc
+CPF,2025-04-22,Cpb Inc.
+CYH,2025-04-22,Community Health Systems
+CHE,2025-04-22,Chemed
+LII,2025-04-22,Lennox International
+MSB,2025-04-22,Mesabi Trust
+TOWN,2025-04-22,Towne Bank
+EVR,2025-04-22,Evercore Partners Inc
+ORN,2025-04-22,Orion Marine Group Inc
+SYBT,2025-04-22,S.Y. Bancorp
+TCBX,2025-04-22,
+KALU,2025-04-22,Kaiser Aluminum Corp.
+NEU,2025-04-22,Newmarket Corp.
+MHO,2025-04-22,M/I Homes
+BRKL,2025-04-22,Brookline Bancorp
+FDBC,2025-04-22,
+MXL,2025-04-22,Maxlinear Inc
+MCBK,2025-04-22,Madison County Financial Inc.
+FMNB,2025-04-22,Farmers Natl Banc Corp Oh
+IBM,2025-04-22,International Business Machines Corp.
+MC,2025-04-22,
+BXMT,2025-04-22,Blackstone Mortgage Trust Inc. CI A
+UCB,2025-04-22,
+PEO,2025-04-22,Petroleum Resources Corp.
+FSBW,2025-04-22,Fs Bancorp Inc.
+OC,2025-04-22,Owens Corning Inc
+CCS,2025-04-22,
+PLXS,2025-04-22,Plexus
+GD,2025-04-22,General Dynamics Corp.
+AVY,2025-04-22,Avery Dennison Corp.
+BOH,2025-04-21,Bank Of Hawaii Corp.
+DX,2025-04-21,Dynex Capital
+CSBB,2025-04-21,
+CADE,2025-04-21,
+WASH,2025-04-21,Washington Trust Bancorp
+KMB,2025-04-21,Kimberly-Clark Corp.
+CBU,2025-04-21,Communitiy Bank System
+PEP,2025-04-21,Pepsico
+LSBK,2025-04-21,Lake Shore Bancorp
+WSBC,2025-04-21,Wesbanco
+RUSHA,2025-04-21,Rush Enterprises
+PHM,2025-04-21,Pultegroup
+NWBI,2025-04-21,Northwest Bancshares
+PKG,2025-04-21,Packaging Corporation Of America
+FRBA,2025-04-21,
+HAFC,2025-04-21,Hanmi Financial Corp.
+BSRR,2025-04-21,Sierra Bancorp
+STBI,2025-04-21,
+BKR,2025-04-21,
+PEB,2025-04-21,Pebblebrook Hotel Trust
+WNEB,2025-04-21,
+QCRH,2025-04-21,Qcr Holdings
+HBT,2025-04-21,
+PNFP,2025-04-21,Pinnacle Financial Partners
+TSBK,2025-04-21,Timberland Bancorp
+EQT,2025-04-21,Eqt Corp.
+WAFD,2025-04-21,Washington Federal
+FUNC,2025-04-21,First United Corp.
+HSTM,2025-04-21,Healthstream
+LRN,2025-04-21,K12 Inc
+SPCB,2025-04-21,
+BOID,2025-04-21,
+NEE,2025-04-21,Nextera Energy
+CALX,2025-04-21,Calix Inc
+NTB,2025-04-21,
+LOAN,2025-04-21,Manhattan Bridge Capital Inc
+MCBI,2025-04-21,Metrocorp Bancshares
+MAT,2025-04-21,Mattel
+FCF,2025-04-21,First Commonwealth Financial Corp.
+EFSC,2025-04-21,Enterprise Financial Services Corp.
+EBF,2025-04-21,Ennis
+RBB,2025-04-21,
+PEBK,2025-04-21,Peoples Bancorp Of North Carolina
+MEDP,2025-04-21,
+FBP,2025-04-21,First Bancorp.
+RNST,2025-04-21,Renasant Corp.
+FRAF,2025-04-21,
+HSTA,2025-04-21,
+ORRF,2025-04-21,Orrstown Financial Services Inc
+KISB,2025-04-21,
+IEX,2025-04-21,Idex Corp.
+WFRD,2025-04-21,
+BPOP,2025-04-21,Popular
+GE,2025-04-21,General Electric Company
+TRST,2025-04-21,Trustco Bank Corp NY
+ENPH,2025-04-21,Enphase Energy Inc.
+CB,2025-04-21,Chubb Corp.
+AEYE,2025-04-21,
+CDNS,2025-04-21,Cadence Design Systems
+LU,2025-04-21,
+EBMT,2025-04-21,Eagle Bancorp Montana
+KSBI,2025-04-21,
+PSBQ,2025-04-21,
+JBLU,2025-04-21,Jetblue Airways Corp.
+MNSB,2025-04-21,
+ZION,2025-04-21,Zions Bancorporation
+CBIH,2025-04-21,
+ZWS,2025-04-21,
+PFC,2025-04-21,
+GORO,2025-04-21,
+BURCA,2025-04-21,
+HAL,2025-04-21,Halliburton Company
+NEP,2025-04-21,
+NVR,2025-04-21,Nvr
+PVSP,2025-04-21,
+KREF,2025-04-21,
+AMP,2025-04-21,Ameriprise Financial Services
+FFIC,2025-04-21,Flushing Financial Corp.
+DCOM,2025-04-21,Dime Community Bancshares
+QNBC,2025-04-21,
+MANH,2025-04-21,Manhattan Associates
+FFMH,2025-04-21,
+CSGP,2025-04-21,Costar Group
+DGX,2025-04-21,Quest Diagnostics Inc.
+EGP,2025-04-21,Eastgroup Properties
+GCBC,2025-04-21,Greene County Bancorp
+BUSE,2025-04-21,First Busey Corp.
+FINN,2025-04-21,
+FI,2025-04-21,Frank's International N.V.
+GTI,2025-04-21,Graftech International Ltd
+RCFAF,2025-04-21,
+ASPS,2025-04-21,Altisource Portfolio Solutions S.A.
+LMT,2025-04-21,Lockheed Martin Corp.
+LKQ,2025-04-21,Lkq Corp.
+MLI,2025-04-21,Mueller Industries
+SFBS,2025-04-21,
+OPCH,2025-04-21,
+VBTX,2025-04-21,
+BRO,2025-04-21,Brown & Brown
+HTLD,2025-04-21,Heartland Express
+ROIC,2025-04-21,Retail Opportunity Investments
+CCFN,2025-04-21,
+ARE,2025-04-21,Alexandria Real Estate Equities
+MTDR,2025-04-21,Matador Resources Company
+ELS,2025-04-21,Equity Lifestyle Properties
+ADC,2025-04-21,Agree Realty Corp.
+NBTB,2025-04-21,Nbt Bancorp Inc.
+VICR,2025-04-21,Vicor Corp.
+HIW,2025-04-21,Highwoods Properties
+ONB,2025-04-21,Old National Bancorp Capital
+STX,2025-04-21,Seagate Technology.
+AGNC,2025-04-21,American Capital Agency
+EQR,2025-04-21,Equity Residential
+MSVB,2025-04-21,
+VLTO,2025-04-21,
+PII,2025-04-21,Polaris Industries Inc.
+SMBK,2025-04-21,
+VABK,2025-04-21,
+MSCI,2025-04-21,MSCI Inc
+CATY,2025-04-21,Cathay General Bancorp
+VERF,2025-04-21,
+RRC,2025-04-21,Range Resources Corp.
+HXL,2025-04-21,Hexcel Corp.
+CMTV,2025-04-21,
+APAM,2025-04-21,Artisan Partners Asset Manageme
+CCBG,2025-04-21,Capital City Bank Group
+PEBO,2025-04-21,Peoples Bancorp Inc.
+FSI,2025-04-21,
+TRMK,2025-04-21,Trustmark Corp.
+SCNX,2025-04-21,
+NANX,2025-04-21,
+IVZ,2025-04-21,Invesco Plc
+ENVA,2025-04-21,
+KSPI,2025-04-21,
+PFBC,2025-04-21,Preferred Bank
+SIFY,2025-04-21,Sify Technologies Limited
+PGC,2025-04-21,Peapack-Gladstone Financial Corp.
+GFOO,2025-04-19,
+MCBS,2025-04-18,
+BOTJ,2025-04-18,Bank Of The Jame Fnl
+CLF,2025-04-18,Cliffs Natual Resources Inc.
+PCB,2025-04-18,
+PRK,2025-04-18,
+AZZ,2025-04-18,Azz Inc.
+ATLO,2025-04-18,Ames National Corp.
+OVLY,2025-04-18,Oak Valley Bancorp [Ca]
+FMBL,2025-04-18,
+CCBC,2025-04-18,
+SLB,2025-04-18,Schlumberger N.V.
+HCA,2025-04-18,Hca Holdings Inc. Common Stock
+NWFL,2025-04-18,Norwood Financial
+CIBH,2025-04-18,
+ACU,2025-04-18,
+CMA,2025-04-18,Comerica Inc.
+PBAM,2025-04-18,
+BANC,2025-04-17,First Pactrust Bancorp
+NUE,2025-04-17,Nucor Corp.
+HRI,2025-04-17,
+TFC,2025-04-17,
+STBA,2025-04-17,S&T Bancorp
+HTH,2025-04-17,Hilltop Holdings Inc.
+SRCE,2025-04-17,1St Source Corp.
+CASS,2025-04-17,Cass Information Systems Inc
+FITB,2025-04-17,Fifth Third Bancorp
+MMC,2025-04-17,Marsh & Mclennan Companies
+UBOH,2025-04-17,United Bancshares
+PNR,2025-04-17,Pentair
+FVCB,2025-04-17,
+WABC,2025-04-17,Westamerica Bancorporation
+FFBC,2025-04-17,First Financial Bancorp.
+MCB,2025-04-17,
