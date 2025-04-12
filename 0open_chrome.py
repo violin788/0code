@@ -49,10 +49,10 @@ def open_chrome(inp):
 
 	pyautogui.hotkey('ctrl', 'pageup')
 	time.sleep(2)
-	copy_paste_enter("media788788@gmail.com")
+	copy_paste_enter("violin788788@gmail.com")
 	pyautogui.press('enter')
 	time.sleep(5)
-	copy_paste_enter("Medmed2@")
+	copy_paste_enter("Viovio1!")
 	
 	pyautogui.hotkey('ctrl', 'pageup')
 	time.sleep(4)
@@ -69,7 +69,7 @@ def open_chrome(inp):
 	pyautogui.press('tab')
 	pyautogui.press('tab')
 	pyautogui.press('tab')
-	pyautogui.press('tab')
+	#pyautogui.press('tab')
 	time.sleep(1)
 	copy_paste("know357")
 	pyautogui.press('tab')
@@ -84,9 +84,12 @@ def open_chrome(inp):
 
 	pyautogui.hotkey('ctrl', 'pageup')
 	time.sleep(1)
-	copy_paste_tab("violin78@protonmail.com",1)
+	copy_paste_tab("media788788@protonmail.com",1)
 	copy_paste("Viovio2@")
 	pyautogui.press('enter')
+
+	#https://www.tradingview.com/accounts/signin/
+	#https://auth.openai.com/authorize?audience=https%3A%2F%2Fapi.openai.com%2Fv1&client_id=TdJIcbe16WoTHtN95nyywh5E4yOo6ItG&country_code=US&device_id=ac1ec193-016a-4a6d-83ee-d331db116a41&ext-login-allow-phone=true&ext-oai-did=ac1ec193-016a-4a6d-83ee-d331db116a41&ext-signup-allow-phone=true&prompt=login&redirect_uri=https%3A%2F%2Fchatgpt.com%2Fapi%2Fauth%2Fcallback%2Fopenai&response_type=code&scope=openid+email+profile+offline_access+model.request+model.read+organization.read+organization.write&screen_hint=login&state=Ds1yw0d-2H5xftgXS3rAtbxo9lLhBYqI0SsEZTswFrM&flow=treatment
 
 
 	#text = "info33.pythonanywhere.com/"
