@@ -84,7 +84,7 @@ def open_chrome(inp):
 
 	pyautogui.hotkey('ctrl', 'pageup')
 	time.sleep(1)
-	copy_paste_tab("media788788@protonmail.com",1)
+	copy_paste_tab("violin78@protonmail.com",1)
 	copy_paste("Viovio2@")
 	pyautogui.press('enter')
 
