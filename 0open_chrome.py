@@ -76,9 +76,10 @@ def open_chrome(inp):
 	copy_paste_enter("know3333")
 	pyautogui.press('enter')
 
+	#facebook login
 	pyautogui.hotkey('ctrl', 'pageup')
 	time.sleep(1)
-	copy_paste_tab("violin78@protonmail.com",1)
+	copy_paste_tab("media788788@gmail.com",1)
 	copy_paste_enter("Viovio2@")
 	
 
