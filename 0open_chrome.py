@@ -71,9 +71,9 @@ def open_chrome(inp):
 	pyautogui.press('tab')
 	#pyautogui.press('tab')
 	time.sleep(1)
-	copy_paste("know357")
+	copy_paste("moo789")
 	pyautogui.press('tab')
-	copy_paste_enter("know3333")
+	copy_paste_enter("mouse222")
 	pyautogui.press('enter')
 
 	#facebook login

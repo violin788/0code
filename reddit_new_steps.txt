@@ -1,0 +1,20 @@
+1	clear cache+storage on reddit app on phone..
+2	uninstall reddit app on phone..
+3	restart phone?
+4	uninstall all browsers on pc..firefox, chrome, edge
+5	delete all directories that browsers were installed in (if remaining?)
+6	delete appdata of all 3 browsers on pc
+7	run reddit.py in order delete the mozilla firefox cookie foldiers (all3 of them) in appdata
+8	reinstall browsers.. ("Page Zoom" in chrome to do 80%)
+8	start privadovpn
+9	open browser with no other logins
+10	create gmail account (don't need phone?)
+11	create new reddit account
+12	confirm it
+13	disable and uninstall privadovpn
+
+reddit3344@proton.me
+reddit33
+
+moo789
+mouse222
